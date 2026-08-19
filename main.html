@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Football as a Network: Design and Development of a Passing Network Analysis Framework for Hub Player Identification and Tactical Performance Evaluation</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <div class="brand-row">
+      <svg class="logo-mark" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Football as a Network logo">
+        <polygon points="32,10.5 52.5,25.4 44.6,49.4 19.4,49.4 11.5,25.4" stroke="#c9f53b" stroke-width="2.5" stroke-linejoin="round" opacity="0.45" />
+        <path d="M32 10.5 L32 32 M52.5 25.4 L32 32 M44.6 49.4 L32 32 M19.4 49.4 L32 32 M11.5 25.4 L32 32" stroke="#c9f53b" stroke-width="1.6" stroke-linecap="round" opacity="0.35" />
+        <circle cx="32" cy="10.5" r="3.6" fill="#c9f53b" opacity="0.85" />
+        <circle cx="52.5" cy="25.4" r="3.6" fill="#c9f53b" opacity="0.85" />
+        <circle cx="44.6" cy="49.4" r="3.6" fill="#c9f53b" opacity="0.85" />
+        <circle cx="19.4" cy="49.4" r="3.6" fill="#c9f53b" opacity="0.85" />
+        <circle cx="11.5" cy="25.4" r="3.6" fill="#c9f53b" opacity="0.85" />
+        <circle cx="32" cy="32" r="7" fill="#c9f53b" />
+      </svg>
+      <div>
+        <h1>Football as a <span>Network</span></h1>
+        <p class="sub">Design and development of a passing network analysis framework for hub player identification and tactical performance evaluation.</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="bar">
+    <label>Match
+      <select id="match"><option value="">Loading matches...</option></select>
+    </label>
+    <label>Add your own match(es)
+      <span class="upload">
+        <input type="file" id="csvfile" accept=".csv,.xlsx" />
+        <input type="text" id="csvname" placeholder="name (CSV only)" />
+        <button id="uploadBtn" class="btn small">Upload</button>
+      </span>
+    </label>
+    <div id="teams-legend" class="legend"></div>
+  </section>
+  <div id="uploadMsg" class="uploadmsg"></div>
+
+  <nav class="steps" id="steps">
+    <button data-step="1" class="active">1 · Load</button>
+    <button data-step="2">2 · Network</button>
+    <button data-step="3">3 · Centrality</button>
+    <button data-step="4">4 · Tactical</button>
+    <button data-step="5">5 · Match Story</button>
+    <button data-step="6">6 · Report</button>
+  </nav>
+
+  <main id="content">
+    <p class="muted pad">Pick a match above to begin.</p>
+  </main>
+
+  <footer>Reads real StatsBomb event data with xT pre-computed. All fourteen analysis modules run live in <code>predict_server.py</code>; this page is served by <code>api_server.py</code>.</footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>

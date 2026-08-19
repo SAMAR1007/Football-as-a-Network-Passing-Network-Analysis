@@ -1,0 +1,120 @@
+[14] This thesis develops and evaluates a passing network analysis framework for hub player identification and tactical performance evaluation using a dataset of thirty-one real international matches spanning six competitions, three confederations, and both the men's and women's game.
+
+[37] Football is the most widely followed team sport in the world, with audiences spanning every continent and culture. The scale of the game's popularity is matched by the scale of its complexity: a single match is the product of hundreds of individual decisions, most of them invisib
+
+[40] To investigate these questions, a complete analysis framework was designed and developed. The framework is delivered as a standalone studio that builds and analyses a passing network from real match event data from beginning to end. It bundles thirty-one real matches, with expect
+
+[41] The aim of this project is deliberately modest. It does not claim to have discovered a superior tactical doctrine, nor to have built a tool that outperforms professional analysts. Its contribution is a reproducible, transparent framework that turns raw event data into interpretab
+
+[43] Two conventions are worth stating at the outset. Throughout this thesis, the term hub player refers to the member of a team with the greatest total passing involvement in a match, defined as successful passes made plus successful passes received. Second, the framework is determin
+
+[56] These analytical requirements demand event data of sufficient quality and consistency. The framework is therefore grounded in real match event records that share a uniform schema. Each record describes a single action and supplies the fields required by the analysis: action type 
+
+[65] Within this thesis, these forms of bias are not viewed as reasons to abandon quantitative analysis. Rather, they serve as critical reasons to remain explicit about the limitations of human judgement and to design analytical tools that mitigate, rather than amplify, those limitati
+
+[74] Information asymmetry, the economics-of-information concept introduced by Akerlof (1970), describes what happens when one party to a transaction or competition possesses better information than another. In football, the asymmetry is between clubs that can afford proprietary data 
+
+[81] Bounded rationality is the most general of the four frameworks. Classical economics once modelled the decision-maker as an omniscient optimiser who weighs every alternative and chooses the best one. Simon (1955) argued that this picture is unrealistic: human beings possess limite
+
+[86] Data plays the role of evidence base throughout this project. The framework is grounded in thirty-one real matches of event data in which every action is one row, the schema is uniform across all matches, and an expected-threat value is precomputed for every action. Every claim a
+
+[88] A useful distinction, and one that the project observes strictly, is that between being data-driven and being model-based. The framework is data-driven in the sense that every output is a function of the events in the data; it is not model-based in the sense of fitting any learne
+
+[90] Against this background, the choice made in this project is deliberately conservative: the framework contains no machine learning component at all. Its fourteen modules are deterministic computations that take event data and return numbers, with no learned or trained stage anywhe
+
+[93] The aim of this research is to design, develop and evaluate a passing network analysis framework that identifies hub players and evaluates tactical performance from real match event data, and to demonstrate the framework on a dataset of thirty-one international matches.
+
+[94] The aim contains four commitments. Design refers to the architecture of the framework. Development refers to the fourteen analysis modules and the studio that presents them. Evaluation refers to the systematic assessment of the framework's behaviour on the thirty-one-match datase
+
+[100] 3. To evaluate the framework across the thirty-one-match dataset, examining the consistency, interpretability and tactical usefulness of its outputs for hub player identification and tactical performance evaluation.
+
+[106] The contribution is threefold. The first is an artefact: a complete, working analysis framework that takes real match event data and returns a full tactical evaluation, delivered as a studio in which network construction, centrality computation, tactical mapping, match-level eval
+
+[108] A further dimension of the significance lies in the diversity of the demonstration dataset. Because the thirty-one matches span two Champions League finals and five international tournaments, and cover both men's and women's international football, the framework shows its methods
+
+[115] Thirdly, the work is justified by the nature of its data. Real event data is messy: schemas vary between providers, files are incomplete, and not every expected column is present. The framework must handle an upload with nothing more than team, event type and minute, and it must 
+
+[116] Finally, the project is justified by its ethical posture. Because the framework is deterministic and its outputs are traceable to the code and events that produced them, it stands as an example of data-driven analysis that can be audited from end to end. The traceability is concr
+
+[121] RQ1(Technical) To what extent can a deterministic passing network analysis framework, applied to real match event data, reliably identify hub players and characterise tactical performance across a diverse set of matches?
+
+[125] H1: The hub player identified by total passing involvement will consistently rank among the highest in the team on the supporting centrality measures, and the framework's outputs will be internally consistent across the thirty-one matches of the dataset.
+
+[129] This desk-based study uses secondary data, iterative software development, and technical and ethical evaluation. All of the evidence the project analyses is already captured in existing match event data, and all of the analysis is performed by software developed for the purpose; 
+
+[131] The desk-based choice is justified by the nature of the object of study. This project is about passing behaviour as recorded in event data, not about the people who make decisions on or off the pitch. Everything the framework needs, from the location of a pass to the threat it cr
+
+[135] The dataset utilised in this project consists of thirty-one real matches of StatsBomb-format event data: the 2018 and 2019 Champions League finals together with twenty-nine further knockout matches from Euro 2024, the 2022 World Cup, Copa America 2024, the 2023 Women's World Cup 
+
+[137] The decision to use real rather than synthetic match data was driven by two considerations. The practical consideration is that the framework is meant to answer questions about actual football: only real event data carries the genuine structure of passes, pressure and threat that
+
+[140] The first phase, data acquisition and preparation, established the evidence base described above: thirty-one matches of StatsBomb-format event data in which every action carries a precomputed expected-threat value. Preparation also included defining the minimum schema that any ad
+
+[149] The evaluation follows the criteria fixed by RQ1 and H1. Because the framework's metrics are explicit computations over the event data, the basic reliability property, that the same input always produces the same output, holds for every metric. The evaluation therefore concentrat
+
+[153] The first consideration is data provenance. The framework's input is real match event data in a documented format, and the analysis is fully reproducible from that data by anyone running the same code. The origin of the bundled dataset is documented in the project files: thirty-o
+
+[156] The third consideration is the potential for misuse. The framework's natural application, opposition analysis, includes the identification of a team's weakest link and the vulnerabilities of its hub player. Such analysis is legitimate and is performed routinely by professional te
+
+[176] Beyond the structural properties of the passing graph, a second stream of work has sought to quantify tactical behaviour through statistical models of event data. Expected-goals (xG) models marked an important early step by assigning probabilistic value to shots. Yet xG remains i
+
+[179] While these metrics collectively provide a rich descriptive vocabulary, many earlier implementations either relied on proprietary data pipelines or introduced machine-learning layers that reduced transparency. A deliberate design decision of the present work is that every metric 
+
+[184] The final body of literature concerns the cognitive and ethical rationale for systematic, data-driven analysis. Human performance assessment is subject to well-documented limitations. Bounded rationality constrains the volume of information an analyst can process (Simon, 1955), w
+
+[187] Earlier analytic frameworks often left these biases unaddressed, either by incorporating subjective weightings or by focusing exclusively on high-profile competitions and male players. The present framework responds by design: every metric is computed deterministically from the c
+
+[195] Ethical issues. The case carries the concerns that attach to any quantitative reading of play. A team collapsed into link counts is a reduction: leadership and the unquantifiable qualities of a dressing room are absent from the picture, and a precise-looking metric can be over-re
+
+[210] The literature reviewed in the preceding sections converges on a clear picture. Outcome modelling, from the Poisson models of Maher (1982) and Dixon and Coles (1997) to the machine-learning systems of Baboota and Kaur (2019), has established that team strength can be estimated, b
+
+[219] The engine is a single Python program of over four thousand lines that implements all fourteen analysis modules, from network construction and the four centrality measures to the tactical zone maps and the match verdict. Python was chosen because it is the standard language of da
+
+[221] All computation is carried out with pandas and numpy. The event data of each match is held as a dataframe, one row per action, under the uniform schema described earlier; the analysis modules operate on these frames with the vectorised numerical routines of numpy, so that the sam
+
+[225] The framework ships with its evidence base: two Excel workbooks bundling thirty-one real matches of StatsBomb-format event data, with an expected-threat value precomputed for every action and a summary sheet recording each match's competition, stage, date and scoreline. The schem
+
+[238] The first and most important property of the process is that accountability was built in rather than added on. Every metric is a deterministic function of the event data, defined explicitly in source code that is part of the project and documented in this thesis, so there is no s
+
+[246] Finally, the development process produced its own epistemic lessons, and the thesis has chosen to report them rather than conceal them. The most instructive is that determinism is what makes the honesty claim checkable: because every metric is an explicit computation over the eve
+
+[248] The first research question asked to what extent the framework reliably identifies hub players and characterises tactical performance across a diverse set of matches. The evaluation runs the shipped engine, exactly as delivered, on all thirty-one matches of the dataset, producing
+
+[250] The dataset comprises thirty-one real matches of StatsBomb-format event data in which every action is one row with a uniform schema and a precomputed expected-threat value. Two of the matches are the 2018 and 2019 Champions League finals; the remaining twenty-nine are knockout ma
+
+[251] The evaluation covers the full dataset rather than a subsample: all thirty-one matches were analysed for both teams, giving sixty-two team analyses, so the diversity described above is exercised in full rather than sampled. The justice score is the verdict metric described in the
+
+[252] Two structural properties of the data shape how the findings are reported. First, scale differs across matches: hub involvement counts range from 49 to 227, so raw counts are not directly comparable, and the findings therefore rely on ranks and percentages, the comparable units, 
+
+[255] Two cleaning decisions are recorded here because they are documented corrections rather than silent fixes. The pressing metric was refined during development after the data was examined: counting every pressure event inflated the metric's denominator by a factor of roughly three 
+
+[257] The temporal exploration of the thirty-one matches begins with the timeline module, which divides each match into five-minute windows and colours each window by which team was leading on the momentum measure, so the ebb and flow of control across the match is visible at a glance.
+
+[258] Tempo does not, however, predict the result, and the framework's honesty about that is part of its value. The higher-tempo side won eighteen of the thirty-one matches, barely more than half. The finals illustrate both directions: the higher-tempo side won in 2019 and in the Copa 
+
+[260] The spatial counterpart of a hotspot map is, for football, the pitch itself, and the tactical family locates each team's play on a 25-zone grid covering the pitch, five columns by five rows, with a per-zone direction sonar and zone-to-zone connection flows. The most direct spatia
+
+[265] The passing-accuracy and pressing outputs complete the network picture. The winners had the higher passing accuracy in sixteen of the thirty-one matches, most decisively in 2018, where Real Madrid completed 88.6 per cent of their passes against Liverpool's 73.9 per cent, and in t
+
+[267] The temporal family's headline output is the match verdict, which answers the when question at the level of the whole match: when the process of the match, measured by the metrics the winner led, was actually decided, as distinct from when the scoreline was decided. In ten of the
+
+[270] Six times across the thirty-one matches, two players tied on the hub-defining involvement count: the World Cup final, where Upamecano and Varane were level at 106 involvements; Sweden Women's in two matches, with Eriksson and Bjorn level at 57 and again at 87; Nigeria in the Afri
+
+[272] Assessed against hypothesis H1, the verdict is supported. The hub identified by total passing involvement ranked within the top three on eigenvector centrality in sixty-one of the sixty-two team analyses, within the top three on betweenness centrality in fifty-five, and within th
+
+[273] Taken together, the findings support RQ1 with qualifications. The framework reliably identifies a hub in every case, the hub is consistently a connector in the network sense, and the tactical and temporal modules produce coherent, interpretable characterisations, including a verd
+
+[278] The first test asks whether the framework's transparency claim can be verified. It can, and the strongest evidence is the framework's behaviour when its results are awkward. Every number reported in the findings was produced by documented code running on the bundled event data, a
+
+[282] The third test concerns who and what the framework represents. The framework ran unchanged on all thirty-one matches across six competitions, including six women's matches, and produced coherent results in every case, with no evidence in the outputs of any methodological failure 
+
+[286] Assessed against hypothesis H2, the verdict is supported with bounds. Each of the four tests maps onto a property that H2 names. Test 1 showed that traceability is real: every output can be recomputed from the code and events that produced it, and every result, including the six 
+
+[288] This thesis set out to design, develop and evaluate a passing network analysis framework for hub player identification and tactical performance evaluation, and to demonstrate it on real match event data. The aim was deliberately bounded, and the work is best judged against that b
+
+[289] What was delivered is a complete framework: an engine of fourteen analysis modules, an API layer, and a seven-step browser studio, built entirely on open-source tools and demonstrated on all thirty-one real matches spanning six competitions. The technical findings show that the f
+
+[291] The limitations of the work are stated plainly. The evaluation covers the full thirty-one-match dataset, and it is descriptive rather than inferential: no statistical tests were performed, and the framework's outputs are point estimates describing single matches. The provenance o
+
+[292] Future work follows directly from these limits. The full-dataset evaluation reported here turns the descriptive patterns of the earlier, finals-only analysis into a systematic survey of all thirty-one matches, and the most immediate next step is a wider dataset, including league 
+

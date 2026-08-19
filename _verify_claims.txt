@@ -1,0 +1,13 @@
+  engine implements betweenness_centrality: True
+  engine implements eigenvector_centrality: True
+  engine implements degree_centrality: True
+  engine implements clustering_coefficient: True
+  engine implements grund_centralisation: True
+  engine implements pressing (PPDA): True
+  engine implements field_tilt: True
+  engine implements 25-zone / pitch grid: True
+  default xT to zero: False
+  minimal schema check (team_name/event_type/minute): True
+  command dispatcher present: False
+  upload_csv: True
+  deterministic (no sklearn/tensorflow): True

@@ -1,0 +1,5174 @@
+{
+ "2018-05-26": {
+  "teams": [
+   "Liverpool",
+   "Real Madrid"
+  ],
+  "teams_data": {
+   "Liverpool": {
+    "network": {
+     "team": "Liverpool",
+     "metrics": {
+      "num_players": 13,
+      "num_edges": 96,
+      "density": 0.615,
+      "hub": "Henderson",
+      "hub_involvement": 73
+     },
+     "top5": [
+      {
+       "name": "Jordan Brian Henderson",
+       "nickname": "Henderson",
+       "involvement": 73,
+       "made": 39,
+       "received": 34,
+       "degree": 0.875,
+       "betweenness": 0.2879,
+       "eigenvector": 0.4235,
+       "clustering": 0.7636,
+       "xt": 0.0472,
+       "avg_x": 55.8,
+       "avg_y": 38.1
+      },
+      {
+       "name": "Georginio Wijnaldum",
+       "nickname": "Georginio Wijnaldum",
+       "involvement": 63,
+       "made": 30,
+       "received": 33,
+       "degree": 0.875,
+       "betweenness": 0.053,
+       "eigenvector": 0.3773,
+       "clustering": 0.7273,
+       "xt": 0.0308,
+       "avg_x": 67.8,
+       "avg_y": 47.4
+      },
+      {
+       "name": "Andrew Robertson",
+       "nickname": "Andrew Robertson",
+       "involvement": 62,
+       "made": 33,
+       "received": 29,
+       "degree": 0.667,
+       "betweenness": 0.3409,
+       "eigenvector": 0.3586,
+       "clustering": 0.7636,
+       "xt": 0.3143,
+       "avg_x": 63.8,
+       "avg_y": 6.9
+      },
+      {
+       "name": "Dejan Lovren",
+       "nickname": "Dejan Lovren",
+       "involvement": 54,
+       "made": 25,
+       "received": 29,
+       "degree": 0.667,
+       "betweenness": 0.0455,
+       "eigenvector": 0.3327,
+       "clustering": 0.8889,
+       "xt": 0.0286,
+       "avg_x": 39.6,
+       "avg_y": 58.3
+      },
+      {
+       "name": "James Philip Milner",
+       "nickname": "Milner",
+       "involvement": 47,
+       "made": 24,
+       "received": 23,
+       "degree": 0.792,
+       "betweenness": 0.053,
+       "eigenvector": 0.2884,
+       "clustering": 0.8182,
+       "xt": 0.1225,
+       "avg_x": 70.9,
+       "avg_y": 34.0
+      }
+     ]
+    },
+    "insights_keys": [
+     "team",
+     "match_date",
+     "period",
+     "vulnerabilities",
+     "strengths",
+     "key_moments",
+     "progressive_stats",
+     "pressure_stats",
+     "territorial",
+     "xt_stats",
+     "narrative",
+     "pass_sequences",
+     "ppda",
+     "pass_directions",
+     "field_tilt",
+     "team_shape",
+     "advanced_network",
+     "passing_stats",
+     "period_vulnerabilities",
+     "period_vulnerability_summary"
+    ],
+    "insights": {
+     "passing_stats": {
+      "total_attempted": 360,
+      "total_successful": 266,
+      "total_failed": 94,
+      "accuracy": 73.9,
+      "per_minute": 3.87
+     },
+     "progressive_stats": {
+      "count": 84,
+      "percentage": 31.6,
+      "total_successful": 266
+     },
+     "xt_stats": {
+      "total_xt": 1.0177,
+      "avg_xt_per_pass": 0.003826,
+      "positive_xt_passes": 147,
+      "negative_xt_passes": 101,
+      "top_xt_players": [
+       [
+        "Andrew Robertson",
+        0.3143
+       ],
+       [
+        "Mohamed Salah",
+        0.3079
+       ],
+       [
+        "Milner",
+        0.1225
+       ],
+       [
+        "Sadio Man\u00e9",
+        0.1208
+       ],
+       [
+        "Alexander-Arnold",
+        0.0492
+       ]
+      ],
+      "xt_by_zone": {
+       "middle": 0.0897,
+       "attacking": 0.8128,
+       "defensive": 0.1152
+      },
+      "has_data": true
+     },
+     "ppda": {
+      "ppda": 16.05,
+      "opponent_passes": 353,
+      "defensive_actions": 22,
+      "interpretation": "Low pressing"
+     },
+     "field_tilt": {
+      "field_tilt": 27.7,
+      "team_final_third_passes": 48,
+      "opp_final_third_passes": 125,
+      "total_final_third_passes": 173,
+      "own_half": 125,
+      "opponent_half": 48,
+      "total": 173
+     },
+     "team_shape": {
+      "avg_width": 65.7,
+      "avg_depth": 62.7,
+      "avg_player_distance": 32.5,
+      "compactness": 3.08
+     },
+     "pressure_stats": {
+      "passes_under_pressure": 32,
+      "pressure_accuracy": 68.8,
+      "normal_accuracy": 73.9,
+      "pressure_resistance": -5.1
+     },
+     "pass_sequences": {
+      "avg_length": 3.41,
+      "max_length": 15,
+      "total_sequences": 78,
+      "distribution": {
+       "1-3": 52,
+       "11+": 5,
+       "4-6": 18,
+       "7-10": 3
+      }
+     },
+     "weakest_link": null
+    },
+    "grund": {
+     "team": "Liverpool",
+     "match_date": "2018-05-26",
+     "period": null,
+     "centrality": {
+      "centrality_score": 0.12058993637941007,
+      "centrality_percentage": 12.06,
+      "style": "Moderately Decentralized",
+      "style_description": "Good balance with slight hub tendencies",
+      "hub_player": {
+       "name": "Jordan Brian Henderson",
+       "nickname": "Henderson",
+       "passes_made": 39,
+       "passes_received": 34,
+       "total_involvement": 73
+      },
+      "player_rankings": [
+       {
+        "rank": 1,
+        "name": "Jordan Brian Henderson",
+        "nickname": "Henderson",
+        "passes_made": 39,
+        "passes_received": 34,
+        "total_involvement": 73,
+        "difference_from_hub": 0
+       },
+       {
+        "rank": 2,
+        "name": "Georginio Wijnaldum",
+        "nickname": "Georginio Wijnaldum",
+        "passes_made": 30,
+        "passes_received": 33,
+        "total_involvement": 63,
+        "difference_from_hub": 10
+       },
+       {
+        "rank": 3,
+        "name": "Andrew Robertson",
+        "nickname": "Andrew Robertson",
+        "passes_made": 33,
+        "passes_received": 29,
+        "total_involvement": 62,
+        "difference_from_hub": 11
+       },
+       {
+        "rank": 4,
+        "name": "Dejan Lovren",
+        "nickname": "Dejan Lovren",
+        "passes_made": 25,
+        "passes_received": 29,
+        "total_involvement": 54,
+        "difference_from_hub": 19
+       },
+       {
+        "rank": 5,
+        "name": "James Philip Milner",
+        "nickname": "Milner",
+        "passes_made": 24,
+        "passes_received": 23,
+        "total_involvement": 47,
+        "difference_from_hub": 26
+       },
+       {
+        "rank": 6,
+        "name": "Trent Alexander-Arnold",
+        "nickname": "Alexander-Arnold",
+        "passes_made": 21,
+        "passes_received": 25,
+        "total_involvement": 46,
+        "difference_from_hub": 27
+       },
+       {
+        "rank": 7,
+        "name": "Roberto Firmino Barbosa de Oliveira",
+        "nickname": "Firmino",
+        "passes_made": 21,
+        "passes_received": 24,
+        "total_involvement": 45,
+        "difference_from_hub": 28
+       },
+       {
+        "rank": 8,
+        "name": "Virgil van Dijk",
+        "nickname": "Van Dijk",
+        "passes_made": 20,
+        "passes_received": 19,
+        "total_involvement": 39,
+        "difference_from_hub": 34
+       },
+       {
+        "rank": 9,
+        "name": "Loris Karius",
+        "nickname": "Loris Karius",
+        "passes_made": 21,
+        "passes_received": 10,
+        "total_involvement": 31,
+        "difference_from_hub": 42
+       },
+       {
+        "rank": 10,
+        "name": "Sadio Man\u00e9",
+        "nickname": "Sadio Man\u00e9",
+        "passes_made": 12,
+        "passes_received": 17,
+        "total_involvement": 29,
+        "difference_from_hub": 44
+       }
+      ],
+      "orchestration": "Liverpool's passing network has a Thomas Grund centrality index of 12.06%, classifying it as Moderately Decentralized. The hub player is Henderson with 73 total involvements out of 266 total passes among 13 players. The team has a fairly balanced distribution of passes, with the hub player being slightly more involved but not dominant.",
+      "total_passes": 266,
+      "num_players": 13,
+      "hub_betweenness": 0.2879
+     },
+     "passing_rate": {
+      "passes_per_minute": 9.17,
+      "total_passes": 266,
+      "estimated_possession_minutes": 29.0,
+      "possession_percentage": 30.9,
+      "rating": "Elite",
+      "interpretation": "High passing tempo indicates strong ball circulation",
+      "benchmark": {
+       "elite": 5.0,
+       "average": 3.5,
+       "description": "Higher passing tempo indicates stronger ball circulation"
+      }
+     },
+     "narrative": "Liverpool's passing network is Moderately Decentralized (centrality index: 12.06%). The team averages 9.17 passes per minute of possession (Elite). The orchestrator is Henderson with 73 involvements."
+    },
+    "hub": {
+     "hub_player": "Henderson",
+     "position": "Midfielder",
+     "metrics": {
+      "total_involvement": 73,
+      "passes_made": 39,
+      "passes_received": 34,
+      "degree_centrality": 0.875,
+      "betweenness_centrality": 0.288,
+      "eigenvector_centrality": 0.423,
+      "clustering_coefficient": 0.764,
+      "xt_generated": 0.0472,
+      "forward_pass_pct": 48.7
+     },
+     "strengths": 5,
+     "weaknesses": 0,
+     "mitigations": 3,
+     "narrative": "Henderson is Liverpool's hub player with 73 total involvements (position: Midfielder, avg position: x=56, y=38). The team's Grund centralisation is 12% (moderately decentralized). They are moderately relied upon and should be monitored. Passing direction: 48.7% forward, 28.2% backward, 23.1% lateral. Avg pass distance: 22.7m. xT contribution: 0.0472 total (17 positive, 17 negative passes). Most active zone: Mid LC (9 passes at 90.0% accuracy)."
+    }
+   },
+   "Real Madrid": {
+    "network": {
+     "team": "Real Madrid",
+     "metrics": {
+      "num_players": 14,
+      "num_edges": 124,
+      "density": 0.681,
+      "hub": "Toni Kroos",
+      "hub_involvement": 159
+     },
+     "top5": [
+      {
+       "name": "Toni Kroos",
+       "nickname": "Toni Kroos",
+       "involvement": 159,
+       "made": 84,
+       "received": 75,
+       "degree": 0.885,
+       "betweenness": 0.3397,
+       "eigenvector": 0.4411,
+       "clustering": 0.8333,
+       "xt": 0.0738,
+       "avg_x": 60.0,
+       "avg_y": 28.3
+      },
+      {
+       "name": "Sergio Ramos Garc\u00eda",
+       "nickname": "Sergio Ramos",
+       "involvement": 143,
+       "made": 78,
+       "received": 65,
+       "degree": 0.885,
+       "betweenness": 0.2821,
+       "eigenvector": 0.4021,
+       "clustering": 0.7308,
+       "xt": 0.0915,
+       "avg_x": 45.1,
+       "avg_y": 27.0
+      },
+      {
+       "name": "Marcelo Vieira da Silva J\u00fanior",
+       "nickname": "Marcelo",
+       "involvement": 140,
+       "made": 71,
+       "received": 69,
+       "degree": 0.769,
+       "betweenness": 0.2628,
+       "eigenvector": 0.3807,
+       "clustering": 0.7424,
+       "xt": 0.2967,
+       "avg_x": 68.6,
+       "avg_y": 9.6
+      },
+      {
+       "name": "Luka Modri\u0107",
+       "nickname": "Luka Modri\u0107",
+       "involvement": 139,
+       "made": 67,
+       "received": 72,
+       "degree": 0.885,
+       "betweenness": 0.2756,
+       "eigenvector": 0.3417,
+       "clustering": 0.8333,
+       "xt": -0.0087,
+       "avg_x": 63.6,
+       "avg_y": 57.3
+      },
+      {
+       "name": "Rapha\u00ebl Varane",
+       "nickname": "Rapha\u00ebl Varane",
+       "involvement": 105,
+       "made": 54,
+       "received": 51,
+       "degree": 0.731,
+       "betweenness": 0.0641,
+       "eigenvector": 0.2922,
+       "clustering": 0.9333,
+       "xt": 0.0108,
+       "avg_x": 42.8,
+       "avg_y": 56.3
+      }
+     ]
+    },
+    "insights_keys": [
+     "team",
+     "match_date",
+     "period",
+     "vulnerabilities",
+     "strengths",
+     "key_moments",
+     "progressive_stats",
+     "pressure_stats",
+     "territorial",
+     "xt_stats",
+     "narrative",
+     "pass_sequences",
+     "ppda",
+     "pass_directions",
+     "field_tilt",
+     "team_shape",
+     "advanced_network",
+     "passing_stats",
+     "period_vulnerabilities",
+     "period_vulnerability_summary"
+    ],
+    "insights": {
+     "passing_stats": {
+      "total_attempted": 673,
+      "total_successful": 596,
+      "total_failed": 77,
+      "accuracy": 88.6,
+      "per_minute": 7.24
+     },
+     "progressive_stats": {
+      "count": 149,
+      "percentage": 25.0,
+      "total_successful": 596
+     },
+     "xt_stats": {
+      "total_xt": 1.0367,
+      "avg_xt_per_pass": 0.001739,
+      "positive_xt_passes": 295,
+      "negative_xt_passes": 249,
+      "top_xt_players": [
+       [
+        "Isco",
+        0.3053
+       ],
+       [
+        "Marcelo",
+        0.2967
+       ],
+       [
+        "Casemiro",
+        0.1086
+       ],
+       [
+        "Sergio Ramos",
+        0.0915
+       ],
+       [
+        "Nacho",
+        0.0794
+       ]
+      ],
+      "xt_by_zone": {
+       "defensive": 0.0995,
+       "middle": 0.3601,
+       "attacking": 0.5771
+      },
+      "has_data": true
+     },
+     "ppda": {
+      "ppda": 20.89,
+      "opponent_passes": 188,
+      "defensive_actions": 9,
+      "interpretation": "Low pressing"
+     },
+     "field_tilt": {
+      "field_tilt": 72.3,
+      "team_final_third_passes": 125,
+      "opp_final_third_passes": 48,
+      "total_final_third_passes": 173,
+      "own_half": 48,
+      "opponent_half": 125,
+      "total": 173
+     },
+     "team_shape": {
+      "avg_width": 68.5,
+      "avg_depth": 66.4,
+      "avg_player_distance": 36.1,
+      "compactness": 2.77
+     },
+     "pressure_stats": {
+      "passes_under_pressure": 57,
+      "pressure_accuracy": 80.7,
+      "normal_accuracy": 88.6,
+      "pressure_resistance": -7.9
+     },
+     "pass_sequences": {
+      "avg_length": 6.41,
+      "max_length": 42,
+      "total_sequences": 93,
+      "distribution": {
+       "1-3": 42,
+       "7-10": 15,
+       "11+": 17,
+       "4-6": 19
+      }
+     },
+     "weakest_link": null
+    },
+    "grund": {
+     "team": "Real Madrid",
+     "match_date": "2018-05-26",
+     "period": null,
+     "centrality": {
+      "centrality_score": 0.12392138063279003,
+      "centrality_percentage": 12.39,
+      "style": "Moderately Decentralized",
+      "style_description": "Good balance with slight hub tendencies",
+      "hub_player": {
+       "name": "Toni Kroos",
+       "nickname": "Toni Kroos",
+       "passes_made": 84,
+       "passes_received": 75,
+       "total_involvement": 159
+      },
+      "player_rankings": [
+       {
+        "rank": 1,
+        "name": "Toni Kroos",
+        "nickname": "Toni Kroos",
+        "passes_made": 84,
+        "passes_received": 75,
+        "total_involvement": 159,
+        "difference_from_hub": 0
+       },
+       {
+        "rank": 2,
+        "name": "Sergio Ramos Garc\u00eda",
+        "nickname": "Sergio Ramos",
+        "passes_made": 78,
+        "passes_received": 65,
+        "total_involvement": 143,
+        "difference_from_hub": 16
+       },
+       {
+        "rank": 3,
+        "name": "Marcelo Vieira da Silva J\u00fanior",
+        "nickname": "Marcelo",
+        "passes_made": 71,
+        "passes_received": 69,
+        "total_involvement": 140,
+        "difference_from_hub": 19
+       },
+       {
+        "rank": 4,
+        "name": "Luka Modri\u0107",
+        "nickname": "Luka Modri\u0107",
+        "passes_made": 67,
+        "passes_received": 72,
+        "total_involvement": 139,
+        "difference_from_hub": 20
+       },
+       {
+        "rank": 5,
+        "name": "Rapha\u00ebl Varane",
+        "nickname": "Rapha\u00ebl Varane",
+        "passes_made": 54,
+        "passes_received": 51,
+        "total_involvement": 105,
+        "difference_from_hub": 54
+       },
+       {
+        "rank": 6,
+        "name": "Francisco Rom\u00e1n Alarc\u00f3n Su\u00e1rez",
+        "nickname": "Isco",
+        "passes_made": 47,
+        "passes_received": 53,
+        "total_involvement": 100,
+        "difference_from_hub": 59
+       },
+       {
+        "rank": 7,
+        "name": "Jos\u00e9 Ignacio Fern\u00e1ndez Iglesias",
+        "nickname": "Nacho",
+        "passes_made": 46,
+        "passes_received": 45,
+        "total_involvement": 91,
+        "difference_from_hub": 68
+       },
+       {
+        "rank": 8,
+        "name": "Karim Benzema",
+        "nickname": "Karim Benzema",
+        "passes_made": 36,
+        "passes_received": 41,
+        "total_involvement": 77,
+        "difference_from_hub": 82
+       },
+       {
+        "rank": 9,
+        "name": "Cristiano Ronaldo dos Santos Aveiro",
+        "nickname": "Cristiano Ronaldo",
+        "passes_made": 33,
+        "passes_received": 43,
+        "total_involvement": 76,
+        "difference_from_hub": 83
+       },
+       {
+        "rank": 10,
+        "name": "Carlos Henrique Casimiro",
+        "nickname": "Casemiro",
+        "passes_made": 34,
+        "passes_received": 35,
+        "total_involvement": 69,
+        "difference_from_hub": 90
+       }
+      ],
+      "orchestration": "Real Madrid's passing network has a Thomas Grund centrality index of 12.39%, classifying it as Moderately Decentralized. The hub player is Toni Kroos with 159 total involvements out of 596 total passes among 14 players. The team has a fairly balanced distribution of passes, with the hub player being slightly more involved but not dominant.",
+      "total_passes": 596,
+      "num_players": 14,
+      "hub_betweenness": 0.3397
+     },
+     "passing_rate": {
+      "passes_per_minute": 9.17,
+      "total_passes": 596,
+      "estimated_possession_minutes": 65.0,
+      "possession_percentage": 69.1,
+      "rating": "Elite",
+      "interpretation": "High passing tempo indicates strong ball circulation",
+      "benchmark": {
+       "elite": 5.0,
+       "average": 3.5,
+       "description": "Higher passing tempo indicates stronger ball circulation"
+      }
+     },
+     "narrative": "Real Madrid's passing network is Moderately Decentralized (centrality index: 12.39%). The team averages 9.17 passes per minute of possession (Elite). The orchestrator is Toni Kroos with 159 involvements."
+    },
+    "hub": {
+     "hub_player": "Toni Kroos",
+     "position": "Midfielder",
+     "metrics": {
+      "total_involvement": 159,
+      "passes_made": 84,
+      "passes_received": 75,
+      "degree_centrality": 0.885,
+      "betweenness_centrality": 0.34,
+      "eigenvector_centrality": 0.441,
+      "clustering_coefficient": 0.833,
+      "xt_generated": 0.0738,
+      "forward_pass_pct": 40.5
+     },
+     "strengths": 6,
+     "weaknesses": 2,
+     "mitigations": 3,
+     "narrative": "Toni Kroos is Real Madrid's hub player with 159 total involvements (position: Midfielder, avg position: x=60, y=28). The team's Grund centralisation is 12% (moderately decentralized). They are moderately relied upon and should be monitored. Passing direction: 40.5% forward, 33.3% backward, 26.2% lateral. Avg pass distance: 20.7m. Under pressure: 80.0% accuracy vs 92.0% normally (12.0pp drop). xT contribution: 0.0738 total (42 positive, 35 negative passes). Most active zone: Mid L (15 passes at 93.8% accuracy)."
+    }
+   }
+  },
+  "timeline_keys": [
+   "match_date",
+   "max_minute",
+   "teams",
+   "periods",
+   "insights",
+   "verdict"
+  ],
+  "verdict": {
+   "teams": {
+    "Real Madrid": {
+     "goals": 3,
+     "xg": 1.68,
+     "xg_diff": 1.32,
+     "total_xt": 1.036,
+     "passes": 596,
+     "pass_accuracy": 88.6,
+     "possession": 75.0,
+     "progressive_passes": 120,
+     "tempo": 42.6
+    },
+    "Liverpool": {
+     "goals": 1,
+     "xg": 1.43,
+     "xg_diff": -0.43,
+     "total_xt": 1.018,
+     "passes": 266,
+     "pass_accuracy": 73.9,
+     "possession": 43.9,
+     "progressive_passes": 45,
+     "tempo": 53.2
+    }
+   },
+   "comparison": {
+    "xg_advantage": "Real Madrid",
+    "xg_diff": 0.25,
+    "xt_advantage": "Even",
+    "xt_diff": 0.018,
+    "possession_advantage": "Real Madrid",
+    "possession_diff": 31.1,
+    "pass_advantage": "Real Madrid",
+    "pass_diff": 330
+   },
+   "verdict_type": "clinical_domination",
+   "verdict_headline": "Clinical Domination",
+   "justice_score": 81,
+   "narrative": "Real Madrid earned their victory with a commanding performance. Real Madrid controlled the tempo with 75% possession. Real Madrid showed clinical finishing, scoring 3 from 1.68 xG.",
+   "winner": "Real Madrid",
+   "loser": "Liverpool",
+   "score": "3-1"
+  }
+ },
+ "2019-06-01": {
+  "teams": [
+   "Liverpool",
+   "Tottenham Hotspur"
+  ],
+  "teams_data": {
+   "Liverpool": {
+    "network": {
+     "team": "Liverpool",
+     "metrics": {
+      "num_players": 13,
+      "num_edges": 95,
+      "density": 0.609,
+      "hub": "Andrew Robertson",
+      "hub_involvement": 63
+     },
+     "top5": [
+      {
+       "name": "Andrew Robertson",
+       "nickname": "Andrew Robertson",
+       "involvement": 63,
+       "made": 34,
+       "received": 29,
+       "degree": 0.833,
+       "betweenness": 0.4545,
+       "eigenvector": 0.5,
+       "clustering": 0.7879,
+       "xt": 0.0695,
+       "avg_x": 51.7,
+       "avg_y": 8.4
+      },
+      {
+       "name": "Sadio Man\u00e9",
+       "nickname": "Sadio Man\u00e9",
+       "involvement": 46,
+       "made": 18,
+       "received": 28,
+       "degree": 0.75,
+       "betweenness": 0.1894,
+       "eigenvector": 0.3977,
+       "clustering": 0.8364,
+       "xt": 0.1216,
+       "avg_x": 71.5,
+       "avg_y": 20.4
+      },
+      {
+       "name": "Virgil van Dijk",
+       "nickname": "Van Dijk",
+       "involvement": 43,
+       "made": 25,
+       "received": 18,
+       "degree": 0.667,
+       "betweenness": 0.1212,
+       "eigenvector": 0.3606,
+       "clustering": 0.8182,
+       "xt": 0.0937,
+       "avg_x": 30.3,
+       "avg_y": 30.5
+      },
+      {
+       "name": "Alisson Rams\u00e9s Becker",
+       "nickname": "Alisson",
+       "involvement": 38,
+       "made": 25,
+       "received": 13,
+       "degree": 0.542,
+       "betweenness": 0.0606,
+       "eigenvector": 0.3497,
+       "clustering": 0.8571,
+       "xt": 0.0504,
+       "avg_x": 10.7,
+       "avg_y": 41.8
+      },
+      {
+       "name": "Jordan Brian Henderson",
+       "nickname": "Henderson",
+       "involvement": 32,
+       "made": 16,
+       "received": 16,
+       "degree": 0.708,
+       "betweenness": 0.0455,
+       "eigenvector": 0.2331,
+       "clustering": 0.8889,
+       "xt": -0.001,
+       "avg_x": 74.6,
+       "avg_y": 48.7
+      }
+     ]
+    },
+    "insights_keys": [
+     "team",
+     "match_date",
+     "period",
+     "vulnerabilities",
+     "strengths",
+     "key_moments",
+     "progressive_stats",
+     "pressure_stats",
+     "territorial",
+     "xt_stats",
+     "narrative",
+     "pass_sequences",
+     "ppda",
+     "pass_directions",
+     "field_tilt",
+     "team_shape",
+     "advanced_network",
+     "passing_stats",
+     "period_vulnerabilities",
+     "period_vulnerability_summary"
+    ],
+    "insights": {
+     "passing_stats": {
+      "total_attempted": 326,
+      "total_successful": 202,
+      "total_failed": 124,
+      "accuracy": 62.0,
+      "per_minute": 3.43
+     },
+     "progressive_stats": {
+      "count": 76,
+      "percentage": 37.6,
+      "total_successful": 202
+     },
+     "xt_stats": {
+      "total_xt": 0.4633,
+      "avg_xt_per_pass": 0.002294,
+      "positive_xt_passes": 110,
+      "negative_xt_passes": 78,
+      "top_xt_players": [
+       [
+        "Alexander-Arnold",
+        0.1423
+       ],
+       [
+        "Sadio Man\u00e9",
+        0.1216
+       ],
+       [
+        "Van Dijk",
+        0.0937
+       ],
+       [
+        "Andrew Robertson",
+        0.0695
+       ],
+       [
+        "Alisson",
+        0.0504
+       ]
+      ],
+      "xt_by_zone": {
+       "middle": 0.2265,
+       "defensive": 0.1568,
+       "attacking": 0.0801
+      },
+      "has_data": true
+     },
+     "ppda": {
+      "ppda": 40.67,
+      "opponent_passes": 366,
+      "defensive_actions": 9,
+      "interpretation": "Low pressing"
+     },
+     "field_tilt": {
+      "field_tilt": 41.8,
+      "team_final_third_passes": 46,
+      "opp_final_third_passes": 64,
+      "total_final_third_passes": 110,
+      "own_half": 64,
+      "opponent_half": 46,
+      "total": 110
+     },
+     "team_shape": {
+      "avg_width": 60.7,
+      "avg_depth": 85.3,
+      "avg_player_distance": 37.3,
+      "compactness": 2.68
+     },
+     "pressure_stats": {
+      "passes_under_pressure": 48,
+      "pressure_accuracy": 58.3,
+      "normal_accuracy": 62.0,
+      "pressure_resistance": -3.6
+     },
+     "pass_sequences": {
+      "avg_length": 2.62,
+      "max_length": 12,
+      "total_sequences": 77,
+      "distribution": {
+       "1-3": 63,
+       "4-6": 7,
+       "11+": 2,
+       "7-10": 5
+      }
+     },
+     "weakest_link": null
+    },
+    "grund": {
+     "team": "Liverpool",
+     "match_date": "2019-06-01",
+     "period": null,
+     "centrality": {
+      "centrality_score": 0.15803503427265803,
+      "centrality_percentage": 15.8,
+      "style": "Moderately Decentralized",
+      "style_description": "Good balance with slight hub tendencies",
+      "hub_player": {
+       "name": "Andrew Robertson",
+       "nickname": "Andrew Robertson",
+       "passes_made": 34,
+       "passes_received": 29,
+       "total_involvement": 63
+      },
+      "player_rankings": [
+       {
+        "rank": 1,
+        "name": "Andrew Robertson",
+        "nickname": "Andrew Robertson",
+        "passes_made": 34,
+        "passes_received": 29,
+        "total_involvement": 63,
+        "difference_from_hub": 0
+       },
+       {
+        "rank": 2,
+        "name": "Sadio Man\u00e9",
+        "nickname": "Sadio Man\u00e9",
+        "passes_made": 18,
+        "passes_received": 28,
+        "total_involvement": 46,
+        "difference_from_hub": 17
+       },
+       {
+        "rank": 3,
+        "name": "Virgil van Dijk",
+        "nickname": "Van Dijk",
+        "passes_made": 25,
+        "passes_received": 18,
+        "total_involvement": 43,
+        "difference_from_hub": 20
+       },
+       {
+        "rank": 4,
+        "name": "Alisson Rams\u00e9s Becker",
+        "nickname": "Alisson",
+        "passes_made": 25,
+        "passes_received": 13,
+        "total_involvement": 38,
+        "difference_from_hub": 25
+       },
+       {
+        "rank": 5,
+        "name": "Jordan Brian Henderson",
+        "nickname": "Henderson",
+        "passes_made": 16,
+        "passes_received": 16,
+        "total_involvement": 32,
+        "difference_from_hub": 31
+       },
+       {
+        "rank": 6,
+        "name": "Trent Alexander-Arnold",
+        "nickname": "Alexander-Arnold",
+        "passes_made": 17,
+        "passes_received": 15,
+        "total_involvement": 32,
+        "difference_from_hub": 31
+       },
+       {
+        "rank": 7,
+        "name": "Jo\u00ebl Andre Job Matip",
+        "nickname": "Matip",
+        "passes_made": 18,
+        "passes_received": 11,
+        "total_involvement": 29,
+        "difference_from_hub": 34
+       },
+       {
+        "rank": 8,
+        "name": "F\u00e1bio Henrique Tavares",
+        "nickname": "Fabinho",
+        "passes_made": 14,
+        "passes_received": 13,
+        "total_involvement": 27,
+        "difference_from_hub": 36
+       },
+       {
+        "rank": 9,
+        "name": "Mohamed Salah",
+        "nickname": "Mohamed Salah",
+        "passes_made": 7,
+        "passes_received": 19,
+        "total_involvement": 26,
+        "difference_from_hub": 37
+       },
+       {
+        "rank": 10,
+        "name": "Georginio Wijnaldum",
+        "nickname": "Georginio Wijnaldum",
+        "passes_made": 12,
+        "passes_received": 9,
+        "total_involvement": 21,
+        "difference_from_hub": 42
+       }
+      ],
+      "orchestration": "Liverpool's passing network has a Thomas Grund centrality index of 15.8%, classifying it as Moderately Decentralized. The hub player is Andrew Robertson with 63 total involvements out of 202 total passes among 13 players. The team has a fairly balanced distribution of passes, with the hub player being slightly more involved but not dominant.",
+      "total_passes": 202,
+      "num_players": 13,
+      "hub_betweenness": 0.4545
+     },
+     "passing_rate": {
+      "passes_per_minute": 6.76,
+      "total_passes": 202,
+      "estimated_possession_minutes": 29.9,
+      "possession_percentage": 31.1,
+      "rating": "Elite",
+      "interpretation": "High passing tempo indicates strong ball circulation",
+      "benchmark": {
+       "elite": 5.0,
+       "average": 3.5,
+       "description": "Higher passing tempo indicates stronger ball circulation"
+      }
+     },
+     "narrative": "Liverpool's passing network is Moderately Decentralized (centrality index: 15.8%). The team averages 6.76 passes per minute of possession (Elite). The orchestrator is Andrew Robertson with 63 involvements."
+    },
+    "hub": {
+     "hub_player": "Andrew Robertson",
+     "position": "Midfielder",
+     "metrics": {
+      "total_involvement": 63,
+      "passes_made": 34,
+      "passes_received": 29,
+      "degree_centrality": 0.833,
+      "betweenness_centrality": 0.455,
+      "eigenvector_centrality": 0.5,
+      "clustering_coefficient": 0.788,
+      "xt_generated": 0.0695,
+      "forward_pass_pct": 67.6
+     },
+     "strengths": 7,
+     "weaknesses": 0,
+     "mitigations": 4,
+     "narrative": "Andrew Robertson is Liverpool's hub player with 63 total involvements (position: Midfielder, avg position: x=52, y=8). The team's Grund centralisation is 16% (moderately decentralized). They are moderately relied upon and should be monitored. Passing direction: 67.6% forward, 23.5% backward, 8.8% lateral. Avg pass distance: 20.4m. Under pressure: 100.0% accuracy vs 60.8% normally (0pp drop). xT contribution: 0.0695 total (25 positive, 9 negative passes). Most active zone: Deep L (12 passes at 63.2% accuracy)."
+    }
+   },
+   "Tottenham Hotspur": {
+    "network": {
+     "team": "Tottenham Hotspur",
+     "metrics": {
+      "num_players": 14,
+      "num_edges": 114,
+      "density": 0.626,
+      "hub": "Jan Vertonghen",
+      "hub_involvement": 130
+     },
+     "top5": [
+      {
+       "name": "Jan Vertonghen",
+       "nickname": "Jan Vertonghen",
+       "involvement": 130,
+       "made": 67,
+       "received": 63,
+       "degree": 0.769,
+       "betweenness": 0.2564,
+       "eigenvector": 0.5155,
+       "clustering": 0.7273,
+       "xt": 0.0878,
+       "avg_x": 33.2,
+       "avg_y": 19.9
+      },
+      {
+       "name": "Toby Alderweireld",
+       "nickname": "Toby Alderweireld",
+       "involvement": 122,
+       "made": 60,
+       "received": 62,
+       "degree": 0.731,
+       "betweenness": 0.1603,
+       "eigenvector": 0.5074,
+       "clustering": 0.7778,
+       "xt": 0.0918,
+       "avg_x": 31.7,
+       "avg_y": 50.3
+      },
+      {
+       "name": "Kieran Trippier",
+       "nickname": "Kieran Trippier",
+       "involvement": 95,
+       "made": 57,
+       "received": 38,
+       "degree": 0.885,
+       "betweenness": 0.2115,
+       "eigenvector": 0.2862,
+       "clustering": 0.6923,
+       "xt": 0.5185,
+       "avg_x": 59.0,
+       "avg_y": 72.3
+      },
+      {
+       "name": "Hugo Lloris",
+       "nickname": "Hugo Lloris",
+       "involvement": 89,
+       "made": 48,
+       "received": 41,
+       "degree": 0.538,
+       "betweenness": 0.0,
+       "eigenvector": 0.409,
+       "clustering": 0.7857,
+       "xt": 0.0269,
+       "avg_x": 10.0,
+       "avg_y": 38.9
+      },
+      {
+       "name": "Harry Winks",
+       "nickname": "Harry Winks",
+       "involvement": 79,
+       "made": 39,
+       "received": 40,
+       "degree": 0.692,
+       "betweenness": 0.0705,
+       "eigenvector": 0.2484,
+       "clustering": 0.8444,
+       "xt": -0.0015,
+       "avg_x": 55.3,
+       "avg_y": 37.9
+      }
+     ]
+    },
+    "insights_keys": [
+     "team",
+     "match_date",
+     "period",
+     "vulnerabilities",
+     "strengths",
+     "key_moments",
+     "progressive_stats",
+     "pressure_stats",
+     "territorial",
+     "xt_stats",
+     "narrative",
+     "pass_sequences",
+     "ppda",
+     "pass_directions",
+     "field_tilt",
+     "team_shape",
+     "advanced_network",
+     "passing_stats",
+     "period_vulnerabilities",
+     "period_vulnerability_summary"
+    ],
+    "insights": {
+     "passing_stats": {
+      "total_attempted": 564,
+      "total_successful": 447,
+      "total_failed": 117,
+      "accuracy": 79.3,
+      "per_minute": 5.94
+     },
+     "progressive_stats": {
+      "count": 111,
+      "percentage": 24.8,
+      "total_successful": 447
+     },
+     "xt_stats": {
+      "total_xt": 1.0681,
+      "avg_xt_per_pass": 0.00239,
+      "positive_xt_passes": 238,
+      "negative_xt_passes": 180,
+      "top_xt_players": [
+       [
+        "Kieran Trippier",
+        0.5185
+       ],
+       [
+        "Danny Rose",
+        0.2232
+       ],
+       [
+        "Eriksen",
+        0.1152
+       ],
+       [
+        "Toby Alderweireld",
+        0.0918
+       ],
+       [
+        "Jan Vertonghen",
+        0.0878
+       ]
+      ],
+      "xt_by_zone": {
+       "middle": 0.3973,
+       "defensive": 0.1266,
+       "attacking": 0.5443
+      },
+      "has_data": true
+     },
+     "ppda": {
+      "ppda": 27.43,
+      "opponent_passes": 192,
+      "defensive_actions": 7,
+      "interpretation": "Low pressing"
+     },
+     "field_tilt": {
+      "field_tilt": 58.2,
+      "team_final_third_passes": 64,
+      "opp_final_third_passes": 46,
+      "total_final_third_passes": 110,
+      "own_half": 46,
+      "opponent_half": 64,
+      "total": 110
+     },
+     "team_shape": {
+      "avg_width": 66.1,
+      "avg_depth": 71.8,
+      "avg_player_distance": 32.1,
+      "compactness": 3.12
+     },
+     "pressure_stats": {
+      "passes_under_pressure": 156,
+      "pressure_accuracy": 72.4,
+      "normal_accuracy": 79.3,
+      "pressure_resistance": -6.8
+     },
+     "pass_sequences": {
+      "avg_length": 4.18,
+      "max_length": 17,
+      "total_sequences": 107,
+      "distribution": {
+       "1-3": 62,
+       "11+": 6,
+       "4-6": 18,
+       "7-10": 21
+      }
+     },
+     "weakest_link": null
+    },
+    "grund": {
+     "team": "Tottenham Hotspur",
+     "match_date": "2019-06-01",
+     "period": null,
+     "centrality": {
+      "centrality_score": 0.14797059763502718,
+      "centrality_percentage": 14.8,
+      "style": "Moderately Decentralized",
+      "style_description": "Good balance with slight hub tendencies",
+      "hub_player": {
+       "name": "Jan Vertonghen",
+       "nickname": "Jan Vertonghen",
+       "passes_made": 67,
+       "passes_received": 63,
+       "total_involvement": 130
+      },
+      "player_rankings": [
+       {
+        "rank": 1,
+        "name": "Jan Vertonghen",
+        "nickname": "Jan Vertonghen",
+        "passes_made": 67,
+        "passes_received": 63,
+        "total_involvement": 130,
+        "difference_from_hub": 0
+       },
+       {
+        "rank": 2,
+        "name": "Toby Alderweireld",
+        "nickname": "Toby Alderweireld",
+        "passes_made": 60,
+        "passes_received": 62,
+        "total_involvement": 122,
+        "difference_from_hub": 8
+       },
+       {
+        "rank": 3,
+        "name": "Kieran Trippier",
+        "nickname": "Kieran Trippier",
+        "passes_made": 57,
+        "passes_received": 38,
+        "total_involvement": 95,
+        "difference_from_hub": 35
+       },
+       {
+        "rank": 4,
+        "name": "Hugo Lloris",
+        "nickname": "Hugo Lloris",
+        "passes_made": 48,
+        "passes_received": 41,
+        "total_involvement": 89,
+        "difference_from_hub": 41
+       },
+       {
+        "rank": 5,
+        "name": "Harry Winks",
+        "nickname": "Harry Winks",
+        "passes_made": 39,
+        "passes_received": 40,
+        "total_involvement": 79,
+        "difference_from_hub": 51
+       },
+       {
+        "rank": 6,
+        "name": "Danny Rose",
+        "nickname": "Danny Rose",
+        "passes_made": 44,
+        "passes_received": 32,
+        "total_involvement": 76,
+        "difference_from_hub": 54
+       },
+       {
+        "rank": 7,
+        "name": "Christian Dannemann Eriksen",
+        "nickname": "Eriksen",
+        "passes_made": 35,
+        "passes_received": 40,
+        "total_involvement": 75,
+        "difference_from_hub": 55
+       },
+       {
+        "rank": 8,
+        "name": "Bamidele Alli",
+        "nickname": "Dele Alli",
+        "passes_made": 28,
+        "passes_received": 35,
+        "total_involvement": 63,
+        "difference_from_hub": 67
+       },
+       {
+        "rank": 9,
+        "name": "Moussa Sissoko",
+        "nickname": "Moussa Sissoko",
+        "passes_made": 29,
+        "passes_received": 29,
+        "total_involvement": 58,
+        "difference_from_hub": 72
+       },
+       {
+        "rank": 10,
+        "name": "Heung-Min Son",
+        "nickname": "Son",
+        "passes_made": 18,
+        "passes_received": 29,
+        "total_involvement": 47,
+        "difference_from_hub": 83
+       }
+      ],
+      "orchestration": "Tottenham Hotspur's passing network has a Thomas Grund centrality index of 14.8%, classifying it as Moderately Decentralized. The hub player is Jan Vertonghen with 130 total involvements out of 447 total passes among 14 players. The team has a fairly balanced distribution of passes, with the hub player being slightly more involved but not dominant.",
+      "total_passes": 447,
+      "num_players": 14,
+      "hub_betweenness": 0.2564
+     },
+     "passing_rate": {
+      "passes_per_minute": 6.76,
+      "total_passes": 447,
+      "estimated_possession_minutes": 66.1,
+      "possession_percentage": 68.9,
+      "rating": "Elite",
+      "interpretation": "High passing tempo indicates strong ball circulation",
+      "benchmark": {
+       "elite": 5.0,
+       "average": 3.5,
+       "description": "Higher passing tempo indicates stronger ball circulation"
+      }
+     },
+     "narrative": "Tottenham Hotspur's passing network is Moderately Decentralized (centrality index: 14.8%). The team averages 6.76 passes per minute of possession (Elite). The orchestrator is Jan Vertonghen with 130 involvements."
+    },
+    "hub": {
+     "hub_player": "Jan Vertonghen",
+     "position": "Defender",
+     "metrics": {
+      "total_involvement": 130,
+      "passes_made": 67,
+      "passes_received": 63,
+      "degree_centrality": 0.769,
+      "betweenness_centrality": 0.256,
+      "eigenvector_centrality": 0.515,
+      "clustering_coefficient": 0.727,
+      "xt_generated": 0.0878,
+      "forward_pass_pct": 38.8
+     },
+     "strengths": 6,
+     "weaknesses": 2,
+     "mitigations": 4,
+     "narrative": "Jan Vertonghen is Tottenham Hotspur's hub player with 130 total involvements (position: Defender, avg position: x=33, y=20). The team's Grund centralisation is 15% (moderately decentralized). They are moderately relied upon and should be monitored. Passing direction: 38.8% forward, 29.9% backward, 31.3% lateral. Avg pass distance: 22.0m. Under pressure: 62.5% accuracy vs 91.9% normally (29.4pp drop). xT contribution: 0.0878 total (41 positive, 21 negative passes). Most active zone: Deep LC (20 passes at 83.3% accuracy)."
+    }
+   }
+  },
+  "timeline_keys": [
+   "match_date",
+   "max_minute",
+   "teams",
+   "periods",
+   "insights",
+   "verdict"
+  ],
+  "verdict": {
+   "teams": {
+    "Tottenham Hotspur": {
+     "goals": 0,
+     "xg": 0.92,
+     "xg_diff": -0.92,
+     "total_xt": 1.067,
+     "passes": 447,
+     "pass_accuracy": 79.3,
+     "possession": 74.4,
+     "progressive_passes": 60,
+     "tempo": 29.8
+    },
+    "Liverpool": {
+     "goals": 2,
+     "xg": 1.2,
+     "xg_diff": 0.8,
+     "total_xt": 0.465,
+     "passes": 202,
+     "pass_accuracy": 62.0,
+     "possession": 43.4,
+     "progressive_passes": 43,
+     "tempo": 50.5
+    }
+   },
+   "comparison": {
+    "xg_advantage": "Liverpool",
+    "xg_diff": 0.28,
+    "xt_advantage": "Tottenham Hotspur",
+    "xt_diff": 0.602,
+    "possession_advantage": "Tottenham Hotspur",
+    "possession_diff": 31.0,
+    "pass_advantage": "Tottenham Hotspur",
+    "pass_diff": 245
+   },
+   "verdict_type": "against_the_odds",
+   "verdict_headline": "Against The Odds",
+   "justice_score": 43,
+   "narrative": "Liverpool defied the statistics to claim victory. Tottenham Hotspur built more threatening attacks (1.07 xT) but Liverpool's efficiency proved decisive. Despite Tottenham Hotspur's possession dominance (74%), Liverpool made their moments count. Liverpool showed clinical finishing, scoring 2 from 1.20 xG. Tottenham Hotspur will rue their wastefulness, managing only 0 goals from 0.92 xG.",
+   "winner": "Liverpool",
+   "loser": "Tottenham Hotspur",
+   "score": "0-2"
+  }
+ },
+ "2022-12-18_World_Cup_2022": {
+  "teams": [
+   "Argentina",
+   "France"
+  ],
+  "teams_data": {
+   "Argentina": {
+    "network": {
+     "team": "Argentina",
+     "metrics": {
+      "num_players": 15,
+      "num_edges": 123,
+      "density": 0.586,
+      "hub": "Enzo Fernandez",
+      "hub_involvement": 158
+     },
+     "top5": [
+      {
+       "name": "Enzo Fernandez",
+       "nickname": "Enzo Fernandez",
+       "involvement": 158,
+       "made": 77,
+       "received": 81,
+       "degree": 0.964,
+       "betweenness": 0.3681,
+       "eigenvector": 0.4542,
+       "clustering": 0.6374,
+       "xt": 0.0833,
+       "avg_x": 55.2,
+       "avg_y": 43.3
+      },
+      {
+       "name": "Rodrigo Javier De Paul",
+       "nickname": "Paul",
+       "involvement": 123,
+       "made": 57,
+       "received": 66,
+       "degree": 0.607,
+       "betweenness": 0.1374,
+       "eigenvector": 0.4019,
+       "clustering": 0.8667,
+       "xt": 0.118,
+       "avg_x": 57.1,
+       "avg_y": 59.0
+      },
+      {
+       "name": "Nicol\u00e1s Hern\u00e1n Otamendi",
+       "nickname": "Otamendi",
+       "involvement": 122,
+       "made": 65,
+       "received": 57,
+       "degree": 0.75,
+       "betweenness": 0.1978,
+       "eigenvector": 0.369,
+       "clustering": 0.7636,
+       "xt": 0.0306,
+       "avg_x": 37.6,
+       "avg_y": 25.0
+      },
+      {
+       "name": "Lionel Andr\u00e9s Messi Cuccittini",
+       "nickname": "Cuccittini",
+       "involvement": 106,
+       "made": 48,
+       "received": 58,
+       "degree": 0.786,
+       "betweenness": 0.0934,
+       "eigenvector": 0.3187,
+       "clustering": 0.697,
+       "xt": 0.215,
+       "avg_x": 76.7,
+       "avg_y": 49.4
+      },
+      {
+       "name": "Cristian Gabriel Romero",
+       "nickname": "Romero",
+       "involvement": 104,
+       "made": 60,
+       "received": 44,
+       "degree": 0.643,
+       "betweenness": 0.022,
+       "eigenvector": 0.3536,
+       "clustering": 0.7121,
+       "xt": 0.0653,
+       "avg_x": 33.9,
+       "avg_y": 52.7
+      }
+     ]
+    },
+    "insights_keys": [
+     "team",
+     "match_date",
+     "period",
+     "vulnerabilities",
+     "strengths",
+     "key_moments",
+     "progressive_stats",
+     "pressure_stats",
+     "territorial",
+     "xt_stats",
+     "narrative",
+     "pass_sequences",
+     "ppda",
+     "pass_directions",
+     "field_tilt",
+     "team_shape",
+     "advanced_network",
+     "passing_stats",
+     "period_vulnerabilities",
+     "period_vulnerability_summary"
+    ],
+    "insights": {
+     "passing_stats": {
+      "total_attempted": 693,
+      "total_successful": 560,
+      "total_failed": 133,
+      "accuracy": 80.8,
+      "per_minute": 5.54
+     },
+     "progressive_stats": {
+      "count": 164,
+      "percentage": 29.3,
+      "total_successful": 560
+     },
+     "xt_stats": {
+      "total_xt": 1.2383,
+      "avg_xt_per_pass": 0.002211,
+      "positive_xt_passes": 291,
+      "negative_xt_passes": 221,
+      "top_xt_players": [
+       [
+        "Allister",
+        0.3388
+       ],
+       [
+        "Montiel",
+        0.2408
+       ],
+       [
+        "Cuccittini",
+        0.2396
+       ],
+       [
+        "Paul",
+        0.118
+       ],
+       [
+        "Enzo Fernandez",
+        0.0875
+       ]
+      ],
+      "xt_by_zone": {
+       "defensive": 0.1355,
+       "middle": 0.2836,
+       "attacking": 0.8192
+      },
+      "has_data": true
+     },
+     "ppda": {
+      "ppda": 11.0,
+      "opponent_passes": 319,
+      "defensive_actions": 29,
+      "interpretation": "Moderate pressing"
+     },
+     "field_tilt": {
+      "field_tilt": 65.8,
+      "team_final_third_passes": 121,
+      "opp_final_third_passes": 63,
+      "total_final_third_passes": 184,
+      "own_half": 63,
+      "opponent_half": 121,
+      "total": 184
+     },
+     "team_shape": {
+      "avg_width": 64.4,
+      "avg_depth": 74.8,
+      "avg_player_distance": 35.5,
+      "compactness": 2.82
+     },
+     "pressure_stats": {
+      "passes_under_pressure": 39,
+      "pressure_accuracy": 56.4,
+      "normal_accuracy": 80.8,
+      "pressure_resistance": -24.4
+     },
+     "pass_sequences": {
+      "avg_length": 4.18,
+      "max_length": 28,
+      "total_sequences": 134,
+      "distribution": {
+       "11+": 11,
+       "1-3": 75,
+       "4-6": 37,
+       "7-10": 11
+      }
+     },
+     "weakest_link": null
+    },
+    "grund": {
+     "team": "Argentina",
+     "match_date": "2022-12-18_World_Cup_2022",
+     "period": null,
+     "centrality": {
+      "centrality_score": 0.17342436974789915,
+      "centrality_percentage": 17.34,
+      "style": "Moderately Decentralized",
+      "style_description": "Good balance with slight hub tendencies",
+      "hub_player": {
+       "name": "Enzo Fernandez",
+       "nickname": "Enzo Fernandez",
+       "passes_made": 79,
+       "passes_received": 84,
+       "total_involvement": 163
+      },
+      "player_rankings": [
+       {
+        "rank": 1,
+        "name": "Enzo Fernandez",
+        "nickname": "Enzo Fernandez",
+        "passes_made": 79,
+        "passes_received": 84,
+        "total_involvement": 163,
+        "difference_from_hub": 0
+       },
+       {
+        "rank": 2,
+        "name": "Nicol\u00e1s Hern\u00e1n Otamendi",
+        "nickname": "Otamendi",
+        "passes_made": 69,
+        "passes_received": 60,
+        "total_involvement": 129,
+        "difference_from_hub": 34
+       },
+       {
+        "rank": 3,
+        "name": "Rodrigo Javier De Paul",
+        "nickname": "Paul",
+        "passes_made": 57,
+        "passes_received": 66,
+        "total_involvement": 123,
+        "difference_from_hub": 40
+       },
+       {
+        "rank": 4,
+        "name": "Lionel Andr\u00e9s Messi Cuccittini",
+        "nickname": "Cuccittini",
+        "passes_made": 49,
+        "passes_received": 60,
+        "total_involvement": 109,
+        "difference_from_hub": 54
+       },
+       {
+        "rank": 5,
+        "name": "Cristian Gabriel Romero",
+        "nickname": "Romero",
+        "passes_made": 60,
+        "passes_received": 44,
+        "total_involvement": 104,
+        "difference_from_hub": 59
+       },
+       {
+        "rank": 6,
+        "name": "Alexis Mac Allister",
+        "nickname": "Allister",
+        "passes_made": 45,
+        "passes_received": 46,
+        "total_involvement": 91,
+        "difference_from_hub": 72
+       },
+       {
+        "rank": 7,
+        "name": "Nicol\u00e1s Alejandro Tagliafico",
+        "nickname": "Tagliafico",
+        "passes_made": 44,
+        "passes_received": 32,
+        "total_involvement": 76,
+        "difference_from_hub": 87
+       },
+       {
+        "rank": 8,
+        "name": "Nahuel Molina Lucero",
+        "nickname": "Lucero",
+        "passes_made": 39,
+        "passes_received": 33,
+        "total_involvement": 72,
+        "difference_from_hub": 91
+       },
+       {
+        "rank": 9,
+        "name": "\u00c1ngel Fabi\u00e1n Di Mar\u00eda Hern\u00e1ndez",
+        "nickname": "Hern\u00e1ndez",
+        "passes_made": 25,
+        "passes_received": 31,
+        "total_involvement": 56,
+        "difference_from_hub": 107
+       },
+       {
+        "rank": 10,
+        "name": "Juli\u00e1n \u00c1lvarez",
+        "nickname": "Juli\u00e1n \u00c1lvarez",
+        "passes_made": 26,
+        "passes_received": 28,
+        "total_involvement": 54,
+        "difference_from_hub": 109
+       }
+      ],
+      "orchestration": "Argentina's passing network has a Thomas Grund centrality index of 17.34%, classifying it as Moderately Decentralized. The hub player is Enzo Fernandez with 163 total involvements out of 560 total passes among 17 players. The team has a fairly balanced distribution of passes, with the hub player being slightly more involved but not dominant.",
+      "total_passes": 560,
+      "num_players": 17,
+      "hub_betweenness": 0.3542
+     },
+     "passing_rate": {
+      "passes_per_minute": 7.89,
+      "total_passes": 560,
+      "estimated_possession_minutes": 71.0,
+      "possession_percentage": 56.3,
+      "rating": "Elite",
+      "interpretation": "High passing tempo indicates strong ball circulation",
+      "benchmark": {
+       "elite": 5.0,
+       "average": 3.5,
+       "description": "Higher passing tempo indicates stronger ball circulation"
+      }
+     },
+     "narrative": "Argentina's passing network is Moderately Decentralized (centrality index: 17.34%). The team averages 7.89 passes per minute of possession (Elite). The orchestrator is Enzo Fernandez with 163 involvements."
+    },
+    "hub": {
+     "hub_player": "Enzo Fernandez",
+     "position": "Midfielder",
+     "metrics": {
+      "total_involvement": 163,
+      "passes_made": 79,
+      "passes_received": 84,
+      "degree_centrality": 0.875,
+      "betweenness_centrality": 0.354,
+      "eigenvector_centrality": 0.457,
+      "clustering_coefficient": 0.581,
+      "xt_generated": 0.0875,
+      "forward_pass_pct": 46.8
+     },
+     "strengths": 4,
+     "weaknesses": 1,
+     "mitigations": 3,
+     "narrative": "Enzo Fernandez is Argentina's hub player with 163 total involvements (position: Midfielder, avg position: x=55, y=43). The team's Grund centralisation is 17% (moderately decentralized). They are moderately relied upon and should be monitored. Passing direction: 46.8% forward, 20.3% backward, 32.9% lateral. Avg pass distance: 18.0m. xT contribution: 0.0875 total (39 positive, 37 negative passes). Most active zone: Deep RC (12 passes at 92.3% accuracy)."
+    }
+   },
+   "France": {
+    "network": {
+     "team": "France",
+     "metrics": {
+      "num_players": 17,
+      "num_edges": 142,
+      "density": 0.522,
+      "hub": "Dayotchanculle Upamecano",
+      "hub_involvement": 106
+     },
+     "top5": [
+      {
+       "name": "Dayotchanculle Upamecano",
+       "nickname": "Dayotchanculle Upamecano",
+       "involvement": 106,
+       "made": 51,
+       "received": 55,
+       "degree": 0.688,
+       "betweenness": 0.2167,
+       "eigenvector": 0.4504,
+       "clustering": 0.7949,
+       "xt": 0.0379,
+       "avg_x": 45.6,
+       "avg_y": 25.5
+      },
+      {
+       "name": "Rapha\u00ebl Varane",
+       "nickname": "Rapha\u00ebl Varane",
+       "involvement": 106,
+       "made": 55,
+       "received": 51,
+       "degree": 0.719,
+       "betweenness": 0.3292,
+       "eigenvector": 0.4562,
+       "clustering": 0.7179,
+       "xt": 0.0024,
+       "avg_x": 44.8,
+       "avg_y": 50.3
+      },
+      {
+       "name": "Aur\u00e9lien Djani Tchouam\u00e9ni",
+       "nickname": "Tchouam\u00e9ni",
+       "involvement": 99,
+       "made": 55,
+       "received": 44,
+       "degree": 0.781,
+       "betweenness": 0.1708,
+       "eigenvector": 0.3919,
+       "clustering": 0.7363,
+       "xt": 0.0264,
+       "avg_x": 57.7,
+       "avg_y": 39.1
+      },
+      {
+       "name": "Jules Kound\u00e9",
+       "nickname": "Jules Kound\u00e9",
+       "involvement": 99,
+       "made": 52,
+       "received": 47,
+       "degree": 0.812,
+       "betweenness": 0.3125,
+       "eigenvector": 0.3631,
+       "clustering": 0.6286,
+       "xt": 0.0729,
+       "avg_x": 53.6,
+       "avg_y": 68.6
+      },
+      {
+       "name": "Adrien Rabiot",
+       "nickname": "Adrien Rabiot",
+       "involvement": 82,
+       "made": 43,
+       "received": 39,
+       "degree": 0.812,
+       "betweenness": 0.0833,
+       "eigenvector": 0.2911,
+       "clustering": 0.7033,
+       "xt": -0.0023,
+       "avg_x": 64.5,
+       "avg_y": 27.4
+      }
+     ]
+    },
+    "insights_keys": [
+     "team",
+     "match_date",
+     "period",
+     "vulnerabilities",
+     "strengths",
+     "key_moments",
+     "progressive_stats",
+     "pressure_stats",
+     "territorial",
+     "xt_stats",
+     "narrative",
+     "pass_sequences",
+     "ppda",
+     "pass_directions",
+     "field_tilt",
+     "team_shape",
+     "advanced_network",
+     "passing_stats",
+     "period_vulnerabilities",
+     "period_vulnerability_summary"
+    ],
+    "insights": {
+     "passing_stats": {
+      "total_attempted": 570,
+      "total_successful": 434,
+      "total_failed": 136,
+      "accuracy": 76.1,
+      "per_minute": 4.56
+     },
+     "progressive_stats": {
+      "count": 126,
+      "percentage": 29.0,
+      "total_successful": 434
+     },
+     "xt_stats": {
+      "total_xt": 0.7212,
+      "avg_xt_per_pass": 0.001662,
+      "positive_xt_passes": 225,
+      "negative_xt_passes": 179,
+      "top_xt_players": [
+       [
+        "Antoine Griezmann",
+        0.2257
+       ],
+       [
+        "Hugo Lloris",
+        0.0933
+       ],
+       [
+        "Ibrahima Konat\u00e9",
+        0.0912
+       ],
+       [
+        "Marcus Thuram",
+        0.0818
+       ],
+       [
+        "Jules Kound\u00e9",
+        0.0729
+       ]
+      ],
+      "xt_by_zone": {
+       "middle": 0.289,
+       "defensive": 0.1479,
+       "attacking": 0.2842
+      },
+      "has_data": true
+     },
+     "ppda": {
+      "ppda": 17.35,
+      "opponent_passes": 399,
+      "defensive_actions": 23,
+      "interpretation": "Low pressing"
+     },
+     "field_tilt": {
+      "field_tilt": 34.2,
+      "team_final_third_passes": 63,
+      "opp_final_third_passes": 121,
+      "total_final_third_passes": 184,
+      "own_half": 121,
+      "opponent_half": 63,
+      "total": 184
+     },
+     "team_shape": {
+      "avg_width": 66.0,
+      "avg_depth": 70.0,
+      "avg_player_distance": 33.3,
+      "compactness": 3.0
+     },
+     "pressure_stats": {
+      "passes_under_pressure": 76,
+      "pressure_accuracy": 69.7,
+      "normal_accuracy": 76.1,
+      "pressure_resistance": -6.4
+     },
+     "pass_sequences": {
+      "avg_length": 3.71,
+      "max_length": 21,
+      "total_sequences": 117,
+      "distribution": {
+       "1-3": 72,
+       "4-6": 26,
+       "11+": 5,
+       "7-10": 14
+      }
+     },
+     "weakest_link": null
+    },
+    "grund": {
+     "team": "France",
+     "match_date": "2022-12-18_World_Cup_2022",
+     "period": null,
+     "centrality": {
+      "centrality_score": 0.12659257251287612,
+      "centrality_percentage": 12.66,
+      "style": "Moderately Decentralized",
+      "style_description": "Good balance with slight hub tendencies",
+      "hub_player": {
+       "name": "Dayotchanculle Upamecano",
+       "nickname": "Dayotchanculle Upamecano",
+       "passes_made": 51,
+       "passes_received": 55,
+       "total_involvement": 106
+      },
+      "player_rankings": [
+       {
+        "rank": 1,
+        "name": "Dayotchanculle Upamecano",
+        "nickname": "Dayotchanculle Upamecano",
+        "passes_made": 51,
+        "passes_received": 55,
+        "total_involvement": 106,
+        "difference_from_hub": 0
+       },
+       {
+        "rank": 2,
+        "name": "Rapha\u00ebl Varane",
+        "nickname": "Rapha\u00ebl Varane",
+        "passes_made": 55,
+        "passes_received": 51,
+        "total_involvement": 106,
+        "difference_from_hub": 0
+       },
+       {
+        "rank": 3,
+        "name": "Aur\u00e9lien Djani Tchouam\u00e9ni",
+        "nickname": "Tchouam\u00e9ni",
+        "passes_made": 56,
+        "passes_received": 44,
+        "total_involvement": 100,
+        "difference_from_hub": 6
+       },
+       {
+        "rank": 4,
+        "name": "Jules Kound\u00e9",
+        "nickname": "Jules Kound\u00e9",
+        "passes_made": 52,
+        "passes_received": 47,
+        "total_involvement": 99,
+        "difference_from_hub": 7
+       },
+       {
+        "rank": 5,
+        "name": "Adrien Rabiot",
+        "nickname": "Adrien Rabiot",
+        "passes_made": 43,
+        "passes_received": 39,
+        "total_involvement": 82,
+        "difference_from_hub": 24
+       },
+       {
+        "rank": 6,
+        "name": "Theo Bernard Fran\u00e7ois Hern\u00e1ndez",
+        "nickname": "Hern\u00e1ndez",
+        "passes_made": 38,
+        "passes_received": 37,
+        "total_involvement": 75,
+        "difference_from_hub": 31
+       },
+       {
+        "rank": 7,
+        "name": "Kylian Mbapp\u00e9 Lottin",
+        "nickname": "Lottin",
+        "passes_made": 19,
+        "passes_received": 29,
+        "total_involvement": 48,
+        "difference_from_hub": 58
+       },
+       {
+        "rank": 8,
+        "name": "Antoine Griezmann",
+        "nickname": "Antoine Griezmann",
+        "passes_made": 21,
+        "passes_received": 23,
+        "total_involvement": 44,
+        "difference_from_hub": 62
+       },
+       {
+        "rank": 9,
+        "name": "Hugo Lloris",
+        "nickname": "Hugo Lloris",
+        "passes_made": 23,
+        "passes_received": 15,
+        "total_involvement": 38,
+        "difference_from_hub": 68
+       },
+       {
+        "rank": 10,
+        "name": "Marcus Thuram",
+        "nickname": "Marcus Thuram",
+        "passes_made": 15,
+        "passes_received": 23,
+        "total_involvement": 38,
+        "difference_from_hub": 68
+       }
+      ],
+      "orchestration": "France's passing network has a Thomas Grund centrality index of 12.66%, classifying it as Moderately Decentralized. The hub player is Dayotchanculle Upamecano with 106 total involvements out of 434 total passes among 17 players. The team has a fairly balanced distribution of passes, with the hub player being slightly more involved but not dominant.",
+      "total_passes": 434,
+      "num_players": 17,
+      "hub_betweenness": 0.2167
+     },
+     "passing_rate": {
+      "passes_per_minute": 7.89,
+      "total_passes": 434,
+      "estimated_possession_minutes": 55.0,
+      "possession_percentage": 43.7,
+      "rating": "Elite",
+      "interpretation": "High passing tempo indicates strong ball circulation",
+      "benchmark": {
+       "elite": 5.0,
+       "average": 3.5,
+       "description": "Higher passing tempo indicates stronger ball circulation"
+      }
+     },
+     "narrative": "France's passing network is Moderately Decentralized (centrality index: 12.66%). The team averages 7.89 passes per minute of possession (Elite). The orchestrator is Dayotchanculle Upamecano with 106 involvements."
+    },
+    "hub": {
+     "hub_player": "Dayotchanculle Upamecano",
+     "position": "Defender",
+     "metrics": {
+      "total_involvement": 106,
+      "passes_made": 51,
+      "passes_received": 55,
+      "degree_centrality": 0.688,
+      "betweenness_centrality": 0.217,
+      "eigenvector_centrality": 0.45,
+      "clustering_coefficient": 0.795,
+      "xt_generated": 0.0379,
+      "forward_pass_pct": 51.0
+     },
+     "strengths": 6,
+     "weaknesses": 0,
+     "mitigations": 3,
+     "narrative": "Dayotchanculle Upamecano is France's hub player with 106 total involvements (position: Defender, avg position: x=46, y=26). The team's Grund centralisation is 13% (moderately decentralized). They are moderately relied upon and should be monitored. Passing direction: 51.0% forward, 19.6% backward, 29.4% lateral. Avg pass distance: 25.8m. Under pressure: 0.0% accuracy vs 83.6% normally (0pp drop). xT contribution: 0.0379 total (32 positive, 17 negative passes). Most active zone: Deep LC (17 passes at 89.5% accuracy)."
+    }
+   }
+  },
+  "timeline_keys": [
+   "match_date",
+   "max_minute",
+   "teams",
+   "periods",
+   "insights",
+   "verdict"
+  ],
+  "verdict": {
+   "teams": {
+    "Argentina": {
+     "goals": 7,
+     "xg": 5.89,
+     "xg_diff": 1.11,
+     "total_xt": 1.236,
+     "passes": 560,
+     "pass_accuracy": 80.8,
+     "possession": 64.7,
+     "progressive_passes": 118,
+     "tempo": 37.3
+    },
+    "France": {
+     "goals": 5,
+     "xg": 5.41,
+     "xg_diff": -0.41,
+     "total_xt": 0.719,
+     "passes": 434,
+     "pass_accuracy": 76.1,
+     "possession": 54.5,
+     "progressive_passes": 59,
+     "tempo": 43.4
+    }
+   },
+   "comparison": {
+    "xg_advantage": "Argentina",
+    "xg_diff": 0.48,
+    "xt_advantage": "Argentina",
+    "xt_diff": 0.517,
+    "possession_advantage": "Argentina",
+    "possession_diff": 10.2,
+    "pass_advantage": "Argentina",
+    "pass_diff": 126
+   },
+   "verdict_type": "clinical_domination",
+   "verdict_headline": "Clinical Domination",
+   "justice_score": 100,
+   "narrative": "Argentina earned their victory with a commanding performance. Argentina's superior chance creation (xG: 5.89) was reflected in the scoreline. Argentina's buildup play generated consistent danger (1.24 xT). Argentina controlled the tempo with 65% possession. Argentina showed clinical finishing, scoring 7 from 5.89 xG.",
+   "winner": "Argentina",
+   "loser": "France",
+   "score": "7-5"
+  }
+ },
+ "2024-07-14_Euro_2024": {
+  "teams": [
+   "England",
+   "Spain"
+  ],
+  "teams_data": {
+   "England": {
+    "network": {
+     "team": "England",
+     "metrics": {
+      "num_players": 13,
+      "num_edges": 88,
+      "density": 0.564,
+      "hub": "Kyle Walker",
+      "hub_involvement": 67
+     },
+     "top5": [
+      {
+       "name": "Kyle Walker",
+       "nickname": "Kyle Walker",
+       "involvement": 67,
+       "made": 36,
+       "received": 31,
+       "degree": 0.75,
+       "betweenness": 0.2348,
+       "eigenvector": 0.4125,
+       "clustering": 0.8,
+       "xt": 0.0253,
+       "avg_x": 55.5,
+       "avg_y": 68.5
+      },
+      {
+       "name": "Declan Rice",
+       "nickname": "Declan Rice",
+       "involvement": 62,
+       "made": 32,
+       "received": 30,
+       "degree": 0.792,
+       "betweenness": 0.1515,
+       "eigenvector": 0.3944,
+       "clustering": 0.8,
+       "xt": 0.0054,
+       "avg_x": 55.6,
+       "avg_y": 38.5
+      },
+      {
+       "name": "John Stones",
+       "nickname": "John Stones",
+       "involvement": 57,
+       "made": 30,
+       "received": 27,
+       "degree": 0.625,
+       "betweenness": 0.1212,
+       "eigenvector": 0.3965,
+       "clustering": 0.9167,
+       "xt": 0.0357,
+       "avg_x": 39.6,
+       "avg_y": 52.9
+      },
+      {
+       "name": "Jude Bellingham",
+       "nickname": "Jude Bellingham",
+       "involvement": 55,
+       "made": 25,
+       "received": 30,
+       "degree": 0.833,
+       "betweenness": 0.2197,
+       "eigenvector": 0.3004,
+       "clustering": 0.6818,
+       "xt": 0.0645,
+       "avg_x": 67.4,
+       "avg_y": 25.9
+      },
+      {
+       "name": "Jordan Pickford",
+       "nickname": "Jordan Pickford",
+       "involvement": 49,
+       "made": 26,
+       "received": 23,
+       "degree": 0.667,
+       "betweenness": 0.1667,
+       "eigenvector": 0.3318,
+       "clustering": 0.7455,
+       "xt": 0.074,
+       "avg_x": 13.4,
+       "avg_y": 39.0
+      }
+     ]
+    },
+    "insights_keys": [
+     "team",
+     "match_date",
+     "period",
+     "vulnerabilities",
+     "strengths",
+     "key_moments",
+     "progressive_stats",
+     "pressure_stats",
+     "territorial",
+     "xt_stats",
+     "narrative",
+     "pass_sequences",
+     "ppda",
+     "pass_directions",
+     "field_tilt",
+     "team_shape",
+     "advanced_network",
+     "passing_stats",
+     "period_vulnerabilities",
+     "period_vulnerability_summary"
+    ],
+    "insights": {
+     "passing_stats": {
+      "total_attempted": 324,
+      "total_successful": 254,
+      "total_failed": 70,
+      "accuracy": 78.4,
+      "per_minute": 3.45
+     },
+     "progressive_stats": {
+      "count": 62,
+      "percentage": 24.4,
+      "total_successful": 254
+     },
+     "xt_stats": {
+      "total_xt": 0.4326,
+      "avg_xt_per_pass": 0.001703,
+      "positive_xt_passes": 127,
+      "negative_xt_passes": 112,
+      "top_xt_players": [
+       [
+        "Cole Palmer",
+        0.0918
+       ],
+       [
+        "Luke Shaw",
+        0.0818
+       ],
+       [
+        "Bukayo Saka",
+        0.0748
+       ],
+       [
+        "Jordan Pickford",
+        0.074
+       ],
+       [
+        "Jude Bellingham",
+        0.0645
+       ]
+      ],
+      "xt_by_zone": {
+       "middle": 0.0606,
+       "defensive": 0.099,
+       "attacking": 0.2731
+      },
+      "has_data": true
+     },
+     "ppda": {
+      "ppda": 22.67,
+      "opponent_passes": 272,
+      "defensive_actions": 12,
+      "interpretation": "Low pressing"
+     },
+     "field_tilt": {
+      "field_tilt": 30.8,
+      "team_final_third_passes": 52,
+      "opp_final_third_passes": 117,
+      "total_final_third_passes": 169,
+      "own_half": 117,
+      "opponent_half": 52,
+      "total": 169
+     },
+     "team_shape": {
+      "avg_width": 60.0,
+      "avg_depth": 70.8,
+      "avg_player_distance": 31.5,
+      "compactness": 3.18
+     },
+     "pressure_stats": {
+      "passes_under_pressure": 87,
+      "pressure_accuracy": 71.3,
+      "normal_accuracy": 78.4,
+      "pressure_resistance": -7.1
+     },
+     "pass_sequences": {
+      "avg_length": 3.68,
+      "max_length": 17,
+      "total_sequences": 69,
+      "distribution": {
+       "1-3": 47,
+       "4-6": 10,
+       "11+": 6,
+       "7-10": 6
+      }
+     },
+     "weakest_link": null
+    },
+    "grund": {
+     "team": "England",
+     "match_date": "2024-07-14_Euro_2024",
+     "period": null,
+     "centrality": {
+      "centrality_score": 0.10993337371290127,
+      "centrality_percentage": 10.99,
+      "style": "Highly Decentralized",
+      "style_description": "Ball shared evenly across the team",
+      "hub_player": {
+       "name": "Kyle Walker",
+       "nickname": "Kyle Walker",
+       "passes_made": 36,
+       "passes_received": 31,
+       "total_involvement": 67
+      },
+      "player_rankings": [
+       {
+        "rank": 1,
+        "name": "Kyle Walker",
+        "nickname": "Kyle Walker",
+        "passes_made": 36,
+        "passes_received": 31,
+        "total_involvement": 67,
+        "difference_from_hub": 0
+       },
+       {
+        "rank": 2,
+        "name": "Declan Rice",
+        "nickname": "Declan Rice",
+        "passes_made": 32,
+        "passes_received": 30,
+        "total_involvement": 62,
+        "difference_from_hub": 5
+       },
+       {
+        "rank": 3,
+        "name": "John Stones",
+        "nickname": "John Stones",
+        "passes_made": 30,
+        "passes_received": 27,
+        "total_involvement": 57,
+        "difference_from_hub": 10
+       },
+       {
+        "rank": 4,
+        "name": "Jude Bellingham",
+        "nickname": "Jude Bellingham",
+        "passes_made": 25,
+        "passes_received": 30,
+        "total_involvement": 55,
+        "difference_from_hub": 12
+       },
+       {
+        "rank": 5,
+        "name": "Jordan Pickford",
+        "nickname": "Jordan Pickford",
+        "passes_made": 26,
+        "passes_received": 23,
+        "total_involvement": 49,
+        "difference_from_hub": 18
+       },
+       {
+        "rank": 6,
+        "name": "Bukayo Saka",
+        "nickname": "Bukayo Saka",
+        "passes_made": 21,
+        "passes_received": 25,
+        "total_involvement": 46,
+        "difference_from_hub": 21
+       },
+       {
+        "rank": 7,
+        "name": "Marc Guehi",
+        "nickname": "Marc Guehi",
+        "passes_made": 23,
+        "passes_received": 19,
+        "total_involvement": 42,
+        "difference_from_hub": 25
+       },
+       {
+        "rank": 8,
+        "name": "Phil Foden",
+        "nickname": "Phil Foden",
+        "passes_made": 16,
+        "passes_received": 20,
+        "total_involvement": 36,
+        "difference_from_hub": 31
+       },
+       {
+        "rank": 9,
+        "name": "Luke Shaw",
+        "nickname": "Luke Shaw",
+        "passes_made": 19,
+        "passes_received": 15,
+        "total_involvement": 34,
+        "difference_from_hub": 33
+       },
+       {
+        "rank": 10,
+        "name": "Kobbie Mainoo",
+        "nickname": "Kobbie Mainoo",
+        "passes_made": 14,
+        "passes_received": 16,
+        "total_involvement": 30,
+        "difference_from_hub": 37
+       }
+      ],
+      "orchestration": "England's passing network has a Thomas Grund centrality index of 10.99%, classifying it as Highly Decentralized. The hub player is Kyle Walker with 67 total involvements out of 254 total passes among 13 players. The team distributes the ball very evenly, with no single player dominating possession. This makes them harder to disrupt by marking a single player.",
+      "total_passes": 254,
+      "num_players": 13,
+      "hub_betweenness": 0.2348
+     },
+     "passing_rate": {
+      "passes_per_minute": 8.13,
+      "total_passes": 254,
+      "estimated_possession_minutes": 31.3,
+      "possession_percentage": 32.9,
+      "rating": "Elite",
+      "interpretation": "High passing tempo indicates strong ball circulation",
+      "benchmark": {
+       "elite": 5.0,
+       "average": 3.5,
+       "description": "Higher passing tempo indicates stronger ball circulation"
+      }
+     },
+     "narrative": "England's passing network is Highly Decentralized (centrality index: 10.99%). The team averages 8.13 passes per minute of possession (Elite). The orchestrator is Kyle Walker with 67 involvements."
+    },
+    "hub": {
+     "hub_player": "Kyle Walker",
+     "position": "Midfielder",
+     "metrics": {
+      "total_involvement": 67,
+      "passes_made": 36,
+      "passes_received": 31,
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.235,
+      "eigenvector_centrality": 0.412,
+      "clustering_coefficient": 0.8,
+      "xt_generated": 0.0253,
+      "forward_pass_pct": 50.0
+     },
+     "strengths": 4,
+     "weaknesses": 0,
+     "mitigations": 3,
+     "narrative": "Kyle Walker is England's hub player with 67 total involvements (position: Midfielder, avg position: x=56, y=68). The team's Grund centralisation is 11% (highly decentralized). The team distributes play evenly, making it harder to target a single player. Passing direction: 50.0% forward, 36.1% backward, 13.9% lateral. Avg pass distance: 20.5m. xT contribution: 0.0253 total (20 positive, 14 negative passes). Most active zone: Mid R (10 passes at 100.0% accuracy)."
+    }
+   },
+   "Spain": {
+    "network": {
+     "team": "Spain",
+     "metrics": {
+      "num_players": 14,
+      "num_edges": 112,
+      "density": 0.615,
+      "hub": "Normand",
+      "hub_involvement": 157
+     },
+     "top5": [
+      {
+       "name": "Robin Aime Robert Le Normand",
+       "nickname": "Normand",
+       "involvement": 157,
+       "made": 80,
+       "received": 77,
+       "degree": 0.692,
+       "betweenness": 0.2692,
+       "eigenvector": 0.5125,
+       "clustering": 0.8,
+       "xt": 0.0901,
+       "avg_x": 46.1,
+       "avg_y": 54.8
+      },
+      {
+       "name": "Aymeric Laporte",
+       "nickname": "Aymeric Laporte",
+       "involvement": 153,
+       "made": 80,
+       "received": 73,
+       "degree": 0.692,
+       "betweenness": 0.1346,
+       "eigenvector": 0.4938,
+       "clustering": 0.8727,
+       "xt": 0.1131,
+       "avg_x": 48.3,
+       "avg_y": 23.1
+      },
+      {
+       "name": "Fabi\u00e1n Ruiz Pe\u00f1a",
+       "nickname": "Pe\u00f1a",
+       "involvement": 117,
+       "made": 56,
+       "received": 61,
+       "degree": 0.885,
+       "betweenness": 0.1987,
+       "eigenvector": 0.3236,
+       "clustering": 0.7727,
+       "xt": 0.0576,
+       "avg_x": 65.8,
+       "avg_y": 31.3
+      },
+      {
+       "name": "Daniel Carvajal Ramos",
+       "nickname": "Carvajal",
+       "involvement": 112,
+       "made": 63,
+       "received": 49,
+       "degree": 0.731,
+       "betweenness": 0.2564,
+       "eigenvector": 0.3224,
+       "clustering": 0.8,
+       "xt": 0.0929,
+       "avg_x": 65.6,
+       "avg_y": 71.9
+      },
+      {
+       "name": "Nicholas Williams Arthuer",
+       "nickname": "Arthuer",
+       "involvement": 88,
+       "made": 41,
+       "received": 47,
+       "degree": 0.731,
+       "betweenness": 0.0577,
+       "eigenvector": 0.2076,
+       "clustering": 0.9111,
+       "xt": 0.7042,
+       "avg_x": 83.0,
+       "avg_y": 22.2
+      }
+     ]
+    },
+    "insights_keys": [
+     "team",
+     "match_date",
+     "period",
+     "vulnerabilities",
+     "strengths",
+     "key_moments",
+     "progressive_stats",
+     "pressure_stats",
+     "territorial",
+     "xt_stats",
+     "narrative",
+     "pass_sequences",
+     "ppda",
+     "pass_directions",
+     "field_tilt",
+     "team_shape",
+     "advanced_network",
+     "passing_stats",
+     "period_vulnerabilities",
+     "period_vulnerability_summary"
+    ],
+    "insights": {
+     "passing_stats": {
+      "total_attempted": 593,
+      "total_successful": 518,
+      "total_failed": 75,
+      "accuracy": 87.4,
+      "per_minute": 6.31
+     },
+     "progressive_stats": {
+      "count": 118,
+      "percentage": 22.8,
+      "total_successful": 518
+     },
+     "xt_stats": {
+      "total_xt": 1.2594,
+      "avg_xt_per_pass": 0.002431,
+      "positive_xt_passes": 257,
+      "negative_xt_passes": 216,
+      "top_xt_players": [
+       [
+        "Arthuer",
+        0.7042
+       ],
+       [
+        "Saseta",
+        0.1736
+       ],
+       [
+        "Aymeric Laporte",
+        0.1131
+       ],
+       [
+        "Carvajal",
+        0.0929
+       ],
+       [
+        "Normand",
+        0.0901
+       ]
+      ],
+      "xt_by_zone": {
+       "defensive": 0.0949,
+       "middle": 0.2584,
+       "attacking": 0.9061
+      },
+      "has_data": true
+     },
+     "ppda": {
+      "ppda": 9.89,
+      "opponent_passes": 188,
+      "defensive_actions": 19,
+      "interpretation": "Moderate pressing"
+     },
+     "field_tilt": {
+      "field_tilt": 69.2,
+      "team_final_third_passes": 117,
+      "opp_final_third_passes": 52,
+      "total_final_third_passes": 169,
+      "own_half": 52,
+      "opponent_half": 117,
+      "total": 169
+     },
+     "team_shape": {
+      "avg_width": 62.1,
+      "avg_depth": 71.1,
+      "avg_player_distance": 30.5,
+      "compactness": 3.28
+     },
+     "pressure_stats": {
+      "passes_under_pressure": 89,
+      "pressure_accuracy": 83.1,
+      "normal_accuracy": 87.4,
+      "pressure_resistance": -4.2
+     },
+     "pass_sequences": {
+      "avg_length": 6.17,
+      "max_length": 39,
+      "total_sequences": 84,
+      "distribution": {
+       "1-3": 43,
+       "4-6": 14,
+       "11+": 15,
+       "7-10": 12
+      }
+     },
+     "weakest_link": null
+    },
+    "grund": {
+     "team": "Spain",
+     "match_date": "2024-07-14_Euro_2024",
+     "period": null,
+     "centrality": {
+      "centrality_score": 0.16023166023166024,
+      "centrality_percentage": 16.02,
+      "style": "Moderately Decentralized",
+      "style_description": "Good balance with slight hub tendencies",
+      "hub_player": {
+       "name": "Robin Aime Robert Le Normand",
+       "nickname": "Normand",
+       "passes_made": 80,
+       "passes_received": 77,
+       "total_involvement": 157
+      },
+      "player_rankings": [
+       {
+        "rank": 1,
+        "name": "Robin Aime Robert Le Normand",
+        "nickname": "Normand",
+        "passes_made": 80,
+        "passes_received": 77,
+        "total_involvement": 157,
+        "difference_from_hub": 0
+       },
+       {
+        "rank": 2,
+        "name": "Aymeric Laporte",
+        "nickname": "Aymeric Laporte",
+        "passes_made": 80,
+        "passes_received": 73,
+        "total_involvement": 153,
+        "difference_from_hub": 4
+       },
+       {
+        "rank": 3,
+        "name": "Fabi\u00e1n Ruiz Pe\u00f1a",
+        "nickname": "Pe\u00f1a",
+        "passes_made": 56,
+        "passes_received": 61,
+        "total_involvement": 117,
+        "difference_from_hub": 40
+       },
+       {
+        "rank": 4,
+        "name": "Daniel Carvajal Ramos",
+        "nickname": "Carvajal",
+        "passes_made": 63,
+        "passes_received": 49,
+        "total_involvement": 112,
+        "difference_from_hub": 45
+       },
+       {
+        "rank": 5,
+        "name": "Nicholas Williams Arthuer",
+        "nickname": "Arthuer",
+        "passes_made": 41,
+        "passes_received": 47,
+        "total_involvement": 88,
+        "difference_from_hub": 69
+       },
+       {
+        "rank": 6,
+        "name": "Marc Cucurella Saseta",
+        "nickname": "Saseta",
+        "passes_made": 42,
+        "passes_received": 32,
+        "total_involvement": 74,
+        "difference_from_hub": 83
+       },
+       {
+        "rank": 7,
+        "name": "Lamine Yamal Nasraoui Ebana",
+        "nickname": "Ebana",
+        "passes_made": 24,
+        "passes_received": 39,
+        "total_involvement": 63,
+        "difference_from_hub": 94
+       },
+       {
+        "rank": 8,
+        "name": "Unai Sim\u00f3n Mendibil",
+        "nickname": "Mendibil",
+        "passes_made": 34,
+        "passes_received": 28,
+        "total_involvement": 62,
+        "difference_from_hub": 95
+       },
+       {
+        "rank": 9,
+        "name": "Rodrigo Hern\u00e1ndez Cascante",
+        "nickname": "Cascante",
+        "passes_made": 29,
+        "passes_received": 27,
+        "total_involvement": 56,
+        "difference_from_hub": 101
+       },
+       {
+        "rank": 10,
+        "name": "Daniel Olmo Carvajal",
+        "nickname": "Carvajal",
+        "passes_made": 25,
+        "passes_received": 31,
+        "total_involvement": 56,
+        "difference_from_hub": 101
+       }
+      ],
+      "orchestration": "Spain's passing network has a Thomas Grund centrality index of 16.02%, classifying it as Moderately Decentralized. The hub player is Normand with 157 total involvements out of 518 total passes among 14 players. The team has a fairly balanced distribution of passes, with the hub player being slightly more involved but not dominant.",
+      "total_passes": 518,
+      "num_players": 14,
+      "hub_betweenness": 0.2692
+     },
+     "passing_rate": {
+      "passes_per_minute": 8.13,
+      "total_passes": 518,
+      "estimated_possession_minutes": 63.7,
+      "possession_percentage": 67.1,
+      "rating": "Elite",
+      "interpretation": "High passing tempo indicates strong ball circulation",
+      "benchmark": {
+       "elite": 5.0,
+       "average": 3.5,
+       "description": "Higher passing tempo indicates stronger ball circulation"
+      }
+     },
+     "narrative": "Spain's passing network is Moderately Decentralized (centrality index: 16.02%). The team averages 8.13 passes per minute of possession (Elite). The orchestrator is Normand with 157 involvements."
+    },
+    "hub": {
+     "hub_player": "Normand",
+     "position": "Defender",
+     "metrics": {
+      "total_involvement": 157,
+      "passes_made": 80,
+      "passes_received": 77,
+      "degree_centrality": 0.692,
+      "betweenness_centrality": 0.269,
+      "eigenvector_centrality": 0.512,
+      "clustering_coefficient": 0.8,
+      "xt_generated": 0.0901,
+      "forward_pass_pct": 52.5
+     },
+     "strengths": 7,
+     "weaknesses": 0,
+     "mitigations": 3,
+     "narrative": "Normand is Spain's hub player with 157 total involvements (position: Defender, avg position: x=46, y=55). The team's Grund centralisation is 16% (moderately decentralized). They are moderately relied upon and should be monitored. Passing direction: 52.5% forward, 17.5% backward, 30.0% lateral. Avg pass distance: 20.8m. Under pressure: 87.5% accuracy vs 96.1% normally (8.6pp drop). xT contribution: 0.0901 total (49 positive, 23 negative passes). Most active zone: Mid RC (19 passes at 100.0% accuracy)."
+    }
+   }
+  },
+  "timeline_keys": [
+   "match_date",
+   "max_minute",
+   "teams",
+   "periods",
+   "insights",
+   "verdict"
+  ],
+  "verdict": {
+   "teams": {
+    "Spain": {
+     "goals": 2,
+     "xg": 1.79,
+     "xg_diff": 0.21,
+     "total_xt": 1.258,
+     "passes": 518,
+     "pass_accuracy": 87.4,
+     "possession": 72.4,
+     "progressive_passes": 109,
+     "tempo": 37.0
+    },
+    "England": {
+     "goals": 1,
+     "xg": 0.73,
+     "xg_diff": 0.27,
+     "total_xt": 0.432,
+     "passes": 254,
+     "pass_accuracy": 78.4,
+     "possession": 43.7,
+     "progressive_passes": 47,
+     "tempo": 63.5
+    }
+   },
+   "comparison": {
+    "xg_advantage": "Spain",
+    "xg_diff": 1.06,
+    "xt_advantage": "Spain",
+    "xt_diff": 0.826,
+    "possession_advantage": "Spain",
+    "possession_diff": 28.7,
+    "pass_advantage": "Spain",
+    "pass_diff": 264
+   },
+   "verdict_type": "deserved_victory",
+   "verdict_headline": "Deserved Victory",
+   "justice_score": 100,
+   "narrative": "Spain earned their victory with a commanding performance. Spain's superior chance creation (xG: 1.79) was reflected in the scoreline. Spain's buildup play generated consistent danger (1.26 xT). Spain controlled the tempo with 72% possession.",
+   "winner": "Spain",
+   "loser": "England",
+   "score": "2-1"
+  }
+ },
+ "2024-07-15_Copa_America_2024": {
+  "teams": [
+   "Argentina",
+   "Colombia"
+  ],
+  "teams_data": {
+   "Argentina": {
+    "network": {
+     "team": "Argentina",
+     "metrics": {
+      "num_players": 16,
+      "num_edges": 133,
+      "density": 0.554,
+      "hub": "Enzo Fernandez",
+      "hub_involvement": 113
+     },
+     "top5": [
+      {
+       "name": "Enzo Fernandez",
+       "nickname": "Enzo Fernandez",
+       "involvement": 113,
+       "made": 60,
+       "received": 53,
+       "degree": 0.733,
+       "betweenness": 0.1714,
+       "eigenvector": 0.4328,
+       "clustering": 0.803,
+       "xt": -0.0621,
+       "avg_x": 47.9,
+       "avg_y": 41.7
+      },
+      {
+       "name": "Alexis Mac Allister",
+       "nickname": "Allister",
+       "involvement": 109,
+       "made": 55,
+       "received": 54,
+       "degree": 0.633,
+       "betweenness": 0.2095,
+       "eigenvector": 0.4352,
+       "clustering": 0.8545,
+       "xt": 0.0391,
+       "avg_x": 60.2,
+       "avg_y": 28.6
+      },
+      {
+       "name": "Rodrigo Javier De Paul",
+       "nickname": "Paul",
+       "involvement": 93,
+       "made": 46,
+       "received": 47,
+       "degree": 0.933,
+       "betweenness": 0.219,
+       "eigenvector": 0.3331,
+       "clustering": 0.6667,
+       "xt": 0.2204,
+       "avg_x": 58.6,
+       "avg_y": 61.9
+      },
+      {
+       "name": "Nicol\u00e1s Alejandro Tagliafico",
+       "nickname": "Tagliafico",
+       "involvement": 89,
+       "made": 46,
+       "received": 43,
+       "degree": 0.633,
+       "betweenness": 0.1714,
+       "eigenvector": 0.3776,
+       "clustering": 0.7308,
+       "xt": 0.0896,
+       "avg_x": 57.7,
+       "avg_y": 13.0
+      },
+      {
+       "name": "\u00c1ngel Fabi\u00e1n Di Mar\u00eda Hern\u00e1ndez",
+       "nickname": "Hern\u00e1ndez",
+       "involvement": 77,
+       "made": 34,
+       "received": 43,
+       "degree": 0.8,
+       "betweenness": 0.0857,
+       "eigenvector": 0.3079,
+       "clustering": 0.6667,
+       "xt": 0.6566,
+       "avg_x": 73.7,
+       "avg_y": 33.0
+      }
+     ]
+    },
+    "insights_keys": [
+     "team",
+     "match_date",
+     "period",
+     "vulnerabilities",
+     "strengths",
+     "key_moments",
+     "progressive_stats",
+     "pressure_stats",
+     "territorial",
+     "xt_stats",
+     "narrative",
+     "pass_sequences",
+     "ppda",
+     "pass_directions",
+     "field_tilt",
+     "team_shape",
+     "advanced_network",
+     "passing_stats",
+     "period_vulnerabilities",
+     "period_vulnerability_summary"
+    ],
+    "insights": {
+     "passing_stats": {
+      "total_attempted": 537,
+      "total_successful": 433,
+      "total_failed": 104,
+      "accuracy": 80.6,
+      "per_minute": 4.33
+     },
+     "progressive_stats": {
+      "count": 140,
+      "percentage": 32.3,
+      "total_successful": 433
+     },
+     "xt_stats": {
+      "total_xt": 1.5656,
+      "avg_xt_per_pass": 0.003616,
+      "positive_xt_passes": 234,
+      "negative_xt_passes": 168,
+      "top_xt_players": [
+       [
+        "Hern\u00e1ndez",
+        0.6566
+       ],
+       [
+        "Romero",
+        0.2592
+       ],
+       [
+        "Paul",
+        0.2204
+       ],
+       [
+        "Cuccittini",
+        0.1193
+       ],
+       [
+        "Montiel",
+        0.0974
+       ]
+      ],
+      "xt_by_zone": {
+       "middle": 0.3118,
+       "defensive": 0.1352,
+       "attacking": 1.1186
+      },
+      "has_data": true
+     },
+     "ppda": {
+      "ppda": 26.15,
+      "opponent_passes": 340,
+      "defensive_actions": 13,
+      "interpretation": "Low pressing"
+     },
+     "field_tilt": {
+      "field_tilt": 38.7,
+      "team_final_third_passes": 60,
+      "opp_final_third_passes": 95,
+      "total_final_third_passes": 155,
+      "own_half": 95,
+      "opponent_half": 60,
+      "total": 155
+     },
+     "team_shape": {
+      "avg_width": 57.8,
+      "avg_depth": 63.6,
+      "avg_player_distance": 30.6,
+      "compactness": 3.26
+     },
+     "pressure_stats": {
+      "passes_under_pressure": 73,
+      "pressure_accuracy": 67.1,
+      "normal_accuracy": 80.6,
+      "pressure_resistance": -13.5
+     },
+     "pass_sequences": {
+      "avg_length": 4.33,
+      "max_length": 27,
+      "total_sequences": 100,
+      "distribution": {
+       "4-6": 23,
+       "1-3": 57,
+       "7-10": 11,
+       "11+": 9
+      }
+     },
+     "weakest_link": null
+    },
+    "grund": {
+     "team": "Argentina",
+     "match_date": "2024-07-15_Copa_America_2024",
+     "period": null,
+     "centrality": {
+      "centrality_score": 0.1359699769053118,
+      "centrality_percentage": 13.6,
+      "style": "Moderately Decentralized",
+      "style_description": "Good balance with slight hub tendencies",
+      "hub_player": {
+       "name": "Enzo Fernandez",
+       "nickname": "Enzo Fernandez",
+       "passes_made": 60,
+       "passes_received": 53,
+       "total_involvement": 113
+      },
+      "player_rankings": [
+       {
+        "rank": 1,
+        "name": "Enzo Fernandez",
+        "nickname": "Enzo Fernandez",
+        "passes_made": 60,
+        "passes_received": 53,
+        "total_involvement": 113,
+        "difference_from_hub": 0
+       },
+       {
+        "rank": 2,
+        "name": "Alexis Mac Allister",
+        "nickname": "Allister",
+        "passes_made": 55,
+        "passes_received": 54,
+        "total_involvement": 109,
+        "difference_from_hub": 4
+       },
+       {
+        "rank": 3,
+        "name": "Rodrigo Javier De Paul",
+        "nickname": "Paul",
+        "passes_made": 46,
+        "passes_received": 47,
+        "total_involvement": 93,
+        "difference_from_hub": 20
+       },
+       {
+        "rank": 4,
+        "name": "Nicol\u00e1s Alejandro Tagliafico",
+        "nickname": "Tagliafico",
+        "passes_made": 46,
+        "passes_received": 43,
+        "total_involvement": 89,
+        "difference_from_hub": 24
+       },
+       {
+        "rank": 5,
+        "name": "\u00c1ngel Fabi\u00e1n Di Mar\u00eda Hern\u00e1ndez",
+        "nickname": "Hern\u00e1ndez",
+        "passes_made": 34,
+        "passes_received": 43,
+        "total_involvement": 77,
+        "difference_from_hub": 36
+       },
+       {
+        "rank": 6,
+        "name": "Cristian Gabriel Romero",
+        "nickname": "Romero",
+        "passes_made": 38,
+        "passes_received": 30,
+        "total_involvement": 68,
+        "difference_from_hub": 45
+       },
+       {
+        "rank": 7,
+        "name": "Lionel Andr\u00e9s Messi Cuccittini",
+        "nickname": "Cuccittini",
+        "passes_made": 27,
+        "passes_received": 34,
+        "total_involvement": 61,
+        "difference_from_hub": 52
+       },
+       {
+        "rank": 8,
+        "name": "Lisandro Mart\u00ednez",
+        "nickname": "Lisandro Mart\u00ednez",
+        "passes_made": 27,
+        "passes_received": 25,
+        "total_involvement": 52,
+        "difference_from_hub": 61
+       },
+       {
+        "rank": 9,
+        "name": "Dami\u00e1n Emiliano Mart\u00ednez",
+        "nickname": "Mart\u00ednez",
+        "passes_made": 33,
+        "passes_received": 15,
+        "total_involvement": 48,
+        "difference_from_hub": 65
+       },
+       {
+        "rank": 10,
+        "name": "Gonzalo Ariel Montiel",
+        "nickname": "Montiel",
+        "passes_made": 21,
+        "passes_received": 23,
+        "total_involvement": 44,
+        "difference_from_hub": 69
+       }
+      ],
+      "orchestration": "Argentina's passing network has a Thomas Grund centrality index of 13.6%, classifying it as Moderately Decentralized. The hub player is Enzo Fernandez with 113 total involvements out of 433 total passes among 16 players. The team has a fairly balanced distribution of passes, with the hub player being slightly more involved but not dominant.",
+      "total_passes": 433,
+      "num_players": 16,
+      "hub_betweenness": 0.1667
+     },
+     "passing_rate": {
+      "passes_per_minute": 7.9,
+      "total_passes": 433,
+      "estimated_possession_minutes": 54.8,
+      "possession_percentage": 43.9,
+      "rating": "Elite",
+      "interpretation": "High passing tempo indicates strong ball circulation",
+      "benchmark": {
+       "elite": 5.0,
+       "average": 3.5,
+       "description": "Higher passing tempo indicates stronger ball circulation"
+      }
+     },
+     "narrative": "Argentina's passing network is Moderately Decentralized (centrality index: 13.6%). The team averages 7.9 passes per minute of possession (Elite). The orchestrator is Enzo Fernandez with 113 involvements."
+    },
+    "hub": {
+     "hub_player": "Enzo Fernandez",
+     "position": "Defender",
+     "metrics": {
+      "total_involvement": 113,
+      "passes_made": 60,
+      "passes_received": 53,
+      "degree_centrality": 0.733,
+      "betweenness_centrality": 0.167,
+      "eigenvector_centrality": 0.433,
+      "clustering_coefficient": 0.803,
+      "xt_generated": -0.0621,
+      "forward_pass_pct": 40.0
+     },
+     "strengths": 5,
+     "weaknesses": 4,
+     "mitigations": 4,
+     "narrative": "Enzo Fernandez is Argentina's hub player with 113 total involvements (position: Defender, avg position: x=48, y=42). The team's Grund centralisation is 14% (moderately decentralized). They are moderately relied upon and should be monitored. Passing direction: 40.0% forward, 20.0% backward, 40.0% lateral. Avg pass distance: 20.0m. Under pressure: 83.3% accuracy vs 94.8% normally (11.5pp drop). xT contribution: -0.0621 total (29 positive, 26 negative passes). Most active zone: Deep C (16 passes at 100.0% accuracy)."
+    }
+   },
+   "Colombia": {
+    "network": {
+     "team": "Colombia",
+     "metrics": {
+      "num_players": 17,
+      "num_edges": 143,
+      "density": 0.526,
+      "hub": "Mina",
+      "hub_involvement": 145
+     },
+     "top5": [
+      {
+       "name": "Davinson S\u00e1nchez Mina",
+       "nickname": "Mina",
+       "involvement": 145,
+       "made": 70,
+       "received": 75,
+       "degree": 0.75,
+       "betweenness": 0.3708,
+       "eigenvector": 0.4079,
+       "clustering": 0.6154,
+       "xt": 0.1643,
+       "avg_x": 44.1,
+       "avg_y": 58.7
+      },
+      {
+       "name": "Jefferson Andr\u00e9s Lerma Sol\u00eds",
+       "nickname": "Sol\u00eds",
+       "involvement": 111,
+       "made": 58,
+       "received": 53,
+       "degree": 0.656,
+       "betweenness": 0.0292,
+       "eigenvector": 0.3772,
+       "clustering": 0.7273,
+       "xt": 0.3076,
+       "avg_x": 60.1,
+       "avg_y": 33.1
+      },
+      {
+       "name": "Johan Andr\u00e9s Mojica Palacio",
+       "nickname": "Palacio",
+       "involvement": 110,
+       "made": 56,
+       "received": 54,
+       "degree": 0.688,
+       "betweenness": 0.1375,
+       "eigenvector": 0.3421,
+       "clustering": 0.6026,
+       "xt": 0.0981,
+       "avg_x": 61.1,
+       "avg_y": 7.8
+      },
+      {
+       "name": "James David Rodr\u00edguez Rubio",
+       "nickname": "Rubio",
+       "involvement": 107,
+       "made": 52,
+       "received": 55,
+       "degree": 0.594,
+       "betweenness": 0.1042,
+       "eigenvector": 0.3483,
+       "clustering": 0.8667,
+       "xt": 0.7751,
+       "avg_x": 70.7,
+       "avg_y": 36.0
+      },
+      {
+       "name": "Carlos Eccehomo Cuesta Figueroa",
+       "nickname": "Figueroa",
+       "involvement": 101,
+       "made": 52,
+       "received": 49,
+       "degree": 0.625,
+       "betweenness": 0.0875,
+       "eigenvector": 0.3502,
+       "clustering": 0.7121,
+       "xt": 0.0402,
+       "avg_x": 36.6,
+       "avg_y": 27.9
+      }
+     ]
+    },
+    "insights_keys": [
+     "team",
+     "match_date",
+     "period",
+     "vulnerabilities",
+     "strengths",
+     "key_moments",
+     "progressive_stats",
+     "pressure_stats",
+     "territorial",
+     "xt_stats",
+     "narrative",
+     "pass_sequences",
+     "ppda",
+     "pass_directions",
+     "field_tilt",
+     "team_shape",
+     "advanced_network",
+     "passing_stats",
+     "period_vulnerabilities",
+     "period_vulnerability_summary"
+    ],
+    "insights": {
+     "passing_stats": {
+      "total_attempted": 659,
+      "total_successful": 554,
+      "total_failed": 105,
+      "accuracy": 84.1,
+      "per_minute": 5.31
+     },
+     "progressive_stats": {
+      "count": 146,
+      "percentage": 26.4,
+      "total_successful": 554
+     },
+     "xt_stats": {
+      "total_xt": 1.9701,
+      "avg_xt_per_pass": 0.003556,
+      "positive_xt_passes": 297,
+      "negative_xt_passes": 221,
+      "top_xt_players": [
+       [
+        "Rubio",
+        0.7751
+       ],
+       [
+        "Sol\u00eds",
+        0.3076
+       ],
+       [
+        "Hern\u00e1ndez",
+        0.1904
+       ],
+       [
+        "Mina",
+        0.1643
+       ],
+       [
+        "Naranjo",
+        0.1172
+       ]
+      ],
+      "xt_by_zone": {
+       "middle": 0.4249,
+       "defensive": 0.102,
+       "attacking": 1.4432
+      },
+      "has_data": true
+     },
+     "ppda": {
+      "ppda": 15.86,
+      "opponent_passes": 333,
+      "defensive_actions": 21,
+      "interpretation": "Low pressing"
+     },
+     "field_tilt": {
+      "field_tilt": 61.3,
+      "team_final_third_passes": 95,
+      "opp_final_third_passes": 60,
+      "total_final_third_passes": 155,
+      "own_half": 60,
+      "opponent_half": 95,
+      "total": 155
+     },
+     "team_shape": {
+      "avg_width": 63.3,
+      "avg_depth": 73.8,
+      "avg_player_distance": 30.2,
+      "compactness": 3.31
+     },
+     "pressure_stats": {
+      "passes_under_pressure": 87,
+      "pressure_accuracy": 69.0,
+      "normal_accuracy": 84.1,
+      "pressure_resistance": -15.1
+     },
+     "pass_sequences": {
+      "avg_length": 4.99,
+      "max_length": 22,
+      "total_sequences": 111,
+      "distribution": {
+       "4-6": 21,
+       "1-3": 59,
+       "11+": 19,
+       "7-10": 12
+      }
+     },
+     "weakest_link": null
+    },
+    "grund": {
+     "team": "Colombia",
+     "match_date": "2024-07-15_Copa_America_2024",
+     "period": null,
+     "centrality": {
+      "centrality_score": 0.1458908473136547,
+      "centrality_percentage": 14.59,
+      "style": "Moderately Decentralized",
+      "style_description": "Good balance with slight hub tendencies",
+      "hub_player": {
+       "name": "Davinson S\u00e1nchez Mina",
+       "nickname": "Mina",
+       "passes_made": 70,
+       "passes_received": 76,
+       "total_involvement": 146
+      },
+      "player_rankings": [
+       {
+        "rank": 1,
+        "name": "Davinson S\u00e1nchez Mina",
+        "nickname": "Mina",
+        "passes_made": 70,
+        "passes_received": 76,
+        "total_involvement": 146,
+        "difference_from_hub": 0
+       },
+       {
+        "rank": 2,
+        "name": "Jefferson Andr\u00e9s Lerma Sol\u00eds",
+        "nickname": "Sol\u00eds",
+        "passes_made": 58,
+        "passes_received": 53,
+        "total_involvement": 111,
+        "difference_from_hub": 35
+       },
+       {
+        "rank": 3,
+        "name": "Johan Andr\u00e9s Mojica Palacio",
+        "nickname": "Palacio",
+        "passes_made": 56,
+        "passes_received": 54,
+        "total_involvement": 110,
+        "difference_from_hub": 36
+       },
+       {
+        "rank": 4,
+        "name": "James David Rodr\u00edguez Rubio",
+        "nickname": "Rubio",
+        "passes_made": 52,
+        "passes_received": 55,
+        "total_involvement": 107,
+        "difference_from_hub": 39
+       },
+       {
+        "rank": 5,
+        "name": "Carlos Eccehomo Cuesta Figueroa",
+        "nickname": "Figueroa",
+        "passes_made": 52,
+        "passes_received": 49,
+        "total_involvement": 101,
+        "difference_from_hub": 45
+       },
+       {
+        "rank": 6,
+        "name": "Jhon Adolfo Arias Andrade",
+        "nickname": "Andrade",
+        "passes_made": 49,
+        "passes_received": 49,
+        "total_involvement": 98,
+        "difference_from_hub": 48
+       },
+       {
+        "rank": 7,
+        "name": "Richard Rios Montoya",
+        "nickname": "Montoya",
+        "passes_made": 39,
+        "passes_received": 39,
+        "total_involvement": 78,
+        "difference_from_hub": 68
+       },
+       {
+        "rank": 8,
+        "name": "Santiago Arias Naranjo",
+        "nickname": "Naranjo",
+        "passes_made": 40,
+        "passes_received": 32,
+        "total_involvement": 72,
+        "difference_from_hub": 74
+       },
+       {
+        "rank": 9,
+        "name": "Luis Fernando D\u00edaz Marulanda",
+        "nickname": "Marulanda",
+        "passes_made": 24,
+        "passes_received": 32,
+        "total_involvement": 56,
+        "difference_from_hub": 90
+       },
+       {
+        "rank": 10,
+        "name": "Camilo Andr\u00e9s Vargas Gil",
+        "nickname": "Gil",
+        "passes_made": 36,
+        "passes_received": 19,
+        "total_involvement": 55,
+        "difference_from_hub": 91
+       }
+      ],
+      "orchestration": "Colombia's passing network has a Thomas Grund centrality index of 14.59%, classifying it as Moderately Decentralized. The hub player is Mina with 146 total involvements out of 554 total passes among 17 players. The team has a fairly balanced distribution of passes, with the hub player being slightly more involved but not dominant.",
+      "total_passes": 554,
+      "num_players": 17,
+      "hub_betweenness": 0.3708
+     },
+     "passing_rate": {
+      "passes_per_minute": 7.9,
+      "total_passes": 554,
+      "estimated_possession_minutes": 70.2,
+      "possession_percentage": 56.1,
+      "rating": "Elite",
+      "interpretation": "High passing tempo indicates strong ball circulation",
+      "benchmark": {
+       "elite": 5.0,
+       "average": 3.5,
+       "description": "Higher passing tempo indicates stronger ball circulation"
+      }
+     },
+     "narrative": "Colombia's passing network is Moderately Decentralized (centrality index: 14.59%). The team averages 7.9 passes per minute of possession (Elite). The orchestrator is Mina with 146 involvements."
+    },
+    "hub": {
+     "hub_player": "Mina",
+     "position": "Defender",
+     "metrics": {
+      "total_involvement": 146,
+      "passes_made": 70,
+      "passes_received": 76,
+      "degree_centrality": 0.781,
+      "betweenness_centrality": 0.371,
+      "eigenvector_centrality": 0.408,
+      "clustering_coefficient": 0.571,
+      "xt_generated": 0.1643,
+      "forward_pass_pct": 65.7
+     },
+     "strengths": 8,
+     "weaknesses": 3,
+     "mitigations": 5,
+     "narrative": "Mina is Colombia's hub player with 146 total involvements (position: Defender, avg position: x=44, y=59). The team's Grund centralisation is 15% (moderately decentralized). They are moderately relied upon and should be monitored. Passing direction: 65.7% forward, 15.7% backward, 18.6% lateral. Avg pass distance: 22.4m. Under pressure: 28.6% accuracy vs 86.1% normally (57.5pp drop). xT contribution: 0.1643 total (45 positive, 22 negative passes). Most active zone: Deep RC (21 passes at 84.0% accuracy)."
+    }
+   }
+  },
+  "timeline_keys": [
+   "match_date",
+   "max_minute",
+   "teams",
+   "periods",
+   "insights",
+   "verdict"
+  ],
+  "verdict": {
+   "teams": {
+    "Argentina": {
+     "goals": 1,
+     "xg": 1.08,
+     "xg_diff": -0.08,
+     "total_xt": 1.567,
+     "passes": 433,
+     "pass_accuracy": 80.6,
+     "possession": 51.6,
+     "progressive_passes": 54,
+     "tempo": 54.1
+    },
+    "Colombia": {
+     "goals": 0,
+     "xg": 0.99,
+     "xg_diff": -0.99,
+     "total_xt": 1.972,
+     "passes": 554,
+     "pass_accuracy": 84.1,
+     "possession": 62.1,
+     "progressive_passes": 89,
+     "tempo": 34.6
+    }
+   },
+   "comparison": {
+    "xg_advantage": "Even",
+    "xg_diff": 0.09,
+    "xt_advantage": "Colombia",
+    "xt_diff": 0.405,
+    "possession_advantage": "Colombia",
+    "possession_diff": 10.5,
+    "pass_advantage": "Colombia",
+    "pass_diff": 121
+   },
+   "verdict_type": "against_the_odds",
+   "verdict_headline": "Against The Odds",
+   "justice_score": 25,
+   "narrative": "Argentina defied the statistics to claim victory. Colombia built more threatening attacks (1.97 xT) but Argentina's efficiency proved decisive. Despite Colombia's possession dominance (62%), Argentina made their moments count. Colombia will rue their wastefulness, managing only 0 goals from 0.99 xG.",
+   "winner": "Argentina",
+   "loser": "Colombia",
+   "score": "1-0"
+  }
+ },
+ "2023-08-20_Women's_World_Cup_20": {
+  "teams": [
+   "England Women's",
+   "Spain Women's"
+  ],
+  "teams_data": {
+   "England Women's": {
+    "network": {
+     "team": "England Women's",
+     "metrics": {
+      "num_players": 14,
+      "num_edges": 110,
+      "density": 0.604,
+      "hub": "Keira Walsh",
+      "hub_involvement": 80
+     },
+     "top5": [
+      {
+       "name": "Keira Walsh",
+       "nickname": "Keira Walsh",
+       "involvement": 80,
+       "made": 41,
+       "received": 39,
+       "degree": 0.846,
+       "betweenness": 0.3013,
+       "eigenvector": 0.4375,
+       "clustering": 0.7436,
+       "xt": 0.1258,
+       "avg_x": 53.2,
+       "avg_y": 45.6
+      },
+      {
+       "name": "Lucy Bronze",
+       "nickname": "Lucy Bronze",
+       "involvement": 79,
+       "made": 43,
+       "received": 36,
+       "degree": 0.846,
+       "betweenness": 0.2564,
+       "eigenvector": 0.3991,
+       "clustering": 0.8182,
+       "xt": 0.2812,
+       "avg_x": 60.1,
+       "avg_y": 69.8
+      },
+      {
+       "name": "Alex Greenwood",
+       "nickname": "Alex Greenwood",
+       "involvement": 74,
+       "made": 40,
+       "received": 34,
+       "degree": 0.923,
+       "betweenness": 0.2949,
+       "eigenvector": 0.4004,
+       "clustering": 0.7436,
+       "xt": 0.0818,
+       "avg_x": 44.3,
+       "avg_y": 22.8
+      },
+      {
+       "name": "Jessica Carter",
+       "nickname": "Jessica Carter",
+       "involvement": 57,
+       "made": 31,
+       "received": 26,
+       "degree": 0.692,
+       "betweenness": 0.0577,
+       "eigenvector": 0.3452,
+       "clustering": 0.7818,
+       "xt": 0.0275,
+       "avg_x": 50.6,
+       "avg_y": 37.1
+      },
+      {
+       "name": "Millie Bright",
+       "nickname": "Millie Bright",
+       "involvement": 53,
+       "made": 25,
+       "received": 28,
+       "degree": 0.769,
+       "betweenness": 0.0,
+       "eigenvector": 0.3247,
+       "clustering": 0.8182,
+       "xt": 0.1071,
+       "avg_x": 40.2,
+       "avg_y": 48.6
+      }
+     ]
+    },
+    "insights_keys": [
+     "team",
+     "match_date",
+     "period",
+     "vulnerabilities",
+     "strengths",
+     "key_moments",
+     "progressive_stats",
+     "pressure_stats",
+     "territorial",
+     "xt_stats",
+     "narrative",
+     "pass_sequences",
+     "ppda",
+     "pass_directions",
+     "field_tilt",
+     "team_shape",
+     "advanced_network",
+     "passing_stats",
+     "period_vulnerabilities",
+     "period_vulnerability_summary"
+    ],
+    "insights": {
+     "passing_stats": {
+      "total_attempted": 408,
+      "total_successful": 293,
+      "total_failed": 115,
+      "accuracy": 71.8,
+      "per_minute": 3.92
+     },
+     "progressive_stats": {
+      "count": 88,
+      "percentage": 30.0,
+      "total_successful": 293
+     },
+     "xt_stats": {
+      "total_xt": 0.8803,
+      "avg_xt_per_pass": 0.003004,
+      "positive_xt_passes": 158,
+      "negative_xt_passes": 114,
+      "top_xt_players": [
+       [
+        "Lucy Bronze",
+        0.2812
+       ],
+       [
+        "Chloe Kelly",
+        0.2014
+       ],
+       [
+        "Keira Walsh",
+        0.1258
+       ],
+       [
+        "Millie Bright",
+        0.1071
+       ],
+       [
+        "Alex Greenwood",
+        0.0818
+       ]
+      ],
+      "xt_by_zone": {
+       "middle": 0.236,
+       "defensive": 0.109,
+       "attacking": 0.5352
+      },
+      "has_data": true
+     },
+     "ppda": {
+      "ppda": 12.95,
+      "opponent_passes": 272,
+      "defensive_actions": 21,
+      "interpretation": "Low pressing"
+     },
+     "field_tilt": {
+      "field_tilt": 35.0,
+      "team_final_third_passes": 56,
+      "opp_final_third_passes": 104,
+      "total_final_third_passes": 160,
+      "own_half": 104,
+      "opponent_half": 56,
+      "total": 160
+     },
+     "team_shape": {
+      "avg_width": 59.5,
+      "avg_depth": 72.4,
+      "avg_player_distance": 32.1,
+      "compactness": 3.11
+     },
+     "pressure_stats": {
+      "passes_under_pressure": 89,
+      "pressure_accuracy": 66.3,
+      "normal_accuracy": 71.8,
+      "pressure_resistance": -5.5
+     },
+     "pass_sequences": {
+      "avg_length": 3.18,
+      "max_length": 9,
+      "total_sequences": 92,
+      "distribution": {
+       "1-3": 62,
+       "7-10": 11,
+       "4-6": 19
+      }
+     },
+     "weakest_link": null
+    },
+    "grund": {
+     "team": "England Women's",
+     "match_date": "2023-08-20_Women's_World_Cup_20",
+     "period": null,
+     "centrality": {
+      "centrality_score": 0.13018039980497317,
+      "centrality_percentage": 13.02,
+      "style": "Moderately Decentralized",
+      "style_description": "Good balance with slight hub tendencies",
+      "hub_player": {
+       "name": "Keira Walsh",
+       "nickname": "Keira Walsh",
+       "passes_made": 41,
+       "passes_received": 39,
+       "total_involvement": 80
+      },
+      "player_rankings": [
+       {
+        "rank": 1,
+        "name": "Keira Walsh",
+        "nickname": "Keira Walsh",
+        "passes_made": 41,
+        "passes_received": 39,
+        "total_involvement": 80,
+        "difference_from_hub": 0
+       },
+       {
+        "rank": 2,
+        "name": "Lucy Bronze",
+        "nickname": "Lucy Bronze",
+        "passes_made": 43,
+        "passes_received": 36,
+        "total_involvement": 79,
+        "difference_from_hub": 1
+       },
+       {
+        "rank": 3,
+        "name": "Alex Greenwood",
+        "nickname": "Alex Greenwood",
+        "passes_made": 40,
+        "passes_received": 34,
+        "total_involvement": 74,
+        "difference_from_hub": 6
+       },
+       {
+        "rank": 4,
+        "name": "Jessica Carter",
+        "nickname": "Jessica Carter",
+        "passes_made": 31,
+        "passes_received": 26,
+        "total_involvement": 57,
+        "difference_from_hub": 23
+       },
+       {
+        "rank": 5,
+        "name": "Millie Bright",
+        "nickname": "Millie Bright",
+        "passes_made": 25,
+        "passes_received": 28,
+        "total_involvement": 53,
+        "difference_from_hub": 27
+       },
+       {
+        "rank": 6,
+        "name": "Georgia Stanway",
+        "nickname": "Georgia Stanway",
+        "passes_made": 21,
+        "passes_received": 17,
+        "total_involvement": 38,
+        "difference_from_hub": 42
+       },
+       {
+        "rank": 7,
+        "name": "Lauren Hemp",
+        "nickname": "Lauren Hemp",
+        "passes_made": 11,
+        "passes_received": 25,
+        "total_involvement": 36,
+        "difference_from_hub": 44
+       },
+       {
+        "rank": 8,
+        "name": "Ella Toone",
+        "nickname": "Ella Toone",
+        "passes_made": 19,
+        "passes_received": 16,
+        "total_involvement": 35,
+        "difference_from_hub": 45
+       },
+       {
+        "rank": 9,
+        "name": "Mary Alexandra Earps",
+        "nickname": "Earps",
+        "passes_made": 21,
+        "passes_received": 9,
+        "total_involvement": 30,
+        "difference_from_hub": 50
+       },
+       {
+        "rank": 10,
+        "name": "Chloe Kelly",
+        "nickname": "Chloe Kelly",
+        "passes_made": 9,
+        "passes_received": 20,
+        "total_involvement": 29,
+        "difference_from_hub": 51
+       }
+      ],
+      "orchestration": "England Women's's passing network has a Thomas Grund centrality index of 13.02%, classifying it as Moderately Decentralized. The hub player is Keira Walsh with 80 total involvements out of 293 total passes among 14 players. The team has a fairly balanced distribution of passes, with the hub player being slightly more involved but not dominant.",
+      "total_passes": 293,
+      "num_players": 14,
+      "hub_betweenness": 0.3013
+     },
+     "passing_rate": {
+      "passes_per_minute": 6.8,
+      "total_passes": 293,
+      "estimated_possession_minutes": 43.1,
+      "possession_percentage": 41.0,
+      "rating": "Elite",
+      "interpretation": "High passing tempo indicates strong ball circulation",
+      "benchmark": {
+       "elite": 5.0,
+       "average": 3.5,
+       "description": "Higher passing tempo indicates stronger ball circulation"
+      }
+     },
+     "narrative": "England Women's's passing network is Moderately Decentralized (centrality index: 13.02%). The team averages 6.8 passes per minute of possession (Elite). The orchestrator is Keira Walsh with 80 involvements."
+    },
+    "hub": {
+     "hub_player": "Keira Walsh",
+     "position": "Midfielder",
+     "metrics": {
+      "total_involvement": 80,
+      "passes_made": 41,
+      "passes_received": 39,
+      "degree_centrality": 0.846,
+      "betweenness_centrality": 0.301,
+      "eigenvector_centrality": 0.438,
+      "clustering_coefficient": 0.744,
+      "xt_generated": 0.1258,
+      "forward_pass_pct": 41.5
+     },
+     "strengths": 7,
+     "weaknesses": 1,
+     "mitigations": 4,
+     "narrative": "Keira Walsh is England Women's's hub player with 80 total involvements (position: Midfielder, avg position: x=53, y=46). The team's Grund centralisation is 13% (moderately decentralized). They are moderately relied upon and should be monitored. Passing direction: 41.5% forward, 39.0% backward, 19.5% lateral. Avg pass distance: 20.1m. Under pressure: 81.8% accuracy vs 97.0% normally (15.2pp drop). xT contribution: 0.1258 total (21 positive, 19 negative passes). Most active zone: Deep C (10 passes at 100.0% accuracy)."
+    }
+   },
+   "Spain Women's": {
+    "network": {
+     "team": "Spain Women's",
+     "metrics": {
+      "num_players": 14,
+      "num_edges": 102,
+      "density": 0.56,
+      "hub": "Garc\u00eda",
+      "hub_involvement": 115
+     },
+     "top5": [
+      {
+       "name": "Olga  Carmona Garc\u00eda",
+       "nickname": "Garc\u00eda",
+       "involvement": 115,
+       "made": 61,
+       "received": 54,
+       "degree": 0.731,
+       "betweenness": 0.391,
+       "eigenvector": 0.4592,
+       "clustering": 0.6667,
+       "xt": 0.2595,
+       "avg_x": 51.9,
+       "avg_y": 5.0
+      },
+      {
+       "name": "Mar\u00eda Francesca Caldentey Oliver",
+       "nickname": "Oliver",
+       "involvement": 111,
+       "made": 55,
+       "received": 56,
+       "degree": 0.692,
+       "betweenness": 0.0962,
+       "eigenvector": 0.4627,
+       "clustering": 0.8,
+       "xt": 0.222,
+       "avg_x": 64.1,
+       "avg_y": 13.1
+      },
+      {
+       "name": "Jennifer Hermoso Fuentes",
+       "nickname": "Fuentes",
+       "involvement": 93,
+       "made": 39,
+       "received": 54,
+       "degree": 0.731,
+       "betweenness": 0.1026,
+       "eigenvector": 0.3766,
+       "clustering": 0.6818,
+       "xt": 0.0119,
+       "avg_x": 63.4,
+       "avg_y": 25.2
+      },
+      {
+       "name": "Aitana Bonmati Conca",
+       "nickname": "Conca",
+       "involvement": 83,
+       "made": 41,
+       "received": 42,
+       "degree": 0.769,
+       "betweenness": 0.2949,
+       "eigenvector": 0.2658,
+       "clustering": 0.7556,
+       "xt": 0.0381,
+       "avg_x": 78.5,
+       "avg_y": 51.6
+      },
+      {
+       "name": "Laia Codina Panedas",
+       "nickname": "Panedas",
+       "involvement": 81,
+       "made": 44,
+       "received": 37,
+       "degree": 0.5,
+       "betweenness": 0.2051,
+       "eigenvector": 0.2949,
+       "clustering": 0.8214,
+       "xt": 0.0284,
+       "avg_x": 30.1,
+       "avg_y": 22.8
+      }
+     ]
+    },
+    "insights_keys": [
+     "team",
+     "match_date",
+     "period",
+     "vulnerabilities",
+     "strengths",
+     "key_moments",
+     "progressive_stats",
+     "pressure_stats",
+     "territorial",
+     "xt_stats",
+     "narrative",
+     "pass_sequences",
+     "ppda",
+     "pass_directions",
+     "field_tilt",
+     "team_shape",
+     "advanced_network",
+     "passing_stats",
+     "period_vulnerabilities",
+     "period_vulnerability_summary"
+    ],
+    "insights": {
+     "passing_stats": {
+      "total_attempted": 519,
+      "total_successful": 421,
+      "total_failed": 98,
+      "accuracy": 81.1,
+      "per_minute": 4.99
+     },
+     "progressive_stats": {
+      "count": 98,
+      "percentage": 23.3,
+      "total_successful": 421
+     },
+     "xt_stats": {
+      "total_xt": 1.1731,
+      "avg_xt_per_pass": 0.002787,
+      "positive_xt_passes": 207,
+      "negative_xt_passes": 139,
+      "top_xt_players": [
+       [
+        "Due\u00f1as",
+        0.3328
+       ],
+       [
+        "Garc\u00eda",
+        0.2595
+       ],
+       [
+        "Oliver",
+        0.222
+       ],
+       [
+        "Pascual",
+        0.1995
+       ],
+       [
+        "Hernandez",
+        0.0765
+       ]
+      ],
+      "xt_by_zone": {
+       "defensive": 0.1156,
+       "middle": 0.2569,
+       "attacking": 0.8007
+      },
+      "has_data": true
+     },
+     "ppda": {
+      "ppda": 13.0,
+      "opponent_passes": 234,
+      "defensive_actions": 18,
+      "interpretation": "Low pressing"
+     },
+     "field_tilt": {
+      "field_tilt": 65.0,
+      "team_final_third_passes": 104,
+      "opp_final_third_passes": 56,
+      "total_final_third_passes": 160,
+      "own_half": 56,
+      "opponent_half": 104,
+      "total": 160
+     },
+     "team_shape": {
+      "avg_width": 68.1,
+      "avg_depth": 73.2,
+      "avg_player_distance": 38.5,
+      "compactness": 2.6
+     },
+     "pressure_stats": {
+      "passes_under_pressure": 130,
+      "pressure_accuracy": 80.0,
+      "normal_accuracy": 81.1,
+      "pressure_resistance": -1.1
+     },
+     "pass_sequences": {
+      "avg_length": 3.83,
+      "max_length": 21,
+      "total_sequences": 110,
+      "distribution": {
+       "1-3": 68,
+       "7-10": 13,
+       "4-6": 23,
+       "11+": 6
+      }
+     },
+     "weakest_link": null
+    },
+    "grund": {
+     "team": "Spain Women's",
+     "match_date": "2023-08-20_Women's_World_Cup_20",
+     "period": null,
+     "centrality": {
+      "centrality_score": 0.13030200203596878,
+      "centrality_percentage": 13.03,
+      "style": "Moderately Decentralized",
+      "style_description": "Good balance with slight hub tendencies",
+      "hub_player": {
+       "name": "Olga  Carmona Garc\u00eda",
+       "nickname": "Garc\u00eda",
+       "passes_made": 61,
+       "passes_received": 54,
+       "total_involvement": 115
+      },
+      "player_rankings": [
+       {
+        "rank": 1,
+        "name": "Olga  Carmona Garc\u00eda",
+        "nickname": "Garc\u00eda",
+        "passes_made": 61,
+        "passes_received": 54,
+        "total_involvement": 115,
+        "difference_from_hub": 0
+       },
+       {
+        "rank": 2,
+        "name": "Mar\u00eda Francesca Caldentey Oliver",
+        "nickname": "Oliver",
+        "passes_made": 55,
+        "passes_received": 56,
+        "total_involvement": 111,
+        "difference_from_hub": 4
+       },
+       {
+        "rank": 3,
+        "name": "Jennifer Hermoso Fuentes",
+        "nickname": "Fuentes",
+        "passes_made": 39,
+        "passes_received": 54,
+        "total_involvement": 93,
+        "difference_from_hub": 22
+       },
+       {
+        "rank": 4,
+        "name": "Aitana Bonmati Conca",
+        "nickname": "Conca",
+        "passes_made": 41,
+        "passes_received": 42,
+        "total_involvement": 83,
+        "difference_from_hub": 32
+       },
+       {
+        "rank": 5,
+        "name": "Laia Codina Panedas",
+        "nickname": "Panedas",
+        "passes_made": 44,
+        "passes_received": 37,
+        "total_involvement": 81,
+        "difference_from_hub": 34
+       },
+       {
+        "rank": 6,
+        "name": "Teresa Abelleira Due\u00f1as",
+        "nickname": "Due\u00f1as",
+        "passes_made": 47,
+        "passes_received": 34,
+        "total_involvement": 81,
+        "difference_from_hub": 34
+       },
+       {
+        "rank": 7,
+        "name": "Irene Paredes Hernandez",
+        "nickname": "Hernandez",
+        "passes_made": 42,
+        "passes_received": 37,
+        "total_involvement": 79,
+        "difference_from_hub": 36
+       },
+       {
+        "rank": 8,
+        "name": "Ona Batlle Pascual",
+        "nickname": "Pascual",
+        "passes_made": 35,
+        "passes_received": 35,
+        "total_involvement": 70,
+        "difference_from_hub": 45
+       },
+       {
+        "rank": 9,
+        "name": "Salma Paralluelo Ayingono",
+        "nickname": "Ayingono",
+        "passes_made": 17,
+        "passes_received": 27,
+        "total_involvement": 44,
+        "difference_from_hub": 71
+       },
+       {
+        "rank": 10,
+        "name": "Catalina Thomas Coll Lluch",
+        "nickname": "Lluch",
+        "passes_made": 17,
+        "passes_received": 11,
+        "total_involvement": 28,
+        "difference_from_hub": 87
+       }
+      ],
+      "orchestration": "Spain Women's's passing network has a Thomas Grund centrality index of 13.03%, classifying it as Moderately Decentralized. The hub player is Garc\u00eda with 115 total involvements out of 421 total passes among 14 players. The team has a fairly balanced distribution of passes, with the hub player being slightly more involved but not dominant.",
+      "total_passes": 421,
+      "num_players": 14,
+      "hub_betweenness": 0.391
+     },
+     "passing_rate": {
+      "passes_per_minute": 6.8,
+      "total_passes": 421,
+      "estimated_possession_minutes": 61.9,
+      "possession_percentage": 59.0,
+      "rating": "Elite",
+      "interpretation": "High passing tempo indicates strong ball circulation",
+      "benchmark": {
+       "elite": 5.0,
+       "average": 3.5,
+       "description": "Higher passing tempo indicates stronger ball circulation"
+      }
+     },
+     "narrative": "Spain Women's's passing network is Moderately Decentralized (centrality index: 13.03%). The team averages 6.8 passes per minute of possession (Elite). The orchestrator is Garc\u00eda with 115 involvements."
+    },
+    "hub": {
+     "hub_player": "Garc\u00eda",
+     "position": "Midfielder",
+     "metrics": {
+      "total_involvement": 115,
+      "passes_made": 61,
+      "passes_received": 54,
+      "degree_centrality": 0.731,
+      "betweenness_centrality": 0.391,
+      "eigenvector_centrality": 0.459,
+      "clustering_coefficient": 0.667,
+      "xt_generated": 0.2595,
+      "forward_pass_pct": 36.1
+     },
+     "strengths": 6,
+     "weaknesses": 2,
+     "mitigations": 3,
+     "narrative": "Garc\u00eda is Spain Women's's hub player with 115 total involvements (position: Midfielder, avg position: x=52, y=5). The team's Grund centralisation is 13% (moderately decentralized). They are moderately relied upon and should be monitored. Passing direction: 36.1% forward, 24.6% backward, 39.3% lateral. Avg pass distance: 11.9m. Under pressure: 76.9% accuracy vs 79.7% normally (2.8pp drop). xT contribution: 0.2595 total (28 positive, 15 negative passes). Most active zone: Deep L (22 passes at 73.3% accuracy)."
+    }
+   }
+  },
+  "timeline_keys": [
+   "match_date",
+   "max_minute",
+   "teams",
+   "periods",
+   "insights",
+   "verdict"
+  ],
+  "verdict": {
+   "teams": {
+    "Spain Women's": {
+     "goals": 1,
+     "xg": 2.19,
+     "xg_diff": -1.19,
+     "total_xt": 1.172,
+     "passes": 421,
+     "pass_accuracy": 81.1,
+     "possession": 63.5,
+     "progressive_passes": 95,
+     "tempo": 35.1
+    },
+    "England Women's": {
+     "goals": 0,
+     "xg": 0.47,
+     "xg_diff": -0.47,
+     "total_xt": 0.88,
+     "passes": 293,
+     "pass_accuracy": 71.8,
+     "possession": 47.5,
+     "progressive_passes": 51,
+     "tempo": 36.6
+    }
+   },
+   "comparison": {
+    "xg_advantage": "Spain Women's",
+    "xg_diff": 1.72,
+    "xt_advantage": "Spain Women's",
+    "xt_diff": 0.292,
+    "possession_advantage": "Spain Women's",
+    "possession_diff": 16.0,
+    "pass_advantage": "Spain Women's",
+    "pass_diff": 128
+   },
+   "verdict_type": "deserved_victory",
+   "verdict_headline": "Deserved Victory",
+   "justice_score": 100,
+   "narrative": "Spain Women's earned their victory with a commanding performance. Spain Women's's superior chance creation (xG: 2.19) was reflected in the scoreline. Spain Women's's buildup play generated consistent danger (1.17 xT). Spain Women's controlled the tempo with 64% possession.",
+   "winner": "Spain Women's",
+   "loser": "England Women's",
+   "score": "1-0"
+  }
+ },
+ "2024-02-11_AFCON_2023": {
+  "teams": [
+   "C\u00f4te d'Ivoire",
+   "Nigeria"
+  ],
+  "teams_data": {
+   "C\u00f4te d'Ivoire": {
+    "network": {
+     "team": "C\u00f4te d'Ivoire",
+     "metrics": {
+      "num_players": 16,
+      "num_edges": 94,
+      "density": 0.392,
+      "hub": "Ghislain Konan",
+      "hub_involvement": 124
+     },
+     "top5": [
+      {
+       "name": "Ghislain Konan",
+       "nickname": "Ghislain Konan",
+       "involvement": 124,
+       "made": 72,
+       "received": 52,
+       "degree": 0.467,
+       "betweenness": 0.2333,
+       "eigenvector": 0.5143,
+       "clustering": 0.75,
+       "xt": 0.2079,
+       "avg_x": 59.0,
+       "avg_y": 6.9
+      },
+      {
+       "name": "Jean Micha\u00ebl Seri",
+       "nickname": "Seri",
+       "involvement": 115,
+       "made": 61,
+       "received": 54,
+       "degree": 0.767,
+       "betweenness": 0.2714,
+       "eigenvector": 0.3997,
+       "clustering": 0.6667,
+       "xt": 0.0619,
+       "avg_x": 59.0,
+       "avg_y": 35.3
+      },
+      {
+       "name": "Obite Evan Ndicka",
+       "nickname": "Ndicka",
+       "involvement": 99,
+       "made": 47,
+       "received": 52,
+       "degree": 0.5,
+       "betweenness": 0.1381,
+       "eigenvector": 0.4556,
+       "clustering": 0.8444,
+       "xt": 0.038,
+       "avg_x": 40.4,
+       "avg_y": 23.3
+      },
+      {
+       "name": "Odilon Kossonou",
+       "nickname": "Odilon Kossonou",
+       "involvement": 94,
+       "made": 46,
+       "received": 48,
+       "degree": 0.667,
+       "betweenness": 0.1143,
+       "eigenvector": 0.339,
+       "clustering": 0.6667,
+       "xt": 0.069,
+       "avg_x": 47.3,
+       "avg_y": 53.4
+      },
+      {
+       "name": "Simon Adingra",
+       "nickname": "Simon Adingra",
+       "involvement": 68,
+       "made": 28,
+       "received": 40,
+       "degree": 0.467,
+       "betweenness": 0.0667,
+       "eigenvector": 0.3281,
+       "clustering": 0.9643,
+       "xt": 1.039,
+       "avg_x": 82.2,
+       "avg_y": 11.5
+      }
+     ]
+    },
+    "insights_keys": [
+     "team",
+     "match_date",
+     "period",
+     "vulnerabilities",
+     "strengths",
+     "key_moments",
+     "progressive_stats",
+     "pressure_stats",
+     "territorial",
+     "xt_stats",
+     "narrative",
+     "pass_sequences",
+     "ppda",
+     "pass_directions",
+     "field_tilt",
+     "team_shape",
+     "advanced_network",
+     "passing_stats",
+     "period_vulnerabilities",
+     "period_vulnerability_summary"
+    ],
+    "insights": {
+     "passing_stats": {
+      "total_attempted": 464,
+      "total_successful": 388,
+      "total_failed": 76,
+      "accuracy": 83.6,
+      "per_minute": 4.78
+     },
+     "progressive_stats": {
+      "count": 112,
+      "percentage": 28.9,
+      "total_successful": 388
+     },
+     "xt_stats": {
+      "total_xt": 1.7986,
+      "avg_xt_per_pass": 0.004635,
+      "positive_xt_passes": 232,
+      "negative_xt_passes": 137,
+      "top_xt_players": [
+       [
+        "Simon Adingra",
+        1.039
+       ],
+       [
+        "Ghislain Konan",
+        0.2079
+       ],
+       [
+        "Serge Aurier",
+        0.1601
+       ],
+       [
+        "Max-Alain Gradel",
+        0.0954
+       ],
+       [
+        "Kessi\u00e9",
+        0.0941
+       ]
+      ],
+      "xt_by_zone": {
+       "defensive": 0.0766,
+       "middle": 0.3281,
+       "attacking": 1.3939
+      },
+      "has_data": true
+     },
+     "ppda": {
+      "ppda": 11.6,
+      "opponent_passes": 174,
+      "defensive_actions": 15,
+      "interpretation": "Moderate pressing"
+     },
+     "field_tilt": {
+      "field_tilt": 75.7,
+      "team_final_third_passes": 81,
+      "opp_final_third_passes": 26,
+      "total_final_third_passes": 107,
+      "own_half": 26,
+      "opponent_half": 81,
+      "total": 107
+     },
+     "team_shape": {
+      "avg_width": 65.4,
+      "avg_depth": 68.0,
+      "avg_player_distance": 36.5,
+      "compactness": 2.74
+     },
+     "pressure_stats": {
+      "passes_under_pressure": 55,
+      "pressure_accuracy": 81.8,
+      "normal_accuracy": 83.6,
+      "pressure_resistance": -1.8
+     },
+     "pass_sequences": {
+      "avg_length": 4.51,
+      "max_length": 14,
+      "total_sequences": 86,
+      "distribution": {
+       "7-10": 12,
+       "1-3": 41,
+       "4-6": 26,
+       "11+": 7
+      }
+     },
+     "weakest_link": null
+    },
+    "grund": {
+     "team": "C\u00f4te d'Ivoire",
+     "match_date": "2024-02-11_AFCON_2023",
+     "period": null,
+     "centrality": {
+      "centrality_score": 0.19458762886597938,
+      "centrality_percentage": 19.46,
+      "style": "Moderately Centralized",
+      "style_description": "Clear playmaker orchestrating the build-up",
+      "hub_player": {
+       "name": "Ghislain Konan",
+       "nickname": "Ghislain Konan",
+       "passes_made": 72,
+       "passes_received": 52,
+       "total_involvement": 124
+      },
+      "player_rankings": [
+       {
+        "rank": 1,
+        "name": "Ghislain Konan",
+        "nickname": "Ghislain Konan",
+        "passes_made": 72,
+        "passes_received": 52,
+        "total_involvement": 124,
+        "difference_from_hub": 0
+       },
+       {
+        "rank": 2,
+        "name": "Jean Micha\u00ebl Seri",
+        "nickname": "Seri",
+        "passes_made": 61,
+        "passes_received": 54,
+        "total_involvement": 115,
+        "difference_from_hub": 9
+       },
+       {
+        "rank": 3,
+        "name": "Obite Evan Ndicka",
+        "nickname": "Ndicka",
+        "passes_made": 47,
+        "passes_received": 52,
+        "total_involvement": 99,
+        "difference_from_hub": 25
+       },
+       {
+        "rank": 4,
+        "name": "Odilon Kossonou",
+        "nickname": "Odilon Kossonou",
+        "passes_made": 46,
+        "passes_received": 48,
+        "total_involvement": 94,
+        "difference_from_hub": 30
+       },
+       {
+        "rank": 5,
+        "name": "Simon Adingra",
+        "nickname": "Simon Adingra",
+        "passes_made": 28,
+        "passes_received": 40,
+        "total_involvement": 68,
+        "difference_from_hub": 56
+       },
+       {
+        "rank": 6,
+        "name": "Franck Yannick Kessi\u00e9",
+        "nickname": "Kessi\u00e9",
+        "passes_made": 27,
+        "passes_received": 36,
+        "total_involvement": 63,
+        "difference_from_hub": 61
+       },
+       {
+        "rank": 7,
+        "name": "Serge Aurier",
+        "nickname": "Serge Aurier",
+        "passes_made": 29,
+        "passes_received": 26,
+        "total_involvement": 55,
+        "difference_from_hub": 69
+       },
+       {
+        "rank": 8,
+        "name": "Seko Fofana",
+        "nickname": "Seko Fofana",
+        "passes_made": 26,
+        "passes_received": 25,
+        "total_involvement": 51,
+        "difference_from_hub": 73
+       },
+       {
+        "rank": 9,
+        "name": "Max-Alain Gradel",
+        "nickname": "Max-Alain Gradel",
+        "passes_made": 14,
+        "passes_received": 20,
+        "total_involvement": 34,
+        "difference_from_hub": 90
+       },
+       {
+        "rank": 10,
+        "name": "S\u00e9bastien Haller",
+        "nickname": "S\u00e9bastien Haller",
+        "passes_made": 8,
+        "passes_received": 15,
+        "total_involvement": 23,
+        "difference_from_hub": 101
+       }
+      ],
+      "orchestration": "C\u00f4te d'Ivoire's passing network has a Thomas Grund centrality index of 19.46%, classifying it as Moderately Centralized. The hub player is Ghislain Konan with 124 total involvements out of 388 total passes among 16 players. The team channels a significant portion of play through their hub player. This can be effective but creates a vulnerability if the hub is pressed or isolated.",
+      "total_passes": 388,
+      "num_players": 16,
+      "hub_betweenness": 0.2333
+     },
+     "passing_rate": {
+      "passes_per_minute": 5.89,
+      "total_passes": 388,
+      "estimated_possession_minutes": 65.9,
+      "possession_percentage": 67.2,
+      "rating": "Elite",
+      "interpretation": "High passing tempo indicates strong ball circulation",
+      "benchmark": {
+       "elite": 5.0,
+       "average": 3.5,
+       "description": "Higher passing tempo indicates stronger ball circulation"
+      }
+     },
+     "narrative": "C\u00f4te d'Ivoire's passing network is Moderately Centralized (centrality index: 19.46%). The team averages 5.89 passes per minute of possession (Elite). The orchestrator is Ghislain Konan with 124 involvements."
+    },
+    "hub": {
+     "hub_player": "Ghislain Konan",
+     "position": "Midfielder",
+     "metrics": {
+      "total_involvement": 124,
+      "passes_made": 72,
+      "passes_received": 52,
+      "degree_centrality": 0.467,
+      "betweenness_centrality": 0.233,
+      "eigenvector_centrality": 0.514,
+      "clustering_coefficient": 0.75,
+      "xt_generated": 0.2079,
+      "forward_pass_pct": 55.6
+     },
+     "strengths": 7,
+     "weaknesses": 2,
+     "mitigations": 5,
+     "narrative": "Ghislain Konan is C\u00f4te d'Ivoire's hub player with 124 total involvements (position: Midfielder, avg position: x=59, y=7). The team's Grund centralisation is 19% (moderately centralized). They are moderately relied upon and should be monitored. Passing direction: 55.6% forward, 29.2% backward, 15.3% lateral. Avg pass distance: 15.8m. Under pressure: 71.4% accuracy vs 95.7% normally (24.3pp drop). xT contribution: 0.2079 total (50 positive, 20 negative passes). Most active zone: Mid L (24 passes at 100.0% accuracy)."
+    }
+   },
+   "Nigeria": {
+    "network": {
+     "team": "Nigeria",
+     "metrics": {
+      "num_players": 15,
+      "num_edges": 91,
+      "density": 0.433,
+      "hub": "Ughelumba",
+      "hub_involvement": 61
+     },
+     "top5": [
+      {
+       "name": "Calvin Bassey Ughelumba",
+       "nickname": "Ughelumba",
+       "involvement": 61,
+       "made": 29,
+       "received": 32,
+       "degree": 0.571,
+       "betweenness": 0.3626,
+       "eigenvector": 0.5336,
+       "clustering": 0.6364,
+       "xt": 0.0967,
+       "avg_x": 42.8,
+       "avg_y": 22.0
+      },
+      {
+       "name": "William Troost-Ekong",
+       "nickname": "William Troost-Ekong",
+       "involvement": 50,
+       "made": 25,
+       "received": 25,
+       "degree": 0.571,
+       "betweenness": 0.2033,
+       "eigenvector": 0.496,
+       "clustering": 0.6889,
+       "xt": 0.0931,
+       "avg_x": 40.5,
+       "avg_y": 46.0
+      },
+      {
+       "name": "Oluwasemilogo Adesewo Ibidapo Ajayi",
+       "nickname": "Ajayi",
+       "involvement": 40,
+       "made": 17,
+       "received": 23,
+       "degree": 0.536,
+       "betweenness": 0.1484,
+       "eigenvector": 0.3692,
+       "clustering": 0.6889,
+       "xt": 0.0699,
+       "avg_x": 44.1,
+       "avg_y": 67.9
+      },
+      {
+       "name": "Zaidu Sanusi",
+       "nickname": "Zaidu Sanusi",
+       "involvement": 33,
+       "made": 20,
+       "received": 13,
+       "degree": 0.429,
+       "betweenness": 0.0549,
+       "eigenvector": 0.2966,
+       "clustering": 0.6429,
+       "xt": 0.1289,
+       "avg_x": 55.7,
+       "avg_y": 8.7
+      },
+      {
+       "name": "Alex Iwobi",
+       "nickname": "Alex Iwobi",
+       "involvement": 31,
+       "made": 18,
+       "received": 13,
+       "degree": 0.5,
+       "betweenness": 0.0,
+       "eigenvector": 0.2862,
+       "clustering": 0.7111,
+       "xt": 0.05,
+       "avg_x": 52.5,
+       "avg_y": 28.8
+      }
+     ]
+    },
+    "insights_keys": [
+     "team",
+     "match_date",
+     "period",
+     "vulnerabilities",
+     "strengths",
+     "key_moments",
+     "progressive_stats",
+     "pressure_stats",
+     "territorial",
+     "xt_stats",
+     "narrative",
+     "pass_sequences",
+     "ppda",
+     "pass_directions",
+     "field_tilt",
+     "team_shape",
+     "advanced_network",
+     "passing_stats",
+     "period_vulnerabilities",
+     "period_vulnerability_summary"
+    ],
+    "insights": {
+     "passing_stats": {
+      "total_attempted": 272,
+      "total_successful": 189,
+      "total_failed": 83,
+      "accuracy": 69.5,
+      "per_minute": 2.8
+     },
+     "progressive_stats": {
+      "count": 64,
+      "percentage": 33.9,
+      "total_successful": 189
+     },
+     "xt_stats": {
+      "total_xt": 0.669,
+      "avg_xt_per_pass": 0.00354,
+      "positive_xt_passes": 103,
+      "negative_xt_passes": 77,
+      "top_xt_players": [
+       [
+        "Zaidu Sanusi",
+        0.1289
+       ],
+       [
+        "Ughelumba",
+        0.0967
+       ],
+       [
+        "William Troost-Ekong",
+        0.0931
+       ],
+       [
+        "Aina",
+        0.0894
+       ],
+       [
+        "Alhassan Yusuf",
+        0.0878
+       ]
+      ],
+      "xt_by_zone": {
+       "middle": 0.3705,
+       "defensive": 0.0785,
+       "attacking": 0.22
+      },
+      "has_data": true
+     },
+     "ppda": {
+      "ppda": 17.71,
+      "opponent_passes": 248,
+      "defensive_actions": 14,
+      "interpretation": "Low pressing"
+     },
+     "field_tilt": {
+      "field_tilt": 24.3,
+      "team_final_third_passes": 26,
+      "opp_final_third_passes": 81,
+      "total_final_third_passes": 107,
+      "own_half": 81,
+      "opponent_half": 26,
+      "total": 107
+     },
+     "team_shape": {
+      "avg_width": 59.2,
+      "avg_depth": 89.5,
+      "avg_player_distance": 36.1,
+      "compactness": 2.77
+     },
+     "pressure_stats": {
+      "passes_under_pressure": 30,
+      "pressure_accuracy": 63.3,
+      "normal_accuracy": 69.5,
+      "pressure_resistance": -6.2
+     },
+     "pass_sequences": {
+      "avg_length": 3.0,
+      "max_length": 13,
+      "total_sequences": 63,
+      "distribution": {
+       "1-3": 44,
+       "4-6": 14,
+       "7-10": 4,
+       "11+": 1
+      }
+     },
+     "weakest_link": null
+    },
+    "grund": {
+     "team": "Nigeria",
+     "match_date": "2024-02-11_AFCON_2023",
+     "period": null,
+     "centrality": {
+      "centrality_score": 0.18941798941798943,
+      "centrality_percentage": 18.94,
+      "style": "Moderately Centralized",
+      "style_description": "Clear playmaker orchestrating the build-up",
+      "hub_player": {
+       "name": "Calvin Bassey Ughelumba",
+       "nickname": "Ughelumba",
+       "passes_made": 29,
+       "passes_received": 32,
+       "total_involvement": 61
+      },
+      "player_rankings": [
+       {
+        "rank": 1,
+        "name": "Calvin Bassey Ughelumba",
+        "nickname": "Ughelumba",
+        "passes_made": 29,
+        "passes_received": 32,
+        "total_involvement": 61,
+        "difference_from_hub": 0
+       },
+       {
+        "rank": 2,
+        "name": "William Troost-Ekong",
+        "nickname": "William Troost-Ekong",
+        "passes_made": 25,
+        "passes_received": 25,
+        "total_involvement": 50,
+        "difference_from_hub": 11
+       },
+       {
+        "rank": 3,
+        "name": "Oluwasemilogo Adesewo Ibidapo Ajayi",
+        "nickname": "Ajayi",
+        "passes_made": 17,
+        "passes_received": 23,
+        "total_involvement": 40,
+        "difference_from_hub": 21
+       },
+       {
+        "rank": 4,
+        "name": "Zaidu Sanusi",
+        "nickname": "Zaidu Sanusi",
+        "passes_made": 20,
+        "passes_received": 13,
+        "total_involvement": 33,
+        "difference_from_hub": 28
+       },
+       {
+        "rank": 5,
+        "name": "Alex Iwobi",
+        "nickname": "Alex Iwobi",
+        "passes_made": 18,
+        "passes_received": 13,
+        "total_involvement": 31,
+        "difference_from_hub": 30
+       },
+       {
+        "rank": 6,
+        "name": "Temitayo Olufisayo Olaoluwa Aina",
+        "nickname": "Aina",
+        "passes_made": 15,
+        "passes_received": 15,
+        "total_involvement": 30,
+        "difference_from_hub": 31
+       },
+       {
+        "rank": 7,
+        "name": "Stanley Bobo Nwabali",
+        "nickname": "Nwabali",
+        "passes_made": 16,
+        "passes_received": 9,
+        "total_involvement": 25,
+        "difference_from_hub": 36
+       },
+       {
+        "rank": 8,
+        "name": "Ademola Lookman",
+        "nickname": "Ademola Lookman",
+        "passes_made": 9,
+        "passes_received": 13,
+        "total_involvement": 22,
+        "difference_from_hub": 39
+       },
+       {
+        "rank": 9,
+        "name": "Victor James Osimhen",
+        "nickname": "Osimhen",
+        "passes_made": 6,
+        "passes_received": 10,
+        "total_involvement": 16,
+        "difference_from_hub": 45
+       },
+       {
+        "rank": 10,
+        "name": "Moses Daddy-Ajala Simon",
+        "nickname": "Simon",
+        "passes_made": 7,
+        "passes_received": 9,
+        "total_involvement": 16,
+        "difference_from_hub": 45
+       }
+      ],
+      "orchestration": "Nigeria's passing network has a Thomas Grund centrality index of 18.94%, classifying it as Moderately Centralized. The hub player is Ughelumba with 61 total involvements out of 189 total passes among 15 players. The team channels a significant portion of play through their hub player. This can be effective but creates a vulnerability if the hub is pressed or isolated.",
+      "total_passes": 189,
+      "num_players": 15,
+      "hub_betweenness": 0.3626
+     },
+     "passing_rate": {
+      "passes_per_minute": 5.89,
+      "total_passes": 189,
+      "estimated_possession_minutes": 32.1,
+      "possession_percentage": 32.8,
+      "rating": "Elite",
+      "interpretation": "High passing tempo indicates strong ball circulation",
+      "benchmark": {
+       "elite": 5.0,
+       "average": 3.5,
+       "description": "Higher passing tempo indicates stronger ball circulation"
+      }
+     },
+     "narrative": "Nigeria's passing network is Moderately Centralized (centrality index: 18.94%). The team averages 5.89 passes per minute of possession (Elite). The orchestrator is Ughelumba with 61 involvements."
+    },
+    "hub": {
+     "hub_player": "Ughelumba",
+     "position": "Defender",
+     "metrics": {
+      "total_involvement": 61,
+      "passes_made": 29,
+      "passes_received": 32,
+      "degree_centrality": 0.571,
+      "betweenness_centrality": 0.363,
+      "eigenvector_centrality": 0.534,
+      "clustering_coefficient": 0.636,
+      "xt_generated": 0.0967,
+      "forward_pass_pct": 51.7
+     },
+     "strengths": 6,
+     "weaknesses": 2,
+     "mitigations": 5,
+     "narrative": "Ughelumba is Nigeria's hub player with 61 total involvements (position: Defender, avg position: x=43, y=22). The team's Grund centralisation is 19% (moderately centralized). They are moderately relied upon and should be monitored. Passing direction: 51.7% forward, 24.1% backward, 24.1% lateral. Avg pass distance: 30.0m. xT contribution: 0.0967 total (15 positive, 13 negative passes). Most active zone: Deep LC (11 passes at 73.3% accuracy)."
+    }
+   }
+  },
+  "timeline_keys": [
+   "match_date",
+   "max_minute",
+   "teams",
+   "periods",
+   "insights",
+   "verdict"
+  ],
+  "verdict": {
+   "teams": {
+    "Nigeria": {
+     "goals": 1,
+     "xg": 0.26,
+     "xg_diff": 0.74,
+     "total_xt": 0.668,
+     "passes": 189,
+     "pass_accuracy": 69.5,
+     "possession": 46.7,
+     "progressive_passes": 21,
+     "tempo": 23.6
+    },
+    "C\u00f4te d'Ivoire": {
+     "goals": 2,
+     "xg": 1.41,
+     "xg_diff": 0.59,
+     "total_xt": 1.798,
+     "passes": 388,
+     "pass_accuracy": 83.6,
+     "possession": 74.0,
+     "progressive_passes": 74,
+     "tempo": 32.3
+    }
+   },
+   "comparison": {
+    "xg_advantage": "C\u00f4te d'Ivoire",
+    "xg_diff": 1.15,
+    "xt_advantage": "C\u00f4te d'Ivoire",
+    "xt_diff": 1.13,
+    "possession_advantage": "C\u00f4te d'Ivoire",
+    "possession_diff": 27.3,
+    "pass_advantage": "C\u00f4te d'Ivoire",
+    "pass_diff": 199
+   },
+   "verdict_type": "clinical_domination",
+   "verdict_headline": "Clinical Domination",
+   "justice_score": 100,
+   "narrative": "C\u00f4te d'Ivoire earned their victory with a commanding performance. C\u00f4te d'Ivoire's superior chance creation (xG: 1.41) was reflected in the scoreline. C\u00f4te d'Ivoire's buildup play generated consistent danger (1.80 xT). C\u00f4te d'Ivoire controlled the tempo with 74% possession. C\u00f4te d'Ivoire showed clinical finishing, scoring 2 from 1.41 xG.",
+   "winner": "C\u00f4te d'Ivoire",
+   "loser": "Nigeria",
+   "score": "1-2"
+  }
+ }
+}

@@ -1,0 +1,39 @@
+Loading passing-networks data...
+  Loaded match 2018-05-26: 3497 events
+  Loaded match 2019-06-01: 3165 events
+  Loaded match 2024-07-10_Euro_2024: 3485 events
+  Loaded match 2024-07-14_Euro_2024: 3312 events
+  Loaded match 2024-07-09_Euro_2024: 3328 events
+  Loaded match 2024-07-06_Euro_2024: 4882 events
+  Loaded match 2024-07-05_Euro_2024: 4463 events
+  Loaded match 2022-12-09_World_Cup_2022: 5145 events
+  Loaded match 2022-12-10_World_Cup_2022: 3239 events
+  Loaded match 2022-12-18_World_Cup_2022: 4407 events
+  Loaded match 2022-12-17_World_Cup_2022: 3560 events
+  Loaded match 2022-12-13_World_Cup_2022: 3806 events
+  Loaded match 2022-12-14_World_Cup_2022: 3551 events
+  Loaded match 2024-07-15_Copa_America_2024: 4108 events
+  Loaded match 2024-07-14_Copa_America_2024: 2877 events
+  Loaded match 2024-07-11_Copa_America_2024: 2811 events
+  Loaded match 2024-07-10_Copa_America_2024: 3459 events
+  Loaded match 2024-07-07_Copa_America_2024: 2788 events
+  Loaded match 2024-07-06_Copa_America_2024: 3119 events
+  Loaded match 2024-07-05_Copa_America_2024: 2849 events
+  Loaded match 2023-08-16_Women's_World_Cup_20: 3159 events
+  Loaded match 2023-08-20_Women's_World_Cup_20: 3581 events
+  Loaded match 2023-08-19_Women's_World_Cup_20: 3342 events
+  Loaded match 2023-08-15_Women's_World_Cup_20: 3483 events
+  Loaded match 2023-08-12_Women's_World_Cup_20: 3668 events
+  Loaded match 2023-08-11_Women's_World_Cup_20: 3981 events
+  Loaded match 2024-02-11_AFCON_2023: 2699 events
+  Loaded match 2024-02-10_AFCON_2023: 3387 events
+  Loaded match 2024-02-07_AFCON_2023: 3885 events
+  Loaded match 2024-02-03_AFCON_2023: 3996 events
+  Loaded match 2024-02-02_AFCON_2023: 3048 events
+  Total matches loaded: 31
+
+  ========================================================
+   Passing Networks studio is ready (31 matches).
+   Open  http://localhost:8000  in your browser.
+  ========================================================
+

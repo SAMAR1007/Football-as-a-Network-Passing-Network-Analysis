@@ -1,0 +1,741 @@
+[p19]  made this research possible, and to the faculty of the BSc (Hons) Computing program, whose teaching laid the foundation for t
+---
+[p38] akes place on the pitch, and metrics such as expected goals (xG) and expected threat (xT) have moved from research journals 
+---
+[p38] and metrics such as expected goals (xG) and expected threat (xT) have moved from research journals into mainstream broadcast
+---
+[p40] ralisation, weakest-link identification, pressing intensity (PPDA), field tilt, team shape, pass sequences, tactical zone maps
+---
+[p62] euristics introduce systematic biases. Tversky and Kahneman (1974) identified several well-established patterns of judgement u
+---
+[p62] erns of judgement under uncertainty, including availability (by which memorable events are judged more probable) and anchoring (by which an initial impression constrains la
+---
+[p62] ch memorable events are judged more probable) and anchoring (by which an initial impression constrains later estimates). In the football context these regularities are readily obs
+---
+[p64] ation bias operates in a complementary manner. As Nickerson (1998) has shown, individuals tend to seek, interpret and recall e
+---
+[p71] nce and carries a substantial empirical record: Duch et al. (2010) quantified the contribution of individual players from thei
+---
+[p71] l players from their position in the passing network, Grund (2012) related network structure to team performance, and Gyarmati
+---
+[p71]  network structure to team performance, and Gyarmati et al. (2014) used passing patterns to characterise team style. The frame
+---
+[p75]  the economics-of-information concept introduced by Akerlof (1970), describes what happens when one party to a transaction or 
+---
+[p82] ho weighs every alternative and chooses the best one. Simon (1955) argued that this picture is unrealistic: human beings posse
+---
+[p90] he performance of individual players within a team activity (Duch et al., 2010), to relate network structure to team performance (Grund, 20
+---
+[p90] al., 2010), to relate network structure to team performance (Grund, 2012), and to search for characteristic team styles (Gyarmati et 
+---
+[p90] (Grund, 2012), and to search for characteristic team styles (Gyarmati et al., 2014). These studies show that a quantitative, data-driven perspe
+---
+[p108] uch as the player-level performance measures of Duch et al. (2010) and the team-level findings of Grund (2012), to a tool that
+---
+[p108]  of Duch et al. (2010) and the team-level findings of Grund (2012), to a tool that can be inspected and extended rather than m
+---
+[p122] RQ1(Technical) To what extent can a deterministic passing network analysis
+---
+[p123] RQ2(Ethical): What are the ethical considerations of using a passing net
+---
+[p137] s, exemplified by the public data sets of Pappalardo et al. (2019) and StatsBomb (n.d.), and it is this openness that makes th
+---
+[p137]  public data sets of Pappalardo et al. (2019) and StatsBomb (n.d.), and it is this openness that makes the framework's outputs
+---
+[p143] Figure 6. The expected threat (xT) grid as a spatial heatmap: values rise toward goal, so pass
+---
+[p144] hor the framework to published methodology. Expected threat (xT) values every action by the change it produces in the probab
+---
+[p144] up analysis uses the 12 by 8 threat grid published by Singh (2018), which assigns a value to every position on the pitch. Figu
+---
+[p144] finition is the pressing metric PPDA, introduced by Trainor (2014), which measures the passes an opponent is allowed per defen
+---
+[p166] demic literature, as with the expected-threat grid of Singh (2018) and the pressing metric of Trainor (2014).
+---
+[p166] eat grid of Singh (2018) and the pressing metric of Trainor (2014).
+---
+[p171] ly efforts that treated teams as interaction systems. Grund (2012) provided one of the first systematic demonstrations that th
+---
+[p173] l repertoire and the range of sports examined. Buldú et al. (2018) supplied a comprehensive review of passing networks across 
+---
+[p173] re different facets of importance. In parallel, Duch et al. (2010) showed that network-based metrics can outperform convention
+---
+[p173] ntrality records direct involvement, betweenness centrality (Freeman, 1977) identifies players who act as bridges between otherwise wea
+---
+[p173] therwise weakly connected teammates, eigenvector centrality (Bonacich, 1987) privileges connectedness to other well-connected players, a
+---
+[p173] ther well-connected players, and the clustering coefficient (Watts & Strogatz, 1998) captures the local density of passing triangles.
+---
+[p174] heory of networks, consolidated in the monographs of Newman (2003, 2010) and introduced formally by Barabási and Albert (1999), prov
+---
+[p174] (2003, 2010) and introduced formally by Barabási and Albert (1999), provides the language in which passing networks are descri
+---
+[p174] s and the statistical regularities of real interaction data (Albert & Barabási, 2002). Comprehensive treatments of social network analysis (Wasse
+---
+[p174]  2002). Comprehensive treatments of social network analysis (Wasserman & Faust, 1994) and of economic and social networks (Jackson, 2008; Easley 
+---
+[p174] asserman & Faust, 1994) and of economic and social networks (Jackson, 2008; Easley & Kleinberg, 2010) establish the analytical vocabulary the framework reuses, a
+---
+[p174] the analytical vocabulary the framework reuses, and Estrada (2012) supplies the mathematical machinery of measures such as cen
+---
+[p175] r lineage than their football applications suggest. Freeman (1978) clarified the conceptual foundations of centrality, buildin
+---
+[p175] ity, building on the early communication studies of Bavelas (1950), and Bonacich (1972) introduced the eigenvector-style weigh
+---
+[p175] early communication studies of Bavelas (1950), and Bonacich (1972) introduced the eigenvector-style weighting of status that l
+---
+[p175] yle weighting of status that later became standard. Brandes (2001) contributed the efficient algorithm by which betweenness is
+---
+[p175]  machinery on which such algorithms rest is due to Dijkstra (1959) and Floyd (1962). Weighted variants extend the measures to 
+---
+[p175] ch such algorithms rest is due to Dijkstra (1959) and Floyd (1962). Weighted variants extend the measures to the weighted, dir
+---
+[p175]  to the weighted, directed graphs that passing data produce (Opsahl et al., 2010; Barrat et al., 2004), and the engine's implementation follows these published de
+---
+[p176] thin networks: the detection of densely connected subgroups (Girvan & Newman, 2002; Newman & Girvan, 2004; Fortunato, 2010) and the discovery of recurring local patterns, or motifs (M
+---
+[p176] 0) and the discovery of recurring local patterns, or motifs (Milo et al., 2002), the latter being exactly the tool that López-Peña and Sánc
+---
+[p176]  being exactly the tool that López-Peña and Sánchez-Navarro (2015) transfer to passing data. The second is robustness, the stu
+---
+[p176] , the study of how networks respond to the removal of nodes (Albert et al., 2000; Borgatti, 2005, 2006), which is the direct analogue of the weakest-link question 
+---
+[p176] he weakest-link question the framework answers. Granovetter (1973) and Burt (1992) add the sociological reading of these struc
+---
+[p176] question the framework answers. Granovetter (1973) and Burt (1992) add the sociological reading of these structures, in which 
+---
+[p177] nd other team sports is now substantial. Peña and Touchette (2012) analysed the passing networks of the 2010 World Cup with we
+---
+[p177] d Cup with weighted and directed measures, and Cotta et al. (2013) examined the champion team's play in the same tournament. C
+---
+[p177] hampion team's play in the same tournament. Clemente et al. (2015) applied a battery of network metrics to professional matche
+---
+[p177] tches and later consolidated the methodology in a monograph (Clemente et al., 2016). Passos et al. (2011) demonstrated the utility of network m
+---
+[p177] ology in a monograph (Clemente et al., 2016). Passos et al. (2011) demonstrated the utility of network methods for team ball s
+---
+[p177] twork methods for team ball sports generally, Fewell et al. (2012) did the same for basketball, and de Jong et al. (2023) exte
+---
+[p177]  al. (2012) did the same for basketball, and de Jong et al. (2023) extended the network-based analysis of teamwork to professi
+---
+[p178] e key-player problem studied in network robustness research (Borgatti, 2006). The present framework therefore implements all four centra
+---
+[p180] ox and estimates team strength from final scorelines. Maher (1982) introduced a Poisson model in which each team's goals follo
+---
+[p180] erned by attack and defence parameters, and Dixon and Coles (1997) refined this family by modelling the dependence between the
+---
+[p180] stems, such as the multi-model approach of Baboota and Kaur (2019), carry the same logic forward with considerably richer feat
+---
+[p181] ure on probabilistic match prediction. Karlis and Ntzoufras (2003) generalised the Poisson framework to bivariate models that 
+---
+[p181] spect the dependence between the two teams' scores; Goddard (2005) incorporated covariates and strength ratings into regressio
+---
+[p181] regression models of goals and results; Hvattum and Arntzen (2010) showed that Elo-style ratings predict match results competi
+---
+[p181]  ratings predict match results competitively; and Štrumbelj (2014) demonstrated that betting odds can be converted into well-c
+---
+[p183] ur through statistical models of event data. Expected-goals (xG) models marked an important early step by assigning probabil
+---
+[p183] ntly shot-centric and therefore silent on the value created (or squandered) by the sequences of passes that precede a shot. Singh (2018
+---
+[p183] ered) by the sequences of passes that precede a shot. Singh (2018) addressed this limitation by introducing expected threat (x
+---
+[p183] 8) addressed this limitation by introducing expected threat (xT), a spatial successor that assigns a value to every zone of 
+---
+[p184] en developed in several complementary forms. Cervone et al. (2016) introduced expected possession value in basketball from opt
+---
+[p184]  in basketball from optical tracking data; Fernández et al. (2018) adapted the approach to football with a deep learning model
+---
+[p184] learning model of expected possession value; Decroos et al. (2019) proposed VAEP, valuing every on-the-ball action by its effe
+---
+[p184] ction by its effect on scoring probability; and Link et al. (2016) showed that value surfaces can be computed in real time fro
+---
+[p185] rics of pressing intensity and territorial control. Trainor (2014) popularised passes per defensive action (PPDA) as a transpa
+---
+[p185] rol. Trainor (2014) popularised passes per defensive action (PPDA) as a transparent indicator of pressing intensity; subsequen
+---
+[p185] ng intensity; subsequent work has paired it with field tilt (the share of final-third passes) to quantify territorial dominance. Team-shape descriptors—w
+---
+[p185]  depth and compactness—derived from players’ mean positions (Frencken et al., 2011; Moura et al., 2013) further characterise spatial organisation. Sequential and d
+---
+[p185] e spatial organisation. Sequential and directional analyses (pass sequences, progressive passes, directional distributions) have likewise been developed to describe how teams construc
+---
+[p186] k implements also carry empirical support. Vogelbein et al. (2014) found that teams which regained possession quickly after lo
+---
+[p186] the Bundesliga, the behavioural premise behind PPDA. Collet (2013) showed that ball retention is associated with success in Eu
+---
+[p186] d the possession and field-tilt measures. Lago-Peñas et al. (2010) and Castellano et al. (2012) documented the match statistic
+---
+[p186] lt measures. Lago-Peñas et al. (2010) and Castellano et al. (2012) documented the match statistics that discriminate winning f
+---
+[p186] hat discriminate winning from losing teams, and Goes et al. (2019) showed that pass-level effectiveness models outperform simp
+---
+[p187] lysis has long recorded the frequencies of actions in sport (Hughes & Franks, 2004), football-specific handbooks systematise match observation 
+---
+[p187] , football-specific handbooks systematise match observation (Carling et al., 2005), and systematic reviews consolidate the indicators that mat
+---
+[p187] d systematic reviews consolidate the indicators that matter (Sarmento et al., 2014). Books addressed to a general audience have popularised the
+---
+[p187] audience have popularised the quantitative view of football (Anderson & Sally, 2013; Kuper & Szymanski, 2009; Sumpter, 2016). More recently, position and tracking data have extended an
+---
+[p187]  have extended analysis beyond event counts to space itself (Memmert et al., 2017), with tactical behaviour measured through player positions 
+---
+[p187] , with tactical behaviour measured through player positions (Sampaio & Maçãs, 2012), team shape and centroid dynamics (Frencken et al., 2011; M
+---
+[p187] s (Sampaio & Maçãs, 2012), team shape and centroid dynamics (Frencken et al., 2011; Moura et al., 2013), and the wider possibilities and limits of big data in elit
+---
+[p187] ts of big data in elite soccer surveyed by Rein and Memmert (2016).
+---
+[p188] is the public availability of event data. Pappalardo et al. (2019) published a large public data set of spatio-temporal match 
+---
+[p188] tatsBomb distributes event data in a documented open format (StatsBomb, n.d.); the framework's reliance on this style of data is what mak
+---
+[p188] al and ethical questions reviewed by Gudmundsson and Horton (2017) and Bialkowski et al. (2014).
+---
+[p188] ewed by Gudmundsson and Horton (2017) and Bialkowski et al. (2014).
+---
+[p189]  interaction of players with each other and the environment (McGarry et al., 2002; Araújo et al., 2006; Davids et al., 2013; Vilar et al., 2012). This tradition shares the passing-network view that intera
+---
+[p196] constrains the volume of information an analyst can process (Simon, 1955), while availability and anchoring biases cause judgements t
+---
+[p196]  initial impressions rather than the complete evidence base (Tversky & Kahneman, 1974). Reputation heuristics further distort evaluation: well-kno
+---
+[p197] ural foundations of this argument are well developed. Simon (1956) extended his account of bounded rationality to the structur
+---
+[p197] well precisely because they exploit environmental structure (Gigerenzer & Gaissmaier, 2011; Gigerenzer & Selten, 2001). Kahneman and Tversky (1979) and Kahneman (2011) catalogue 
+---
+[p197] ier, 2011; Gigerenzer & Selten, 2001). Kahneman and Tversky (1979) and Kahneman (2011) catalogue the systematic deviations fro
+---
+[p197] r & Selten, 2001). Kahneman and Tversky (1979) and Kahneman (2011) catalogue the systematic deviations from rationality that j
+---
+[p197]  uncertainty exhibits, including the availability heuristic (Tversky & Kahneman, 1973), and Stanovich and West (2000) document the individual diff
+---
+[p197] euristic (Tversky & Kahneman, 1973), and Stanovich and West (2000) document the individual differences in reasoning these bias
+---
+[p197] available to an analyst can itself degrade decision quality (Eppler & Mengis, 2004), and confirmation bias operates in exactly the way describe
+---
+[p197] irmation bias operates in exactly the way described earlier (Nickerson, 1998; Oswald & Grosjean, 2004).
+---
+[p198] e economics-of-information literature introduced by Akerlof (1970) and extended by Spence (1973): when one party to a transact
+---
+[p198] erature introduced by Akerlof (1970) and extended by Spence (1973): when one party to a transaction knows more than the other,
+---
+[p199] be judged. Data ethics, as formulated by Floridi and Taddeo (2016), concerns the responsible use of data throughout its lifecy
+---
+[p199] rithms has been mapped systematically by Mittelstadt et al. (2016), with the global landscape of principles surveyed by Jobin 
+---
+[p199] the global landscape of principles surveyed by Jobin et al. (2019). The fairness literature warns that data-driven systems can
+---
+[p199] iven systems can reproduce or amplify existing inequalities (Barocas & Selbst, 2016; Mehrabi et al., 2021; Hardt et al., 2016), which motivates the framework's deliberate inclusion of wo
+---
+[p199] le confederations. The black-box critique of opaque systems (Pasquale, 2015; O'Neil, 2016) and the explainable AI literature that responds to it (Ribe
+---
+[p199] 2016) and the explainable AI literature that responds to it (Ribeiro et al., 2016; Lundberg & Lee, 2017; Guidotti et al., 2018; Arrieta et al., 2020; Doshi-Velez & Kim, 2017; Rudin, 2019) frame the framework's determinism as a design virtue rather
+---
+[p200]  and that technical anonymisation is weaker than it appears (Nissenbaum, 2010; Solove, 2006; Ohm, 2010). Processing match data on the user's own machine, as the fr
+---
+[p201] plication failures have been documented across the sciences (Ioannidis, 2005; Open Science Collaboration, 2015), and computational research has developed explicit practice
+---
+[p201] has developed explicit practices for reproducible workflows (Peng, 2011; Sandve et al., 2013; Stodden et al., 2014), culminating in calls for a shared culture of reproducibili
+---
+[p201] ulminating in calls for a shared culture of reproducibility (Munafò et al., 2017). The framework's deterministic pipeline and code-as-specifi
+---
+[p202] ays materially affects how quantitative information is read (Cleveland & McGill, 1984; Tufte, 2001), which the studio's seven-step presentation takes seriously
+---
+[p202]  has been shown to lag systematically behind the men's game (Fink, 2015), reinforcing the decision, documented earlier, to include w
+---
+[p202] hat draw on a narrow slice of the game risk systematic bias (Williams & Reilly, 2000; Vaeyens et al., 2008).
+---
+[p209] overnance questions it raises. The first case, Buldú et al. (2018), was already situated in the review as the theoretical warr
+---
+[p211] Case Study 1: Buldú et al. (2018) — Passing Networks as Dynamical Systems
+---
+[p212] and performance. Tracing the lineage from Gould and Gatrell (1979) to Duch et al. (2010), they insist that passing networks ar
+---
+[p212] ng the lineage from Gould and Gatrell (1979) to Duch et al. (2010), they insist that passing networks are directed, weighted, 
+---
+[p216] Case Study 2: López-Peña and Sánchez-Navarro (2015) — Who Can Replace Xavi?
+---
+[p221] Case Study 3: Gonçalves et al. (2017) — Passing Networks in Youth Football
+---
+[p226]  cases frame the project's position precisely. Buldú et al. (2018) supply the theoretical warrant for the network lens and ide
+---
+[p226] ensions most studies ignore. López-Peña and Sánchez-Navarro (2015) demonstrate the player-level payoff of that lens while illu
+---
+[p226] acity and scope bias of learned profiling. Gonçalves et al. (2017) extend the approach to younger players and model responsibl
+---
+[p228] icture. Outcome modelling, from the Poisson models of Maher (1982) and Dixon and Coles (1997) to the machine-learning systems 
+---
+[p228] from the Poisson models of Maher (1982) and Dixon and Coles (1997) to the machine-learning systems of Baboota and Kaur (2019),
+---
+[p228]  (1997) to the machine-learning systems of Baboota and Kaur (2019), has established that team strength can be estimated, but i
+---
+[p228] hreat and network traditions, from the value grids of Singh (2018) to the passing-network studies of Duch et al. (2010), Grund
+---
+[p228]  Singh (2018) to the passing-network studies of Duch et al. (2010), Grund (2012), Buldú et al. (2018) and the player-level mot
+---
+[p228] to the passing-network studies of Duch et al. (2010), Grund (2012), Buldú et al. (2018) and the player-level motif analysis of
+---
+[p228] k studies of Duch et al. (2010), Grund (2012), Buldú et al. (2018) and the player-level motif analysis of López-Peña and Sánch
+---
+[p228] ayer-level motif analysis of López-Peña and Sánchez-Navarro (2015), measure the process itself, but they remain largely descri
+---
+[p229] rk is designed to fill. The first is temporal: Buldú et al. (2018) argue that passing networks are dynamic objects whose struc
+---
+[p266] 21. Findings: RQ1 (Technical)
+---
+[p283] sing heatmap, direction sonar, zone-to-zone flows, pressing (PPDA), field tilt and team shape.
+---
+[p285] ved hub of any team studied, ahead of Croatia's Luka Modric (207); the largest involvement in a final was Real Madrid's Toni 
+---
+[p288] t and centrality identify the same small set of key players (Cotta et al., 2013; de Jong et al., 2023), and it holds across both levels of the game represented in
+---
+[p293]  generating less than half the expected threat of Tottenham (0.465 against 1.067) and a lower field tilt (41.8 against 58.2); the engine retu
+---
+[p293] t of Tottenham (0.465 against 1.067) and a lower field tilt (41.8 against 58.2); the engine returned a justice score of 43 with the verdict
+---
+[p293] ern: Argentina won 1-0 while Colombia generated more threat (1.972 against 1.567) and more territory (61.3 tilt), and the justice score fell 
+---
+[p293] erated more threat (1.972 against 1.567) and more territory (61.3 tilt), and the justice score fell to 25, the lowest recorded. The
+---
+[p303] 22. Findings: RQ2 (Ethical)
+---
+[p322] tball analytics: the shift from event data to tracking data (Bialkowski et al., 2014; Memmert et al., 2017), the valuation of actions beyond goals (Decroos et al., 201
+---
+[p322] emmert et al., 2017), the valuation of actions beyond goals (Decroos et al., 2019), and the growing quantitative attention to women's football
+---
+[p322]  and the growing quantitative attention to women's football (de Jong et al., 2023).
+---
+[p325] Akerlof, G. A. (1970). The market for "lemons": Quality uncertainty and the marke
+---
+[p325] the market mechanism. The Quarterly Journal of Economics, 84(3), 488–500.
+---
+[p326] Albert, R., & Barabási, A.-L. (2002). Statistical mechanics of complex networks. Reviews of Mode
+---
+[p326] mechanics of complex networks. Reviews of Modern Physics, 74(1), 47–97.
+---
+[p327] Albert, R., Jeong, H., & Barabási, A.-L. (2000). Error and attack tolerance of complex networks. Nature, 40
+---
+[p327]  Error and attack tolerance of complex networks. Nature, 406(6794), 378–382.
+---
+[p328] Anderson, C., & Sally, D. (2013). The numbers game: Why everything you know about football i
+---
+[p329] Araújo, D., Davids, K., & Hristovski, R. (2006). The ecological dynamics of decision making in sport. Psych
+---
+[p329] ecision making in sport. Psychology of Sport and Exercise, 7(6), 653–676.
+---
+[p330] er, J., Bennetot, A., Tabik, S., Barbado, A., … Herrera, F. (2020). Explainable artificial intelligence (XAI): Concepts, taxon
+---
+[p330] , … Herrera, F. (2020). Explainable artificial intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward 
+---
+[p331] Baboota, R., & Kaur, H. (2019). Predictive analysis and modelling football results using m
+---
+[p331] ish Premier League. International Journal of Forecasting, 35(2), 741–755.
+---
+[p332] Barabási, A.-L., & Albert, R. (1999). Emergence of scaling in random networks. Science, 286(5439
+---
+[p332] 1999). Emergence of scaling in random networks. Science, 286(5439), 509–512.
+---
+[p333] Barocas, S., & Selbst, A. D. (2016). Big data's disparate impact. California Law Review, 104(3)
+---
+[p333] 16). Big data's disparate impact. California Law Review, 104(3), 671–732.
+---
+[p334] , A., Barthélemy, M., Pastor-Satorras, R., & Vespignani, A. (2004). The architecture of complex weighted networks. Proceedings
+---
+[p334] tworks. Proceedings of the National Academy of Sciences, 101(11), 3747–3752.
+---
+[p335] Bavelas, A. (1950). Communication patterns in task-oriented groups. The Journa
+---
+[p335] groups. The Journal of the Acoustical Society of America, 22(6), 725–730.
+---
+[p336] ialkowski, A., Lucey, P., Carr, P., Yue, Y., & Matthews, I. (2014). Large-scale analysis of soccer matches using spatiotempora
+---
+[p336]  data. In 2014 IEEE International Conference on Data Mining (pp. 725–730). IEEE.
+---
+[p337] Bonacich, P. (1972). Factoring and weighting approaches to status scores and cl
+---
+[p337] s to status scores and clique identification. Sociometry, 35(4), 622–637.
+---
+[p338] Bonacich, P. (1987). Power and centrality: A family of measures. American Journ
+---
+[p338] ity: A family of measures. American Journal of Sociology, 92(5), 1170–1182.
+---
+[p339] Borgatti, S. P. (2005). Centrality and network flow. Social Networks, 27(1), 55–71
+---
+[p339]  P. (2005). Centrality and network flow. Social Networks, 27(1), 55–71.
+---
+[p340] Borgatti, S. P. (2006). Identifying sets of key players in a social network. Compu
+---
+[p340] etwork. Computational & Mathematical Organization Theory, 12(1), 21–34.
+---
+[p341] Brandes, U. (2001). A faster algorithm for betweenness centrality. The Journal
+---
+[p341] enness centrality. The Journal of Mathematical Sociology, 25(2), 163–177.
+---
+[p342] era-Diestra, J. L., Echegoyen, I., Galeano, J., & Luque, J. (2018). Using network science to analyse football passing networks
+---
+[p343] Burt, R. S. (1992). Structural holes: The social structure of competition. Har
+---
+[p344] Carling, C., Williams, A. M., & Reilly, T. (2005). Handbook of soccer match analysis: A systematic approach t
+---
+[p345] Castellano, J., Casamichana, D., & Lago-Peñas, C. (2012). The use of match statistics that discriminate between succ
+---
+[p346] Cervone, D., D'Amour, A., Bornn, L., & Goldsberry, K. (2016). POINTWISE: Predicting points and valuing decisions in real
+---
+[p347]  F. M., Couceiro, M. S., Martins, F. M. L., & Mendes, R. S. (2015). Using network metrics in soccer: A macro-analysis. Journal
+---
+[p348] te, F. M., Couceiro, M. S., Martins, F. M. L., & Mendes, R. (2016). Computational metrics for soccer analysis: Connecting the 
+---
+[p349] Cleveland, W. S., & McGill, R. (1984). Graphical perception: Theory, experimentation, and applica
+---
+[p349] methods. Journal of the American Statistical Association, 79(387), 531–554.
+---
+[p350] Collet, C. (2013). The possession game? A comparative analysis of ball retent
+---
+[p350] national football, 2007–2010. Journal of Sports Sciences, 31(2), 123–136.
+---
+[p351] Cotta, C., Mora, A. M., Merelo, J. J., & Merelo-Molina, C. (2013). A network analysis of the 2010 FIFA World Cup champion tea
+---
+[p351] ion team play. Journal of Systems Science and Complexity, 26(1), 21–42.
+---
+[p352] Davids, K., Araújo, D., Correia, V., & Vilar, L. (2013). How small-sided and conditioned games enhance acquisition 
+---
+[p352] ision-making skills. Exercise and Sport Sciences Reviews, 41(3), 154–161.
+---
+[p353] de Jong, L. M. S., Gastin, P. B., Bruce, L., & Dwyer, D. B. (2023). Teamwork and performance in professional women's football:
+---
+[p354] Decroos, L., Bransen, J., Van Haaren, J., & Davis, J. (2019). Actions speak louder than goals: Valuing player actions in
+---
+[p354] ternational Conference on Knowledge Discovery & Data Mining (pp. 1851–1861). ACM.
+---
+[p355] Dijkstra, E. W. (1959). A note on two problems in connexion with graphs. Numerisch
+---
+[p355]  problems in connexion with graphs. Numerische Mathematik, 1(1), 269–271.
+---
+[p356] Dixon, M. J., & Coles, S. G. (1997). Modelling association football scores and inefficiencies i
+---
+[p356]  market. Journal of the Royal Statistical Society: Series C (Applied Statistics), 46(2), 265–280.
+---
+[p356] Royal Statistical Society: Series C (Applied Statistics), 46(2), 265–280.
+---
+[p357] Doshi-Velez, F., & Kim, B. (2017). Towards a rigorous science of interpretable machine learni
+---
+[p358] Duch, J., Waitzman, J. S., & Amaral, L. A. N. (2010). Quantifying the performance of individual players in a tea
+---
+[p358] rmance of individual players in a team activity. PLoS ONE, 5(6), e10937.
+---
+[p359] Easley, D., & Kleinberg, J. (2010). Networks, crowds, and markets: Reasoning about a highly co
+---
+[p360] Eppler, M. J., & Mengis, J. (2004). The concept of information overload: A review of literatur
+---
+[p360] g, MIS, and related disciplines. The Information Society, 20(5), 325–344.
+---
+[p361] Estrada, E. (2012). The structure of complex networks: Theory and applications
+---
+[p362] Fernández, J., Bornn, L., & Cervone, D. (2018). Decomposing the immeasurable sport: A deep learning expect
+---
+[p363] Armbruster, D., Ingraham, J., Petersen, A., & Waters, J. S. (2012). Basketball teams as strategic networks. PLoS ONE, 7(11), e
+---
+[p363]  (2012). Basketball teams as strategic networks. PLoS ONE, 7(11), e47445.
+---
+[p364] Fink, J. S. (2015). Female athletes, women's sport, and the sport media commer
+---
+[p364]  really "come a long way, baby"? Sport Management Review, 18(3), 331–342.
+---
+[p365] Floridi, L., & Taddeo, M. (2016). What is data ethics? Philosophical Transactions of the Roy
+---
+[p365] iety A: Mathematical, Physical and Engineering Sciences, 374(2083), 20160360.
+---
+[p366] Floyd, R. W. (1962). Algorithm 97: Shortest path. Communications of the ACM, 5(
+---
+[p366] ). Algorithm 97: Shortest path. Communications of the ACM, 5(6), 345.
+---
+[p367] Fortunato, S. (2010). Community detection in graphs. Physics Reports, 486(3–5), 
+---
+[p367]  (2010). Community detection in graphs. Physics Reports, 486(3–5), 75–174.
+---
+[p368] Freeman, L. C. (1977). A set of measures of centrality based on betweenness. Soci
+---
+[p368]  measures of centrality based on betweenness. Sociometry, 40(1), 35–41.
+---
+[p369] Freeman, L. C. (1978). Centrality in social networks: Conceptual clarification. S
+---
+[p369] ocial networks: Conceptual clarification. Social Networks, 1(3), 215–239.
+---
+[p370] Frencken, W., Lemmink, K., Delleman, N., & Visscher, C. (2011). Oscillations of centroid position and surface area of socc
+---
+[p370]  in small-sided games. European Journal of Sport Science, 11(4), 215–223.
+---
+[p371] Gigerenzer, G., & Gaissmaier, W. (2011). Heuristic decision making. Annual Review of Psychology, 62
+---
+[p372] Gigerenzer, G., & Selten, R. (Eds.). (2001). Bounded rationality: The adaptive toolbox. MIT Pre
+---
+[p372] Gigerenzer, G., & Selten, R. (Eds.). (2001). Bounded rationality: The adaptive toolbox. MIT Press.
+---
+[p373] Girvan, M., & Newman, M. E. J. (2002). Community structure in social and biological networks. Pro
+---
+[p373] etworks. Proceedings of the National Academy of Sciences, 99(12), 7821–7826.
+---
+[p374] Goddard, J. (2005). Regression models for forecasting goals and match results 
+---
+[p374] sociation football. International Journal of Forecasting, 21(2), 331–340.
+---
+[p375] , F. R., Kempe, M., Meerhoff, L. A., & Lemmink, K. A. P. M. (2019). Not every pass can be an assist: A data-driven model to me
+---
+[p375] ss effectiveness in professional soccer matches. Big Data, 7(1), 57–70.
+---
+[p376]  D., Santos, S., Lago-Peñas, C., Jiménez, S., & Sampaio, J. (2017). Exploring team passing networks and player movement dynami
+---
+[p376] ovement dynamics in youth association football. PLoS ONE, 12(1), e0171156.
+---
+[p377] Gould, P., & Gatrell, A. (1979). A structural analysis of a game: The Liverpool v Mancheste
+---
+[p377] ol v Manchester United Cup Final of 1977. Social Networks, 2(3), 253–273.
+---
+[p378] Granovetter, M. S. (1973). The strength of weak ties. American Journal of Sociology, 
+---
+[p378] The strength of weak ties. American Journal of Sociology, 78(6), 1360–1380.
+---
+[p379] Grund, T. U. (2012). Network structure and team performance: The case of Englis
+---
+[p379]  of English Premier League soccer teams. Social Networks, 34(4), 682–690.
+---
+[p380] Gudmundsson, J., & Horton, M. (2017). Spatio-temporal analysis of team sports. ACM Computing Sur
+---
+[p380] -temporal analysis of team sports. ACM Computing Surveys, 50(2), 34.
+---
+[p381] ., Ruggieri, S., Turini, F., Giannotti, F., & Pedreschi, D. (2018). A survey of methods for explaining black box models. ACM C
+---
+[p381] s for explaining black box models. ACM Computing Surveys, 51(5), 93.
+---
+[p382] Gyarmati, L., Kwak, H., & Rodriguez, P. (2014). Searching for a unique style in soccer. arXiv preprint arX
+---
+[p383] Hardt, M., Price, E., & Srebro, N. (2016). Equality of opportunity in supervised learning. In D. D. L
+---
+[p383]  D. Lee, M. Sugiyama, U. V. Luxburg, I. Guyon, & R. Garnett (Eds.), Advances in Neural Information Processing Systems 29 (pp. 
+---
+[p383] Eds.), Advances in Neural Information Processing Systems 29 (pp. 3315–3323). Curran Associates.
+---
+[p384] Hughes, M., & Franks, I. (Eds.). (2004). Notational analysis of sport: Systems for better c
+---
+[p384] Hughes, M., & Franks, I. (Eds.). (2004). Notational analysis of sport: Systems for better coaching 
+---
+[p384] sport: Systems for better coaching and performance in sport (2nd ed.). Routledge.
+---
+[p385] Hvattum, L. M., & Arntzen, H. (2010). Using ELO ratings for match result prediction in associati
+---
+[p385] sociation football. International Journal of Forecasting, 26(3), 460–470.
+---
+[p386] Ioannidis, J. P. A. (2005). Why most published research findings are false. PLoS Medic
+---
+[p386] most published research findings are false. PLoS Medicine, 2(8), e124.
+---
+[p387] Jackson, M. O. (2008). Social and economic networks. Princeton University Press.
+---
+[p388] Jobin, A., Ienca, M., & Vayena, E. (2019). The global landscape of AI ethics guidelines. Nature Machi
+---
+[p388] cape of AI ethics guidelines. Nature Machine Intelligence, 1(9), 389–399.
+---
+[p389] Kahneman, D. (2011). Thinking, fast and slow. Farrar, Straus and Giroux.
+---
+[p390] Kahneman, D., & Tversky, A. (1979). Prospect theory: An analysis of decision under risk. Econo
+---
+[p390] theory: An analysis of decision under risk. Econometrica, 47(2), 263–291.
+---
+[p391] Karlis, D., & Ntzoufras, I. (2003). Analysis of sports data using bivariate Poisson models. Jo
+---
+[p391]  models. Journal of the Royal Statistical Society: Series D (The Statistician), 52(3), 381–393.
+---
+[p391] e Royal Statistical Society: Series D (The Statistician), 52(3), 381–393.
+---
+[p392] Kuper, S., & Szymanski, S. (2009). Soccernomics: Why England loses, why Spain, Germany, and B
+---
+[p393] go-Peñas, C., Lago-Ballesteros, J., Dellal, A., & Gómez, M. (2010). Game-related statistics that discriminated winning, drawin
+---
+[p393] ish soccer league. Journal of Sports Science and Medicine, 9(2), 288–293.
+---
+[p394] Link, D., Lang, S., & Seidenschwarz, P. (2016). Real time quantification of dangerousity in football using
+---
+[p394] in football using spatiotemporal tracking data. PLoS ONE, 11(12), e0168768.
+---
+[p395] Lundberg, S. M., & Lee, S.-I. (2017). A unified approach to interpreting model predictions. In I
+---
+[p395] engio, H. Wallach, R. Fergus, S. Vishwanathan, & R. Garnett (Eds.), Advances in Neural Information Processing Systems 30 (pp. 
+---
+[p395] Eds.), Advances in Neural Information Processing Systems 30 (pp. 4765–4774). Curran Associates.
+---
+[p396] López-Peña, J., & Sánchez-Navarro, R. (2015). Who can replace Xavi? A passing motif analysis of football
+---
+[p397] Maher, M. J. (1982). Modelling association football scores. Statistica Neerland
+---
+[p397] ling association football scores. Statistica Neerlandica, 36(3), 109–118.
+---
+[p398] rson, D. I., Wallace, S. A., Hughes, M. D., & Franks, I. M. (2002). Sport competition as a dynamical self-organizing system. J
+---
+[p398] mical self-organizing system. Journal of Sports Sciences, 20(10), 771–781.
+---
+[p399]  N., Morstatter, F., Saxena, N., Lerman, K., & Galstyan, A. (2021). A survey on bias and fairness in machine learning. ACM Com
+---
+[p399]  and fairness in machine learning. ACM Computing Surveys, 54(6), 115.
+---
+[p400] Memmert, D., Lemmink, K. A. P. M., & Sampaio, J. (2017). Current approaches to tactical performance analyses in soc
+---
+[p400]  analyses in soccer using position data. Sports Medicine, 47(1), 1–10.
+---
+[p401]  S., Itzkovitz, S., Kashtan, N., Chklovskii, D., & Alon, U. (2002). Network motifs: Simple building blocks of complex networks
+---
+[p401] fs: Simple building blocks of complex networks. Science, 298(5594), 824–827.
+---
+[p402] dt, B. D., Allo, P., Taddeo, M., Wachter, S., & Floridi, L. (2016). The ethics of algorithms: Mapping the debate. Big Data & S
+---
+[p402] ics of algorithms: Mapping the debate. Big Data & Society, 3(2), 1–21.
+---
+[p403]  R. O., Ruffino, P. R. C., Barros, R. M. L., & Cunha, S. A. (2013). A spectral analysis of team dynamics and tactics in Brazil
+---
+[p403] actics in Brazilian football. Journal of Sports Sciences, 31(14), 1568–1577.
+---
+[p404]  Chambers, C. D., Percie du Sert, N., … Ioannidis, J. P. A. (2017). A manifesto for reproducible science. Nature Human Behavio
+---
+[p404] anifesto for reproducible science. Nature Human Behaviour, 1(1), 0021.
+---
+[p405] Newman, M. E. J. (2003). The structure and function of complex networks. SIAM Revie
+---
+[p405]  structure and function of complex networks. SIAM Review, 45(2), 167–256.
+---
+[p406] Newman, M. E. J. (2010). Networks: An introduction. Oxford University Press.
+---
+[p407] Newman, M. E. J., & Girvan, M. (2004). Finding and evaluating community structure in networks. Ph
+---
+[p407] ating community structure in networks. Physical Review E, 69(2), 026113.
+---
+[p408] Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises.
+---
+[p408] s phenomenon in many guises. Review of General Psychology, 2(2), 175–220.
+---
+[p409] Nissenbaum, H. (2010). Privacy in context: Technology, policy, and the integrity 
+---
+[p410] O'Neil, C. (2016). Weapons of math destruction: How big data increases inequa
+---
+[p411] Ohm, P. (2010). Broken promises of privacy: Responding to the surprising f
+---
+[p412] Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. S
+---
+[p412] g the reproducibility of psychological science. Science, 349(6251), aac4716.
+---
+[p413] Opsahl, T., Agneessens, F., & Skvoretz, J. (2010). Node centrality in weighted networks: Generalizing degree 
+---
+[p413]  Generalizing degree and shortest paths. Social Networks, 32(4), 245–251.
+---
+[p414] Oswald, M. E., & Grosjean, S. (2004). Confirmation bias. In R. F. Pohl (Ed.), Cognitive illusion
+---
+[p414] E., & Grosjean, S. (2004). Confirmation bias. In R. F. Pohl (Ed.), Cognitive illusions: A handbook on fallacies and biases in
+---
+[p414] k on fallacies and biases in thinking, judgement and memory (pp. 79–96). Psychology Press.
+---
+[p415] Massucco, E., Ferragina, P., Pedreschi, D., & Giannotti, F. (2019). A public data set of spatio-temporal match events in socce
+---
+[p416] Pasquale, F. (2015). The black box society: The secret algorithms that control 
+---
+[p417] Davids, K., Araújo, D., Paz, N., Minguéns, J., & Mendes, J. (2011). Networks as a novel tool for studying team ball sports as 
+---
+[p417] social systems. Journal of Science and Medicine in Sport, 14(2), 170–176.
+---
+[p418] Peng, R. D. (2011). Reproducible research in computational science. Science, 3
+---
+[p418] Reproducible research in computational science. Science, 334(6060), 1226–1227.
+---
+[p419] Peña, J. L., & Touchette, H. (2012). A network theory analysis of football strategies. arXiv pr
+---
+[p420] Rein, R., & Memmert, D. (2016). Big data and tactical analysis in elite soccer: Future cha
+---
+[p421] Ribeiro, M. T., Singh, S., & Guestrin, C. (2016). "Why should I trust you?" Explaining the predictions of an
+---
+[p421] rnational Conference on Knowledge Discovery and Data Mining (pp. 1135–1144). ACM.
+---
+[p422] Rudin, C. (2019). Stop explaining black box machine learning models for high
+---
+[p422] interpretable models instead. Nature Machine Intelligence, 1(5), 206–215.
+---
+[p423] Sampaio, J., & Maçãs, V. (2012). Measuring tactical behaviour in football. International Jo
+---
+[p423] ur in football. International Journal of Sports Medicine, 33(5), 395–401.
+---
+[p424] Sandve, G. K., Nekrutenko, A., Taylor, J., & Hovig, E. (2013). Ten simple rules for reproducible computational research. 
+---
+[p424] ucible computational research. PLoS Computational Biology, 9(10), e1003285.
+---
+[p425] , Anguera, M. T., Campaniço, J., Matos, N., & Leitão, J. C. (2014). Match analysis in football: A systematic review. Journal o
+---
+[p425] ootball: A systematic review. Journal of Sports Sciences, 32(20), 1831–1843.
+---
+[p426] Simon, H. A. (1955). A behavioral model of rational choice. The Quarterly Journ
+---
+[p426] l of rational choice. The Quarterly Journal of Economics, 69(1), 99–118.
+---
+[p427] Simon, H. A. (1956). Rational choice and the structure of the environment. Psyc
+---
+[p427] d the structure of the environment. Psychological Review, 63(2), 129–138.
+---
+[p428] Singh, K. (2018, December 24). Introducing expected threat (xT) [Blog post]. karun.in. ht
+---
+[p428] Singh, K. (2018, December 24). Introducing expected threat (xT) [Blog post]. karun.in. https://karun.in/blog/expected-threa
+---
+[p429] Solove, D. J. (2006). A taxonomy of privacy. University of Pennsylvania Law Revi
+---
+[p429] onomy of privacy. University of Pennsylvania Law Review, 154(3), 477–564.
+---
+[p430] Spence, M. (1973). Job market signaling. The Quarterly Journal of Economics, 
+---
+[p430] Job market signaling. The Quarterly Journal of Economics, 87(3), 355–374.
+---
+[p431] Stanovich, K. E., & West, R. F. (2000). Individual differences in reasoning: Implications for the 
+---
+[p431] or the rationality debate? Behavioral and Brain Sciences, 23(5), 645–665.
+---
+[p432] StatsBomb. (n.d.). StatsBomb open data [Data set]. GitHub. https://github.com
+---
+[p433] Stodden, V., Leisch, F., & Peng, R. D. (Eds.). (2014). Implementing reproducible research. Chapman & Hall
+---
+[p433] Stodden, V., Leisch, F., & Peng, R. D. (Eds.). (2014). Implementing reproducible research. Chapman & Hall/CRC.
+---
+[p434] Sumpter, D. (2016). Soccermatics: Mathematical adventures in the beautiful gam
+---
+[p435] Trainor, C. (2014). 2+2=11: A football blog revolving around numbers [Blog]. h
+---
+[p436] Tufte, E. R. (2001). The visual display of quantitative information (2nd ed.). 
+---
+[p436] . R. (2001). The visual display of quantitative information (2nd ed.). Graphics Press.
+---
+[p437] Tversky, A., & Kahneman, D. (1973). Availability: A heuristic for judging frequency and probab
+---
+[p437] r judging frequency and probability. Cognitive Psychology, 5(2), 207–232.
+---
+[p438] Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. Science
+---
+[p438] gment under uncertainty: Heuristics and biases. Science, 185(4157), 1124–1131.
+---
+[p439] ens, R., Lenoir, M., Williams, A. M., & Philippaerts, R. M. (2008). Talent identification and development programmes in sport:
+---
+[p439] t: Current models and future directions. Sports Medicine, 38(9), 703–714.
+---
+[p440] Vilar, L., Araújo, D., Davids, K., & Button, C. (2012). The role of ecological dynamics in analysing performance i
+---
+[p440] in analysing performance in team sports. Sports Medicine, 42(1), 1–10.
+---
+[p441] Vogelbein, M., Nopp, S., & Hökelmann, A. (2014). Defensive transition in soccer – are prompt possession reg
+---
+[p441] Fußball-Bundesliga 2010/2011. Journal of Sports Sciences, 32(11), 1016–1023.
+---
+[p442] Wasserman, S., & Faust, K. (1994). Social network analysis: Methods and applications. Cambrid
+---
+[p443] Watts, D. J., & Strogatz, S. H. (1998). Collective dynamics of 'small-world' networks. Nature, 393
+---
+[p443] . Collective dynamics of 'small-world' networks. Nature, 393(6684), 440–442.
+---
+[p444] Williams, A. M., & Reilly, T. (2000). Talent identification and development in soccer. Journal o
+---
+[p444] on and development in soccer. Journal of Sports Sciences, 18(9), 657–667.
+---
+[p445] Štrumbelj, E. (2014). On determining probability forecasts from betting odds. In
+---
+[p445]  from betting odds. International Journal of Forecasting, 30(4), 934–943.

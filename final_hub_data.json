@@ -1,0 +1,354 @@
+[
+ {
+  "match": "2018-05-26",
+  "team": "Liverpool",
+  "hub_name": "Jordan Brian Henderson",
+  "hub_inv": 73,
+  "tied_with": [],
+  "r_inv": 1,
+  "r_deg": 1,
+  "r_bet": 2,
+  "r_eig": 1,
+  "r_clu": 11,
+  "n": 13,
+  "density": 0.615,
+  "edges": 96,
+  "grund": {
+   "keys": [
+    "team",
+    "match_date",
+    "period",
+    "centrality",
+    "passing_rate",
+    "narrative"
+   ]
+  }
+ },
+ {
+  "match": "2018-05-26",
+  "team": "Real Madrid",
+  "hub_name": "Toni Kroos",
+  "hub_inv": 159,
+  "tied_with": [],
+  "r_inv": 1,
+  "r_deg": 1,
+  "r_bet": 1,
+  "r_eig": 1,
+  "r_clu": 9,
+  "n": 14,
+  "density": 0.681,
+  "edges": 124,
+  "grund": {
+   "keys": [
+    "team",
+    "match_date",
+    "period",
+    "centrality",
+    "passing_rate",
+    "narrative"
+   ]
+  }
+ },
+ {
+  "match": "2019-06-01",
+  "team": "Liverpool",
+  "hub_name": "Andrew Robertson",
+  "hub_inv": 63,
+  "tied_with": [],
+  "r_inv": 1,
+  "r_deg": 1,
+  "r_bet": 1,
+  "r_eig": 1,
+  "r_clu": 11,
+  "n": 13,
+  "density": 0.609,
+  "edges": 95,
+  "grund": {
+   "keys": [
+    "team",
+    "match_date",
+    "period",
+    "centrality",
+    "passing_rate",
+    "narrative"
+   ]
+  }
+ },
+ {
+  "match": "2019-06-01",
+  "team": "Tottenham Hotspur",
+  "hub_name": "Jan Vertonghen",
+  "hub_inv": 130,
+  "tied_with": [],
+  "r_inv": 1,
+  "r_deg": 3,
+  "r_bet": 1,
+  "r_eig": 1,
+  "r_clu": 12,
+  "n": 14,
+  "density": 0.626,
+  "edges": 114,
+  "grund": {
+   "keys": [
+    "team",
+    "match_date",
+    "period",
+    "centrality",
+    "passing_rate",
+    "narrative"
+   ]
+  }
+ },
+ {
+  "match": "2022-12-18_World_Cup_2022",
+  "team": "Argentina",
+  "hub_name": "Enzo Fernandez",
+  "hub_inv": 158,
+  "tied_with": [],
+  "r_inv": 1,
+  "r_deg": 1,
+  "r_bet": 1,
+  "r_eig": 1,
+  "r_clu": 15,
+  "n": 15,
+  "density": 0.586,
+  "edges": 123,
+  "grund": {
+   "keys": [
+    "team",
+    "match_date",
+    "period",
+    "centrality",
+    "passing_rate",
+    "narrative"
+   ]
+  }
+ },
+ {
+  "match": "2022-12-18_World_Cup_2022",
+  "team": "France",
+  "hub_name": "Dayotchanculle Upamecano",
+  "hub_inv": 106,
+  "tied_with": [
+   "Rapha\u00ebl Varane"
+  ],
+  "r_inv": 2,
+  "r_deg": 5,
+  "r_bet": 3,
+  "r_eig": 2,
+  "r_clu": 10,
+  "n": 17,
+  "density": 0.522,
+  "edges": 142,
+  "grund": {
+   "keys": [
+    "team",
+    "match_date",
+    "period",
+    "centrality",
+    "passing_rate",
+    "narrative"
+   ]
+  }
+ },
+ {
+  "match": "2024-07-14_Euro_2024",
+  "team": "England",
+  "hub_name": "Kyle Walker",
+  "hub_inv": 67,
+  "tied_with": [],
+  "r_inv": 1,
+  "r_deg": 3,
+  "r_bet": 1,
+  "r_eig": 1,
+  "r_clu": 10,
+  "n": 13,
+  "density": 0.564,
+  "edges": 88,
+  "grund": {
+   "keys": [
+    "team",
+    "match_date",
+    "period",
+    "centrality",
+    "passing_rate",
+    "narrative"
+   ]
+  }
+ },
+ {
+  "match": "2024-07-14_Euro_2024",
+  "team": "Spain",
+  "hub_name": "Robin Aime Robert Le Normand",
+  "hub_inv": 157,
+  "tied_with": [],
+  "r_inv": 1,
+  "r_deg": 6,
+  "r_bet": 1,
+  "r_eig": 1,
+  "r_clu": 8,
+  "n": 14,
+  "density": 0.615,
+  "edges": 112,
+  "grund": {
+   "keys": [
+    "team",
+    "match_date",
+    "period",
+    "centrality",
+    "passing_rate",
+    "narrative"
+   ]
+  }
+ },
+ {
+  "match": "2024-07-15_Copa_America_2024",
+  "team": "Argentina",
+  "hub_name": "Enzo Fernandez",
+  "hub_inv": 113,
+  "tied_with": [],
+  "r_inv": 1,
+  "r_deg": 3,
+  "r_bet": 3,
+  "r_eig": 2,
+  "r_clu": 10,
+  "n": 16,
+  "density": 0.554,
+  "edges": 133,
+  "grund": {
+   "keys": [
+    "team",
+    "match_date",
+    "period",
+    "centrality",
+    "passing_rate",
+    "narrative"
+   ]
+  }
+ },
+ {
+  "match": "2024-07-15_Copa_America_2024",
+  "team": "Colombia",
+  "hub_name": "Davinson S\u00e1nchez Mina",
+  "hub_inv": 145,
+  "tied_with": [],
+  "r_inv": 1,
+  "r_deg": 1,
+  "r_bet": 1,
+  "r_eig": 1,
+  "r_clu": 15,
+  "n": 17,
+  "density": 0.526,
+  "edges": 143,
+  "grund": {
+   "keys": [
+    "team",
+    "match_date",
+    "period",
+    "centrality",
+    "passing_rate",
+    "narrative"
+   ]
+  }
+ },
+ {
+  "match": "2023-08-20_Women's_World_Cup_20",
+  "team": "England Women's",
+  "hub_name": "Keira Walsh",
+  "hub_inv": 80,
+  "tied_with": [],
+  "r_inv": 1,
+  "r_deg": 3,
+  "r_bet": 1,
+  "r_eig": 1,
+  "r_clu": 13,
+  "n": 14,
+  "density": 0.604,
+  "edges": 110,
+  "grund": {
+   "keys": [
+    "team",
+    "match_date",
+    "period",
+    "centrality",
+    "passing_rate",
+    "narrative"
+   ]
+  }
+ },
+ {
+  "match": "2023-08-20_Women's_World_Cup_20",
+  "team": "Spain Women's",
+  "hub_name": "Olga  Carmona Garc\u00eda",
+  "hub_inv": 115,
+  "tied_with": [],
+  "r_inv": 1,
+  "r_deg": 3,
+  "r_bet": 1,
+  "r_eig": 2,
+  "r_clu": 12,
+  "n": 14,
+  "density": 0.56,
+  "edges": 102,
+  "grund": {
+   "keys": [
+    "team",
+    "match_date",
+    "period",
+    "centrality",
+    "passing_rate",
+    "narrative"
+   ]
+  }
+ },
+ {
+  "match": "2024-02-11_AFCON_2023",
+  "team": "C\u00f4te d'Ivoire",
+  "hub_name": "Ghislain Konan",
+  "hub_inv": 124,
+  "tied_with": [],
+  "r_inv": 1,
+  "r_deg": 7,
+  "r_bet": 2,
+  "r_eig": 1,
+  "r_clu": 8,
+  "n": 16,
+  "density": 0.392,
+  "edges": 94,
+  "grund": {
+   "keys": [
+    "team",
+    "match_date",
+    "period",
+    "centrality",
+    "passing_rate",
+    "narrative"
+   ]
+  }
+ },
+ {
+  "match": "2024-02-11_AFCON_2023",
+  "team": "Nigeria",
+  "hub_name": "Calvin Bassey Ughelumba",
+  "hub_inv": 61,
+  "tied_with": [],
+  "r_inv": 1,
+  "r_deg": 3,
+  "r_bet": 1,
+  "r_eig": 1,
+  "r_clu": 12,
+  "n": 15,
+  "density": 0.433,
+  "edges": 91,
+  "grund": {
+   "keys": [
+    "team",
+    "match_date",
+    "period",
+    "centrality",
+    "passing_rate",
+    "narrative"
+   ]
+  }
+ }
+]

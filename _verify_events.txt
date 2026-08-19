@@ -1,0 +1,10 @@
+=== [14] ===
+This thesis develops and evaluates a passing network analysis framework for hub player identification and tactical performance evaluation using a dataset of thirty-one real international matches spanning six competitions, three confederations, and both the men's and women's game, comprising 110,080 events in total. The
+
+=== [135] ===
+The dataset utilised in this project consists of thirty-one real matches of StatsBomb-format event data totalling 110,080 events: the 2018 and 2019 Champions League finals together with twenty-nine further knockout matches from Euro 2024, the 2022 World Cup, Copa America 2024, the 2023 Women's World Cup and AFCON 2023.
+
+=== [250] ===
+The dataset comprises thirty-one real matches of StatsBomb-format event data totalling 110,080 events, in which every action is one row with a uniform schema and a precomputed expected-threat value. Two of the matches are the 2018 and 2019 Champions League finals; the remaining twenty-nine are knockout matches from fiv
+
+occurrences of '110,080': 3

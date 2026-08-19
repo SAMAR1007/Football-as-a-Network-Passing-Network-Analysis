@@ -1,0 +1,743 @@
+Colour Key — Highlights in the Proposal Text
+Gold highlight — Core claims, key definitions, or the primary argument of the section
+Blue highlight — Technical methodology, algorithms, or data science contributions
+Green highlight — Evidence of good academic practice (e.g., acknowledging limitations, ethical
+awareness)
+Red highlight — Ethical considerations or risk acknowledgements
+Purple highlight — Theoretical frameworks or named academic concepts
+Annotation Colour Key — Right-Panel Cards
+Gold border — Writing technique, structure, or rhetorical strategy
+Blue border — Technical or methodological observation
+Green border — Strength of the proposal / good academic practice
+Red border — Risk, limitation, or ethical point to address
+Purple border — Theoretical connection or conceptual link
+02 · INTRODUCTION
+Introduction
+ORIGINAL PROPOSAL TEXT — INTRODUCTION
+Football is widely regarded as the most popular sport in the world. It is watched by billions of
+people across different continents and cultures. The game has evolved significantly over the
+past decades, not only in terms of how it is played but also in how it is analysed and
+understood.  Modern football is no longer just about talent and tactics on the pitch. It has
+become a data-driven enterprise where numbers and statistics are used to gain competitive
+advantages.
+
+
+The betting industry has grown alongside football's popularity. It is estimated that billions of
+pounds are wagered on football matches every year across Europe alone. This growth has
+been fuelled by the availability of live data, online platforms, and increasingly sophisticated
+odds-setting mechanisms employed by bookmakers. However,  despite the vast amounts of
+money involved, most bettors consistently lose money over time. This is because bookmakers
+have access to advanced statistical models and historical data that the average punter does not
+possess.
+This research proposal outlines a project that seeks to explore whether a data-driven betting
+model can be developed using publicly available data from Europe's top five football
+leagues.  These leagues are the English Premier League, Spanish La Liga, Italian Serie A,
+German Bundesliga, and French Ligue 1. The project will apply statistical inference techniques
+and machine learning algorithms to historical match data spanning over three decades from
+1990 to 2026. The aim is not to create a perfect prediction system but rather to understand the
+underlying patterns in football match outcomes and to develop a deeper appreciation of the
+challenges involved in sports prediction.
+✍ OPENING STRATEGY
+The introduction uses a classic "broad to narrow" funnel: global sport → betting industry → information asymmetry → the specific
+research project. This is the standard academic opening structure and demonstrates clear rhetorical control from the first paragraph.
+⚖ INFORMATION ASYMMETRY ESTABLISHED EARLY
+'Bookmakers have access to advanced statistical models... the average punter does not.' This establishes the core problem
+— information asymmetry — in the introduction before formally naming it as an economic theory later. This foreshadowing
+strengthens structural coherence.
+✅ HUMBLE SCOPE STATEMENT
+'The aim is not to create a perfect prediction system' — this is strong academic writing. Explicitly limiting the claim prevents the
+proposal from over-promising. Markers reward intellectual honesty about scope far more than grandiose claims.
+📊 DATA SCOPE ANCHORED
+Naming five specific leagues and the 1990–2026 timeframe this early signals that the research is grounded and realistic. Vague scope
+statements are a common weakness in proposals — this avoids the problem immediately.
+Data Coverage Timeline
+36 years of football data across Europe's top five leagues
+
+
+36 YEARS OF FOOTBALL DATA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1990 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━● 2026
+~70,000 Matches · 5 Leagues · 36 Seasons
+🏴 Premier League  🇪🇸 La Liga  🇮🇹 Serie A  🇩🇪 Bundesliga  🇫🇷 Ligue 1
+ERA 1: 1990–2005          ERA 2: 2005–2015          ERA 3: 2015–2026
+Traditional Statistics    Advanced Metrics          Data Science Era
+Goals · Assists · Cards   Possession · Pass Acc.    xG · ML · Tracking Data
+Annotation: Why This Diagram Matters
+The data timeline diagram appears in the introduction to ground the reader immediately in the scale of the
+dataset. Placing architecture visuals early — rather than only in the methodology — signals to the marker
+that the researcher has thought concretely about the data, not just abstractly. It also links to the ERA
+framework, which justifies using 36 years of data by noting that football analytics has undergone three
+distinct transformations over that period.
+03 · MOTIVATION
+Motivation
+ORIGINAL PROPOSAL TEXT — MOTIVATION
+The motivation for this project stems from a genuine interest in both football and data science.
+As someone who has followed football for many years, there has always been curiosity about
+what makes certain teams win consistently while others struggle. Traditional explanations such
+as squad quality, managerial ability, and home advantage provide some answers.
+However, these explanations are often subjective and difficult to quantify. Data science offers an
+opportunity to investigate these questions more rigorously.
+By collecting and analysing historical match data, it becomes possible to identify patterns that
+might not be obvious to the casual observer. For example, certain teams might perform better in
+specific conditions, or particular statistical indicators might be more predictive of match
+outcomes than others. Understanding these patterns has both academic and practical value.
+
+
+Furthermore, 
+the 
+betting 
+market 
+provides 
+an 
+interesting 
+test 
+case 
+for 
+prediction
+models.  Bookmaker odds are essentially probability estimates set by experts using
+sophisticated methods. If a model can consistently identify situations where these odds appear
+to be mispriced, it suggests that the model has captured something meaningful about football
+match dynamics. This does not mean that profitable betting is guaranteed, but it does provide a
+measurable benchmark against which model performance can be evaluated.
+From a learning perspective, this project offers an opportunity to apply theoretical knowledge
+gained during the programme to a real-world problem. It requires skills in data collection, data
+cleaning, exploratory analysis, statistical modelling, and machine learning. These are all core
+competencies expected of a data science graduate. The football context makes the technical
+work more engaging and provides concrete examples that aid understanding.
+🎯 PERSONAL + ACADEMIC MOTIVATION
+Effective motivation sections combine personal interest with academic purpose. This passage does exactly that — 'genuine interest in
+football' (personal) + 'data science offers an opportunity to investigate more rigorously' (academic). This duality is what markers look
+for.
+📐 BETTING ODDS AS BENCHMARK
+'Bookmaker odds are essentially probability estimates' — this is a sophisticated framing. It repositions the betting market as a scientific
+benchmark rather than a gambling mechanism. This reframing elevates the research question and distances it from purely commercial
+motivations.
+✅ PROGRAMME ALIGNMENT
+'Core competencies expected of a data science graduate' — explicitly connecting the project to programme learning outcomes is strong
+proposal writing. It shows the researcher understands the academic context and has designed the project to meet its objectives.
+🔗 DUAL VALUE CLAIM
+'Both academic and practical value' — this phrase appears early and signals that the work transcends the purely theoretical. In BSc
+proposals, demonstrating that research has real-world applicability strengthens the justification significantly.
+04 · COGNITIVE BIASES
+Cognitive Biases in Betting Markets
+ORIGINAL PROPOSAL TEXT — COGNITIVE BIASES
+
+
+An additional motivation for this research lies in understanding how cognitive biases affect
+betting behaviour and market efficiency. Behavioural economics has demonstrated that humans
+are not perfectly rational actors. Instead, decision-making is influenced by systematic biases
+that can be exploited or mitigated through better information systems.
+The recency bias causes bettors to overweight recent results when forming expectations. A
+team that has won three consecutive matches may be perceived as stronger than their
+underlying quality suggests. Similarly, the availability heuristic leads people to overestimate the
+probability of memorable events such as shock cup upsets or high-profile collapses.  These
+biases can create systematic mispricings in betting markets.
+The favourite-longshot bias is well documented in sports betting literature. Bettors tend to
+overbet on longshots (high odds outcomes) and underbet on favourites. This is partly explained
+by prospect theory, which suggests that people overweight small probabilities and are attracted
+to the possibility of large gains even when expected value is negative.  Understanding these
+biases is essential for developing models that can identify genuine value.
+The confirmation bias affects how bettors interpret information. Fans of a particular team may
+selectively attend to positive news about their team while discounting negative indicators. This
+emotional attachment can lead to systematically biased probability assessments. A data-driven
+model, by contrast, processes all available information without emotional interference.
+🧠 BEHAVIOURAL ECONOMICS GROUNDING
+This section is the theoretical foundation of the entire proposal. By naming specific biases — recency bias, availability heuristic,
+favourite-longshot bias, confirmation bias — the proposal demonstrates depth of reading and directly connects the research problem to
+established psychological theory.
+🎯 THREE-PART BIAS STRUCTURE
+Each bias is introduced with: (1) a name, (2) a mechanism, and (3) a football-specific example. This consistent three-part structure shows
+organised thinking and makes the section easy for a marker to follow and credit.
+📐 PROSPECT THEORY NAMED
+'Prospect theory, which suggests that people overweight small probabilities' — citing Kahneman and Tversky's Nobel-winning
+framework by name is academically significant. It connects a football betting observation to foundational economic theory and signals
+serious theoretical engagement.
+✅ DT AS BIAS ANTIDOTE
+'A data-driven model processes all available information without emotional interference' — this is the key justification for the entire
+research. The proposal argues that its methodology is not just technically interesting but is a rational corrective to human cognitive
+
+
+limitations.
+Cognitive Biases Framework
+Biases, economic theories, and how data science addresses them
+COGNITIVE BIASES                    ECONOMIC THEORIES
+─────────────────────               ─────────────────────
+• Recency Bias                      • Prospect Theory
+  Overweighting recent results        Loss aversion shapes decisions
+• Availability Heuristic            • Expected Value
+  Memorable events seem likely        Probability × Payout analysis
+• Confirmation Bias                 • Market Efficiency
+  Seeking supporting evidence         Information reflected in odds
+• Gambler's Fallacy                 • Favourite-Longshot Bias
+  Patterns in random events           Longshots systematically overbet
+                    ↓ DATA SCIENCE APPROACH ↓
+   Systematic analysis removes emotional bias
+   Exploits market inefficiencies created by cognitive errors
+Why This Section Belongs in the Proposal
+Placing a dedicated cognitive biases section in the motivation — rather than only in the literature review —
+is an advanced structural move. It signals that the researcher understands  why  the problem exists at a
+deeper level than "bookmakers beat bettors." The cognitive bias framework also establishes the ethical
+dimension early: if bettors are systematically irrational, a predictive model carries responsibility to be used
+transparently and carefully.
+05 · RESEARCH AIM
+Aim and Objectives — Research Aim
+ORIGINAL PROPOSAL TEXT — RESEARCH AIM
+
+
+The aim of this research is to design and develop a football match outcome prediction model
+using statistical inference and machine learning techniques applied to data from Europe's top
+five leagues, and to evaluate its potential for identifying value betting opportunities.
+✍ AIM SENTENCE ANATOMY
+A perfect single-sentence aim. It contains: (1) active verb — 'design and develop', (2) the deliverable — 'a prediction model', (3) the
+method — 'statistical inference and machine learning', (4) the scope — 'Europe's top five leagues', and (5) the evaluation criterion —
+'value betting opportunities'. Every element is present.
+✅ OBJECTIVE HIERARCHY LANGUAGE
+'Design and develop… and to evaluate' — this mirrors the module's own assessment language (Design and Develop being one of the
+objective types). Aligning aim language with module vocabulary demonstrates awareness of the assessment framework.
+Annotation: The Single-Sentence Aim Rule
+A research aim should be expressible in a single sentence. This forces precision. Any aim that requires two
+or three sentences is too broad, too vague, or contains multiple aims masquerading as one. The aim above
+passes this test. Note also that the aim does not promise to achieve profitability — it promises to evaluate
+the potential for value betting. This careful hedging is academically correct and protects the research from
+over-claiming.
+06 · OBJECTIVES
+Research Objectives
+ORIGINAL PROPOSAL TEXT — RESEARCH OBJECTIVES
+The following objectives have been formulated to achieve the research aim:
+1. To learn and understand the fundamental statistical concepts underlying football match
+prediction, including Poisson distribution for goal modelling, expected goals (xG) metrics, and
+probability theory as applied to betting markets.
+2. To learn and understand the application of machine learning classification algorithms such as
+logistic regression, random forest, and gradient boosting to sports outcome prediction problems.
+3. To design and develop a prototype betting model that combines statistical inference with
+machine learning predictions to estimate match outcome probabilities and identify potential
+value bets.
+
+
+4. To obtain feedback and submit the final thesis incorporating reflections on the learning process,
+model limitations, and ethical considerations surrounding predictive betting systems.
+Table 1: Research Objectives Mapping
+OBJECTIVE
+DESCRIPTION
+TYPE
+1
+Statistical foundations of prediction
+Learn and
+Understand
+2
+Machine learning for classification
+Learn and
+Understand
+3
+Prototype betting model
+development
+Design and Develop
+4
+Final thesis with reflections
+Feedback and
+Submit
+🎯 SMART OBJECTIVES STRUCTURE
+All four objectives are Specific, Measurable, Achievable, Relevant, and Time-bound by the project scope. Each begins with an active
+infinitive verb ('to learn', 'to design', 'to obtain'), which is the correct grammatical form for research objectives.
+📐 OBJECTIVE TYPE TAXONOMY
+The mapping table categorises objectives as 'Learn and Understand', 'Design and Develop', and 'Feedback and Submit' — exactly
+matching the module's prescribed taxonomy. This shows the researcher has read and understood the module requirements carefully.
+✅ ETHICS IN OBJECTIVE 4
+Including 'ethical considerations' explicitly in Objective 4 — not as a separate section but embedded in the submission objective —
+integrates ethics throughout the research lifecycle rather than treating it as a standalone afterthought.
+🔗 OBJECTIVES → AIM ALIGNMENT
+Objectives 1 and 2 build the knowledge base. Objective 3 delivers the design contribution. Objective 4 closes with reflection and ethics.
+This cascade directly supports the research aim — a coherent, logical chain that markers can follow.
+07 · JUSTIFICATION
+Justification
+ORIGINAL PROPOSAL TEXT — JUSTIFICATION
+
+
+This research is justified on several grounds. Firstly, sports analytics is a rapidly growing field
+with significant industry demand. Major football clubs now employ data analysts and scientists
+to inform decisions on player recruitment, tactical planning, and opponent analysis.  By
+developing skills in this area, the research contributes to career readiness in a competitive job
+market.
+Secondly,  football betting prediction represents a challenging classification problem that
+requires integration of multiple data science techniques. Unlike many academic datasets,
+football data is messy, incomplete, and subject to numerous confounding factors such as
+injuries, weather, and referee decisions. Working with such data develops practical skills that
+cannot be gained from sanitised textbook examples.
+Thirdly, the project addresses the ethical dimensions of predictive modelling. Betting systems
+can cause harm if used irresponsibly. By explicitly considering these ethical issues as part of
+the research, the project demonstrates awareness of the broader societal implications of data
+science work. This aligns with the module's emphasis on understanding the impact of our work
+on others.
+Finally, Europe's top five leagues provide a rich and diverse dataset. Each league has distinct
+characteristics in terms of playing style, competitive balance, and historical patterns. Analysing
+data across multiple leagues enables comparison and helps identify which findings are
+generalisable versus league-specific. This adds academic rigour to the research.
+From a behavioural economics perspective, betting markets represent a natural laboratory for
+studying decision-making under uncertainty. The principles of bounded rationality — the idea
+that human cognitive limitations constrain optimal decision-making — are directly observable in
+betting behaviour.
+✍ SIGNPOSTING DISCIPLINE
+'Firstly… Secondly… Thirdly… Finally' — explicit enumeration signals to the reader that the justification is complete and systematic,
+not a collection of random supporting points. This ordinal signposting is a basic but often neglected academic writing discipline.
+✅ MULTI-DIMENSIONAL JUSTIFICATION
+Four distinct justification grounds: industry relevance, technical complexity, ethics, and cross-league generalisability. The strongest
+proposals justify research across multiple dimensions. A single justification ('football is popular') would be weak; four independent
+grounds is compelling.
+📐 MESSY DATA AS JUSTIFICATION
+
+
+'Football data is messy, incomplete, and subject to numerous confounding factors' — this is a sophisticated point. Arguing that
+the difficulty of the dataset is itself a justification for the project demonstrates technical maturity and awareness of real-world data
+science challenges.
+🧠 BOUNDED RATIONALITY NAMED
+'Bounded rationality' — Herbert Simon's Nobel-winning concept — appears in the justification, further deepening the theoretical
+underpinning. Naming specific concepts rather than paraphrasing them vaguely distinguishes a well-read proposal from a superficial one.
+08 · RESEARCH QUESTIONS
+Research Questions
+ORIGINAL PROPOSAL TEXT — RESEARCH QUESTIONS
+The following research questions will guide the investigation:
+1. RQ1: To what extent can historical match statistics and derived features be used to predict
+football match outcomes across Europe's top five leagues?
+2. RQ2: What are the ethical implications of developing and deploying football betting prediction
+models, and how can potential harms to vulnerable individuals be identified and mitigated?
+✍ 'TO WHAT EXTENT' PHRASING
+RQ1 uses 'to what extent' — one of the most academically robust question formulations. It invites a nuanced, graded answer rather than a
+binary yes/no. This phrasing signals that the researcher expects complexity, not a simple confirmatory result.
+⚖ ETHICS AS A FULL RESEARCH QUESTION
+Elevating ethics to a full research question — not just a paragraph in the conclusion — is architecturally significant. It means ethics is
+not an add-on but a co-equal investigative thread. RQ2 also includes a design dimension: 'how can potential harms be identified and
+mitigated' — requiring actionable outcomes, not just awareness.
+✅ TWO-QUESTION DISCIPLINE
+Two precisely focused questions rather than five loosely defined ones. Proposals with many research questions often lack focus. Two
+questions — one technical, one ethical — create a clean dual-track investigation that is achievable within the project scope.
+
+
+09 · HYPOTHESES
+Hypotheses
+ORIGINAL PROPOSAL TEXT — HYPOTHESES
+Based on preliminary literature review, the following hypotheses are proposed:
+1. H1: Machine learning models incorporating form-based features, expected goals metrics, and
+team strength ratings will achieve prediction accuracy exceeding 50% for match outcomes
+(home win, draw, away win), which is higher than random baseline performance.
+2. H2: The development of transparent prediction models with explicit probability outputs and
+uncertainty measures will enable more informed decision-making compared to opaque betting
+systems, thereby reducing the potential for harm associated with overconfident gambling
+behaviour.
+📐 TESTABLE H1
+H1 is measurable: '50% accuracy' is a concrete threshold. The baseline comparison (random = ~33% for three-class prediction) is
+explicitly named. A good hypothesis includes both the expected direction of effect AND the benchmark against which it will be tested.
+⚖ H2 — ETHICS AS TESTABLE CLAIM
+H2 is unusual and sophisticated — it makes an empirically testable claim about ethics: transparent models reduce harm from
+overconfident gambling. This transforms the ethics section from commentary into an investigative thread, elevating the entire proposal's
+academic rigour.
+🔗 H1/H2 ↔ RQ1/RQ2 SYMMETRY
+H1 directly corresponds to RQ1 (prediction accuracy). H2 directly corresponds to RQ2 (ethical implications and harm mitigation). This
+perfect symmetry between questions and hypotheses demonstrates deliberate, well-structured research design.
+Annotation: The Architecture of a Well-Structured Proposal
+By this point in the proposal, a clear architecture is visible: Aim → Objectives → Research Questions →
+Hypotheses. Each level narrows the focus further. The aim states the broad intention. Objectives specify
+what will be done. Research questions frame the investigation. Hypotheses make specific testable claims.
+This hierarchy is the gold standard for research design — and this proposal follows it precisely.
+
+
+10 · METHODOLOGY
+Research Methodology — Desk-Based Agile Approach
+ORIGINAL PROPOSAL TEXT — RESEARCH METHODOLOGY
+This research will adopt a desk-based agile methodology. The desk-based nature reflects that
+all data collection and analysis will be conducted using secondary sources available through
+online databases and APIs. No primary data collection involving human participants is required,
+which simplifies the ethical approval process.
+The agile approach is borrowed from software development practices but adapted for research
+purposes. Rather than following a rigid waterfall model where each phase must be completed
+before the next begins,  agile methodology allows for iterative development. Work will be
+organised into sprints of approximately two weeks each. At the end of each sprint, progress will
+be reviewed, and the direction of subsequent work adjusted based on findings.
+This approach is particularly suitable for data science projects where initial assumptions may
+prove incorrect once data is examined. For example, certain features might be unavailable for
+some leagues, or particular algorithms might prove computationally infeasible. The agile
+framework provides flexibility to adapt while maintaining overall progress toward objectives.
+✍ METHODOLOGY JUSTIFICATION PATTERN
+Good proposals don't just name a methodology — they justify why it was chosen over alternatives. Here, agile is justified by the
+likelihood of iterative discovery ('initial assumptions may prove incorrect'). Naming the waterfall alternative and explaining why it was
+rejected demonstrates methodological awareness.
+✅ ETHICAL SIMPLIFICATION NAMED
+'No primary data collection involving human participants' — this is an important ethical statement. Secondary data research has a
+different (and typically simpler) ethical profile than primary research. Naming this explicitly shows the researcher has considered the
+ethics process.
+📐 SPRINT STRUCTURE SPECIFIED
+'Sprints of approximately two weeks' — providing concrete sprint duration makes the methodology tangible. Vague methodology
+sections ('we will iterate') are a common weakness. Specifying the sprint rhythm anchors the agile claim in operational reality.
+Agile Research Sprint Framework
+
+
+12 two-week sprints across the research lifecycle
+Sprint 1-2:  Data Collection & Cleaning
+     ↓
+Sprint 3-4:  Exploratory Analysis & Feature Engineering
+     ↓
+Sprint 5-6:  Statistical Modelling (Poisson / Dixon-Coles)
+     ↓
+Sprint 7-8:  Machine Learning Implementation
+     ↓
+Sprint 9-10: Value Betting Analysis & Evaluation
+     ↓
+Sprint 11-12: Thesis Writing & Reflection
+Annotation: Why Agile Works Here
+The agile sprint framework is particularly appropriate for data science research because the data-to-insight
+path is non-linear. You cannot know what features will be most predictive until you have explored the data.
+You cannot know whether Dixon-Coles will outperform a pure Poisson model until you have implemented
+and tested both. The sprint structure formalises this exploratory dynamic while providing enough structure
+for academic accountability.
+11 · DATA STRATEGY
+Data Collection Strategy
+ORIGINAL PROPOSAL TEXT — DATA COLLECTION STRATEGY
+Historical match data will be collected from publicly available sources including  Football-
+Data.co.uk, which provides comprehensive match results and betting odds for major European
+leagues dating back multiple seasons. Additional data on expected goals and advanced
+statistics may be obtained from sources such as FBref and Understat.
+The dataset will cover an extensive period from 1990 to 2026 across all five target leagues. This
+provides approximately 70,000 matches spanning over three decades for analysis.  This
+longitudinal dataset enables examination of how football has evolved over time and whether
+prediction models trained on historical data remain valid for modern football. Data cleaning will
+
+
+address missing values, inconsistent team names, and duplicate records. Feature engineering
+will create derived variables such as rolling averages, goal difference, and points per game.
+📐 NAMED SOURCES
+Football-Data.co.uk, FBref, Understat — naming specific, credible data sources (not generic 'internet data') demonstrates that the
+researcher has already done preliminary scoping work. It also reassures the marker that the data is genuinely accessible.
+🎯 LONGITUDINAL JUSTIFICATION
+'Whether prediction models trained on historical data remain valid for modern football' — this is an academically rich observation. It
+raises the concept of data drift (model validity over time) without using that technical term. This could be developed further in the
+thesis.
+✅ DATA CLEANING ACKNOWLEDGED
+Explicitly mentioning 'missing values, inconsistent team names, and duplicate records' signals practical awareness of real-world data
+challenges. Proposals that assume data will be clean and ready to use are naive; this one is not.
+12 · ANALYSIS FRAMEWORK
+Analysis Framework
+ORIGINAL PROPOSAL TEXT — ANALYSIS FRAMEWORK
+Analysis will proceed in three phases.  The first phase involves exploratory data analysis to
+understand distributions, correlations, and potential predictive features. The second phase
+applies statistical modelling, beginning with Poisson regression for goal prediction and Dixon-
+Coles adjustment for home advantage. The third phase implements machine learning classifiers
+and compares their performance against statistical baselines.
+Model validation will use time-series cross-validation to respect the temporal nature of football
+data. Models will be trained on historical data and tested on subsequent seasons to simulate
+realistic prediction scenarios.  Performance metrics will include accuracy, log-loss, and
+calibration curves comparing predicted probabilities to observed frequencies.
+📐 THREE-PHASE ANALYSIS ARCHITECTURE
+EDA → Statistical Modelling → Machine Learning. This three-phase progression is the canonical data science workflow. Presenting it
+explicitly (rather than just jumping to ML) shows methodological maturity — EDA and statistical baselines must precede ML, not skip
+
+
+straight to the 'exciting' algorithms.
+✅ TIME-SERIES CV — CRITICAL DETAIL
+'Time-series cross-validation to respect the temporal nature of football data' — this is one of the most important methodological choices
+in the proposal. Standard k-fold CV would allow future data to train models that predict past data, creating data leakage. Temporal CV
+prevents this. Mentioning it explicitly shows advanced methodological awareness.
+📐 MULTIPLE EVALUATION METRICS
+'Accuracy, log-loss, and calibration curves' — using three complementary metrics is sophisticated. Accuracy alone is insufficient for
+probability prediction. Log-loss penalises overconfident wrong predictions. Calibration curves check whether predicted probabilities
+match observed frequencies. This trio covers all important evaluation dimensions.
+13 · LITERATURE REVIEW
+Statistical Approaches to Football Prediction
+ORIGINAL PROPOSAL TEXT — STATISTICAL APPROACHES
+Maher (1982) was among the first to propose using Poisson regression to model goal-scoring in
+football matches. His approach treated goals scored by each team as independent Poisson
+processes with rates determined by team attacking and defending strengths. While this model
+captured basic dynamics, it failed to account for the correlation between home and away goals
+observed in actual matches.
+Dixon and Coles (1997) addressed this limitation by introducing a correction factor for low-
+scoring matches. Their model remains influential and is still used as a baseline in contemporary
+research. The key insight was that matches with zero or one goal for each team occur more
+frequently than independent Poisson models predict. The Dixon-Coles adjustment accounts for
+this by modifying probabilities for scorelines like 0-0, 1-0, 0-1, and 1-1.
+More recent statistical work has incorporated time-decay factors that give greater weight to
+recent results. Constantinou et al. (2012) demonstrated that team strengths vary over time and
+that models accounting for this temporal variation outperform static approaches. Their work also
+highlighted the importance of considering contextual factors such as match importance and
+fixture congestion.
+📚 CHRONOLOGICAL LITERATURE NARRATIVE
+
+
+Maher (1982) → Dixon-Coles (1997) → Constantinou (2012). The literature review traces a chronological development narrative —
+each paper addresses a limitation of the previous one. This "gap identification" structure is the ideal form for a literature review: it shows
+how the field evolved and where the current project fits.
+🎯 CRITICAL ENGAGEMENT
+'While this model captured basic dynamics, it failed to account for...' — this is critical engagement with literature, not just description.
+Identifying specific limitations of prior work and explaining how later studies addressed them demonstrates depth of reading and
+analytical capability.
+📐 TECHNICAL PRECISION
+Naming specific scorelines (0-0, 1-0, 0-1, 1-1) that require the Dixon-Coles correction shows the researcher has understood the technical
+content, not just the abstract conclusion of the paper. This level of specificity in a proposal is impressive.
+14 · LITERATURE REVIEW
+Machine Learning in Sports Prediction
+ORIGINAL PROPOSAL TEXT — MACHINE LEARNING IN SPORTS
+Huang and Chang (2010) applied neural networks to predict English Premier League results
+and reported accuracy rates around 60%. However, their work has been criticised for potential
+overfitting and lack of proper temporal validation.
+Tax and Joustra (2015) conducted a systematic comparison of machine learning methods on
+Dutch Eredivisie data. They found that random forest classifiers slightly outperformed logistic
+regression and naive Bayes approaches. Importantly, they emphasised the difficulty of beating
+bookmaker predictions, noting that even well-calibrated models struggled to achieve consistent
+profitability.
+Hubacek et al. (2019) combined gradient boosting machines with extensive feature engineering
+including expected goals metrics. Their model achieved competitive performance on Kaggle
+competitions but  the authors acknowledged that real-world deployment faces additional
+challenges including transaction costs and betting limits imposed by bookmakers.
+✅ CRITICAL READING DEMONSTRATED
+'Criticised for potential overfitting and lack of proper temporal validation' — critiquing Huang and Chang (2010) on methodological
+grounds demonstrates that the proposal author can evaluate, not just report, the literature. This is a key difference between undergraduate
+
+
+and undergraduate writing.
+🎯 EXPECTATION MANAGEMENT
+Tax and Joustra's finding that 'even well-calibrated models struggled to achieve consistent profitability' is cited before the model is even
+built. This preemptively manages expectations for the thesis outcome — the researcher already knows profitability is unlikely and has
+academic precedent for that prediction.
+📐 REAL-WORLD CHALLENGES NOTED
+'Transaction costs and betting limits imposed by bookmakers' — acknowledging deployment challenges beyond the academic context of
+the project shows intellectual honesty and understanding that a working prediction model and a profitable betting operation are not the
+same thing.
+15 · LITERATURE REVIEW
+Economic Theories and Market Efficiency
+ORIGINAL PROPOSAL TEXT — ECONOMIC THEORIES
+The Efficient Market Hypothesis (EMH) provides a theoretical framework for understanding
+betting markets. In its strong form, EMH suggests that all available information is immediately
+reflected in prices, making it impossible to consistently achieve above-market returns. Applied
+to betting, this would imply that bookmaker odds perfectly reflect true probabilities.
+However, research suggests that betting markets exhibit weak-form efficiency at best. Kuypers
+(2000) found evidence of exploitable inefficiencies in English football betting markets,
+particularly around draws and away wins. Forrest and Simmons (2008) demonstrated that
+incorporating additional information sources could improve upon bookmaker predictions,
+suggesting markets do not fully incorporate all available data.
+The concept of expected value from decision theory is central to this research. A bet has
+positive expected value when the probability of winning multiplied by the potential payout
+exceeds the stake. Identifying such opportunities requires accurate probability estimation, which
+is precisely what this project attempts to develop.
+Game theory also informs our understanding of betting markets. Bookmakers and sophisticated
+bettors engage in strategic interaction where each party attempts to anticipate the other's
+behaviour. Bookmakers adjust odds based on betting patterns, while sharp bettors attempt to
+
+
+place wagers before odds move.  This dynamic creates a complex adaptive system where
+simple prediction models may be insufficient.
+🧠 EMH AS FRAMEWORK
+The Efficient Market Hypothesis is borrowed from financial economics and applied to betting markets. This interdisciplinary move —
+applying financial theory to sports — is a hallmark of sophisticated academic reasoning. It frames the entire prediction problem in terms
+of market efficiency theory.
+✅ WEAK-FORM EFFICIENCY FINDING
+'Betting markets exhibit weak-form efficiency at best' — citing Kuypers (2000) and Forrest and Simmons (2008) to support this claim
+gives the research its academic justification. If markets were strongly efficient, the entire project would be theoretically futile. Weak-
+form efficiency means there is a gap to investigate.
+📐 GAME THEORY INTRODUCTION
+Introducing game theory in the literature review (bookmakers vs. sharp bettors as strategic interaction) adds another theoretical layer.
+This acknowledges that the prediction problem is not static — it is dynamic and adaptive, which directly justifies using machine learning
+over fixed statistical models.
+16 · CASE STUDIES
+Case Studies
+ORIGINAL PROPOSAL TEXT — CASE STUDIES
+Case Study 1 — FiveThirtyEight Soccer Power Index
+The American media organisation FiveThirtyEight publishes match predictions based on their
+Soccer Power Index (SPI). The methodology combines adjusted goals, shot-based expected
+goals, and non-shot expected goals to rate team quality.  The model is transparent about its
+predictions and provides probability estimates for each match outcome. Analysis of their
+historical predictions suggests reasonable calibration but limited ability to consistently beat
+closing betting odds.
+Case Study 2 — Stratagem and Betting Syndicates
+Professional betting syndicates reportedly use sophisticated models that incorporate not only
+match statistics but also market information such as odds movements and liquidity.  While
+specific methodologies are proprietary, interviews and legal cases have revealed that
+
+
+successful operations typically combine statistical models with human expertise and
+sophisticated risk management. This suggests that purely automated approaches may be
+insufficient for consistent profitability.
+Table 2: Literature Summary
+AUTHOR(S)
+APPROACH
+KEY CONTRIBUTION
+Maher (1982)
+Poisson
+Regression
+Foundation for goal-based
+modelling
+Dixon & Coles
+(1997)
+Adjusted Poisson
+Low-score correlation
+correction
+Kuypers (2000)
+Market Efficiency
+Exploitable inefficiencies in
+betting markets
+Kahneman
+(2011)
+Behavioural
+Economics
+Cognitive biases affecting
+decisions
+Tax & Joustra
+(2015)
+ML Comparison
+Random forest superiority for
+classification
+Hubacek et al.
+(2019)
+Gradient Boosting
++ xG
+Feature engineering with
+expected goals
+✅ REAL-WORLD BENCHMARKS
+FiveThirtyEight's SPI is an excellent case study choice — it is transparent, respected, and publicly evaluable. Its limitation ('limited
+ability to consistently beat closing betting odds') is an honest observation that pre-empts the same finding in the thesis and contextualises
+the expected outcome.
+🎯 PROPRIETARY VS OPEN RESEARCH
+The Stratagem case study acknowledges that professional syndicates outperform academic models by combining quantitative methods
+with human expertise. This is academically honest — it prevents over-claiming and frames the research within realistic boundaries of
+what an individual BSc project can achieve.
+📐 SUMMARY TABLE FUNCTION
+The literature summary table synthesises six sources across five decades, three methodological approaches, and two theoretical domains
+(statistics and behavioural economics). A summary table in a proposal shows the researcher can integrate knowledge, not just list it.
+17 · TOOLS & TECHNOLOGIES
+Integration of Tools, Technologies and Techniques
+
+
+ORIGINAL PROPOSAL TEXT — TOOLS AND TECHNOLOGIES
+Python will serve as the primary programming language for this research. Python offers
+extensive libraries for data manipulation, statistical analysis, and machine learning. The core
+libraries to be used include Pandas for data handling, NumPy for numerical computation, Scikit-
+learn for machine learning algorithms, and Statsmodels for statistical modelling.  Visualisation
+will be conducted using Matplotlib and Seaborn.
+Jupyter Notebooks will provide an interactive environment for exploratory analysis and
+documentation. This format allows code, output, and explanatory text to be combined in a single
+document, facilitating both analysis and communication of findings. For production code,
+standard Python scripts will be used with appropriate version control through Git.
+The statistical component of the model will employ Poisson regression with Dixon-Coles
+adjustment. This technique treats goal-scoring as a Poisson process where the expected goals
+for each team depend on attack and defence parameters. Machine learning classification will
+utilise logistic regression as a baseline, followed by ensemble methods including random forest
+and XGBoost. Hyperparameter tuning will be conducted using grid search with cross-validation.
+Table 3: Technology Stack
+CATEGORY
+TOOL / TECHNOLOGY
+PURPOSE
+Programming
+Python 3.x
+Primary development
+language
+Data Handling
+Pandas, NumPy
+Data manipulation and
+computation
+Machine
+Learning
+Scikit-learn, XGBoost
+Classification algorithms
+Statistics
+Statsmodels, SciPy
+Statistical modelling and
+inference
+Visualisation
+Matplotlib, Seaborn
+Charts and graphical output
+Data Sources
+Football-Data.co.uk,
+FBref
+Historical match and betting
+data
+📐 SPECIFIC LIBRARY NAMES
+Naming Pandas, NumPy, Scikit-learn, Statsmodels, XGBoost — not just 'Python libraries' — demonstrates that the researcher has done
+concrete technical planning. This specificity signals readiness to begin, not just intention to begin.
+
+
+🎯 BASELINE-THEN-ENSEMBLE STRATEGY
+'Logistic regression as a baseline, followed by ensemble methods' — this ordering is methodologically correct. You never start with the
+most complex model. Baselines establish the improvement benchmark. The proposal shows understanding of proper model evaluation
+workflow.
+✅ VERSION CONTROL MENTIONED
+'Appropriate version control through Git' — mentioning Git demonstrates professional software development practice. Markers familiar
+with data science industry standards will credit this. It also signals that the project will be properly documented and reproducible.
+📐 HYPERPARAMETER TUNING PLANNED
+'Grid search with cross-validation' for hyperparameter tuning — this level of methodological detail in a proposal (not just 'we will tune
+the models') shows the researcher has thought through the full model development lifecycle, including optimisation.
+Data Pipeline Architecture
+From raw sources through processing to probabilistic output
+DATA INGESTION LAYER
+┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+│ Football-Data   │  │ FBref           │  │ Understat       │
+│ (1990-2026)     │  │ (xG metrics)    │  │ (Shot data)     │
+└────────┬────────┘  └────────┬────────┘  └────────┬────────┘
+         └───────────────────┬┴─────────────────────┘
+                             ↓
+PROCESSING LAYER (Python / Pandas)
+┌─────────────────────────────────────────────────────────────┐
+│  Data Cleaning → Feature Engineering → Train/Test Split     │
+└─────────────────────────────────────────────────────────────┘
+                             ↓
+MODELLING LAYER
+┌──────────────────────┐   ┌──────────────────────┐
+│  STATISTICAL MODELS  │ + │  ML CLASSIFIERS       │
+│  • Poisson Regression│   │  • Logistic Reg       │
+│  • Dixon-Coles       │   │  • Random Forest      │
+│  • ELO Ratings       │   │  • XGBoost            │
+└───────────┬──────────┘   └───────────┬──────────┘
+            └─────────────────────────┘
+                             ↓
+OUTPUT: Probability Estimates → Value Analysis → Ethical Review
+Feature Engineering Framework
+Raw features transformed into model inputs
+
+
+RAW FEATURES                     DERIVED FEATURES
+────────────────────             ─────────────────────────
+• Match results (H/D/A)          • Rolling form (5/10 games)
+• Goals scored/conceded          • Goal difference trend
+• Shots on target                • Expected goals (xG)
+• Corners and fouls              • ELO / Power ratings
+• Bookmaker odds                 • Head-to-head history
+• Date and venue                 • Home advantage factor
+Model Performance Expectations (from Literature)
+Accuracy ranges based on prior research — not guarantees
+BASELINE              STATISTICAL           MACHINE LEARNING
+Random Guess          Poisson/Dixon-Coles    RF / XGBoost
+~33% Accuracy         ~45-50% Accuracy       ~50-55% Accuracy
+(3-class random)      (Interpretable)        (Higher Complexity)
+18 · CONCLUSION
+Conclusion
+ORIGINAL PROPOSAL TEXT — CONCLUSION
+This proposal has outlined a research project focused on developing a football betting
+prediction model using data from Europe's top five leagues. The project combines statistical
+inference techniques with machine learning approaches to address the challenging problem of
+match outcome prediction. The primary contribution of this research will not be a commercially
+viable betting system. Rather, it will be a deep understanding of the complexities involved in
+sports prediction and the practical application of data science techniques to real-world
+problems.
+The process of collecting, cleaning, and analysing football data will develop skills that are
+transferable to other domains.  The ethical dimensions of betting prediction have been
+acknowledged throughout this proposal. While the research does not directly encourage
+
+
+gambling, it recognises that prediction models could be misused. The final thesis will include
+explicit discussion of responsible gambling and the limitations of predictive models.
+In summary, this project represents an opportunity to apply theoretical knowledge to an
+engaging practical problem while developing the critical thinking and reflection skills expected of
+a undergraduate-level graduate. The emphasis on learning rather than perfection aligns with the
+module's educational objectives and will produce a dissertation that demonstrates genuine
+understanding rather than superficial technical achievement.
+🔄 AIM MIRRORED IN CONCLUSION
+'Deep understanding of the complexities involved in sports prediction' mirrors the proposal's stated educational purpose from the
+introduction. This structural looping — conclusion echoing introduction — demonstrates coherent research design and is a hallmark of
+polished academic writing.
+⚖ ETHICAL COMMITMENT RESTATED
+The conclusion explicitly returns to ethics: 'responsible gambling and the limitations of predictive models.' Ending with an ethical
+commitment — not a technical boast — signals the researcher's priorities and demonstrates alignment with the module's societal
+awareness requirements.
+✅ 'LEARNING NOT PERFECTION' FRAMING
+'The emphasis on learning rather than perfection' — this is precisely the framing the module expects. Markers are not rewarding the
+model's accuracy; they are rewarding the quality of the investigation, the reflective engagement, and the integration of learning. This
+conclusion correctly names that priority.
+"This project represents an opportunity to apply theoretical knowledge to an engaging practical
+problem while developing the critical thinking and reflection skills expected of a undergraduate-level
+graduate."
+— Research Proposal Conclusion, December 2025
