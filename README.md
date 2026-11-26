@@ -126,7 +126,7 @@ The dataset is **31 real matches** in StatsBomb format — **110,080 events** �
 
 That spans six competitions, three confederations, and both the men's and women's international game. Every analysis is reproducible from the bundled workbooks and the source code.
 
-## Results (thesis evaluation)
+## Results 
 
 The framework is deterministic rather than trained, and was evaluated on all 31 matches (62 team analyses):
 
@@ -145,13 +145,6 @@ Because the system is descriptive and single-match, outputs are point estimates 
 - **Data:** StatsBomb-format event data with pre-computed expected threat (xT)
 - **Model:** deterministic analytical engine (no training, no ML inference)
 
-## Limitations
-
-- Descriptive and single-match; no statistical inference.
-- Evaluated only on elite international knockout matches — league play and other event-data formats are untested.
-- Event data only: no tracking data, so off-ball movement and pressing shape are approximated.
-- Six women's matches in the dataset, so representation there is limited.
-- The redistribution licence of the bundled match data is undocumented; please check before reusing it.
 
 ## License
 
